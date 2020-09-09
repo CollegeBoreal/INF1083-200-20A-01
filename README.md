@@ -1,6 +1,6 @@
 # INF1083-200-20A-01
 
-Introduction a la programmation
+Développement d'applications
 
 ## :one: [Devoirs](Devoirs)
 
@@ -41,7 +41,6 @@ Introduction a la programmation
 
 | Backend               |  Link                                                             |
 |-----------------------|-------------------------------------------------------------------|
-| Firebase Alternatives | https://blog.back4app.com/2018/01/12/firebase-alternatives/       |
 | Comparaison Framework | https://www.academind.com/learn/flutter/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa/ |
 
 
