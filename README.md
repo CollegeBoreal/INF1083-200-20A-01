@@ -11,7 +11,7 @@ Développement d'applications
 
 |No| Date   | Cours                                          | Intitulé                                |  Commentaires     |
 |--|--------|:-----------------------------------------------|:----------------------------------------|:------------------|
-|01|20-09-09| [1.Playground](1.Playground)Introduction NativeScript Playground           | https://play.nativescript.org           |                   |
+|01|20-09-09| [1.Playground](1.Playground) Introduction NativeScript Playground           | https://play.nativescript.org           |                   |
 |02|20-09-16|                                                |                                         |                   |
 |03|20-09-23|                                                |                                         |                   |
 |04|20-09-30|                                                |                                         |                   |
