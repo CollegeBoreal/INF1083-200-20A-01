@@ -11,3 +11,4 @@
 | 300117314  |  https://play.nativescript.org/?template=play-ng&id=ZOUsMk&v=4   |
 | 300117782  |https://play.nativescript.org/?template=play-ng&id=H5FrfH         | 
 | 300116670  |https://play.nativescript.org/?template=play-ng&id=B6VX8h&v=4     |
+| 300117178  |https://play.nativescript.org/?template=play-ng&id=uZ3zTU&v=2     |
