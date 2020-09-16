@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <title>BorealCollege</title>
-  </head>
-<body>
+
 ​
-<p id="demo"></p>
-​
-<script src="mon_premier_script.js></script>
-​
+<script>
+​document.getElementById("demo").innerHTML = 
+"The title of this document is: " + document.title; 
 </body>
 </html>
