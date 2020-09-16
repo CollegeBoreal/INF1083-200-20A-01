@@ -1,1 +1,17 @@
 Mon_premier_script.html
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>W3Schools Demo</title>
+  </head>
+<body>
+​
+<p id="demo"></p>
+​
+<script>
+document.getElementById("demo").innerHTML =
+"The title of this document is: " + document.title;
+</script>
+​
+</body>
+</html>
