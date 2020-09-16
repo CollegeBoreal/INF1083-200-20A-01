@@ -1,2 +1,2 @@
 
-# Mon premier script html
+# Mon premier script html :smile: et javascript :smile:
