@@ -6,12 +6,25 @@
   </head>
 <body>
 ​
+
+​
+<h3>Voir Le titre ET l'heure</h3>
+<button id="button1" type="button">CLick</button>
+
+
 <p id="demo"></p>
 ​
-<script>
-document.getElementById("demo").innerHTML =
-"le titre du document est: " + document.title;
-</script>
-​
 </body>
+
+
+<script>
+  var dat=Date();
+  var title=document.title;
+  var but=document.getElementById("button1");
+  but.onclick=function(){
+    document.getElementById("demo").innerHTML="<h1>" + title +"</h1><br/><h2>" + dat +"</h2>" ;
+  };
+
+
+</script>
 </html>
