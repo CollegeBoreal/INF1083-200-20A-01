@@ -43,7 +43,7 @@ do
    FILE2=${id}/mon_premier_script.js
    OK="| ${i} | [${id}](../${FILE}) | [:heavy_check_mark:] | "
    KO="| ${i} | [${id}](../${FILE}) | [:x:]                | "
-   if [ -f "$FILE" && -f "$FILE1" && -f "$FILE2" ]; then
+   if [[ -f "$FILE" && -f "$FILE1" && -f "$FILE2" ]]; then
        echo ${OK}
    else
        echo ${KO}
