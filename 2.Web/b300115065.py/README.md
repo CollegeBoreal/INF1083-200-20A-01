@@ -1,18 +1,15 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-  <title>W3Schools Demo</title>
+  <title>Bienvenue sur mon site</title>
   </head>
 <body>
 ​
 <p id="demo"></p>
 ​
-
-
+<script src="mon_script.js></script>
 ​
 </body>
-  <script src= "Mon_premier_script.js"></script>
 </html>
 ​
 
