@@ -41,8 +41,8 @@ do
    FILE=${id}/README.md
    FILE1=${id}/mon_premier_script.html
    FILE2=${id}/mon_premier_script.js
-   OK="| ${i} | [${id}](../${FILE}) | [:heavy_check_mark:] | "
-   KO="| ${i} | [${id}](../${FILE}) | [:x:]                | "
+   OK="| ${i} | [${id}](../${id}) | [:heavy_check_mark:] | "
+   KO="| ${i} | [${id}](../${id}) | [:x:]                | "
    if [[ -f "$FILE" && -f "$FILE1" && -f "$FILE2" ]]; then
        echo ${OK}
    else
