@@ -15,5 +15,15 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/A.Angular
 $ ng new monprojet --style=scss
 ```
 
+Éxécuter
+
+```
+$ ng serve
+```
+
+Ouvrir son navigateur
+
+http://localhost:4200
+
 
 ## [Participation](Participation.md)
