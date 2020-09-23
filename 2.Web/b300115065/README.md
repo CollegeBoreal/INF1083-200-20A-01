@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Morti</title>
+  <title>Maroc</title>
   </head>
 <body>
-
+​
 <p id="demo"></p>
-
-<script src="mon_premier_script.js"></script>
-
+​
+<script src="mon_script.js></script>
+​
 </body>
 </html>
-?
+​
+
