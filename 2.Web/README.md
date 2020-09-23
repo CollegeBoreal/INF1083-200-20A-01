@@ -1,5 +1,7 @@
 # Script 
 
+[Participation](.scripts/Participation.md)
+
 ![alt tag](images/ECMAjs.png)
 
 ## Notion:
