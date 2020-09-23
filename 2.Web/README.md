@@ -1,6 +1,6 @@
 # Script 
 
-![alt tag](ECMAjs.png)
+![alt tag](images/ECMAjs.png)
 
 ## Notion:
 
