@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Bienvenue sur mon site</title>
+  <title>Maroc</title>
   </head>
 <body>
 ​
