@@ -42,9 +42,14 @@ Développement d'applications
 | [Application Framework](https://www.techopedia.com/definition/6005/application-framework) |                                      |
 | [RxJS](https://www.pluralsight.com/guides/using-http-with-rxjs-observables)               |                                      |
 
-| Backend               |  Link                                                             |
+| Backend               |  Link                                                                                            |
+|-----------------------|--------------------------------------------------------------------------------------------------|
+| Comparaison Framework | https://www.academind.com/learn/flutter/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa  |
+
+
+| Référence             |  Link                                                             |
 |-----------------------|-------------------------------------------------------------------|
-| Comparaison Framework | https://www.academind.com/learn/flutter/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa/ |
+| SVG Icons             | http://svgicons.sparkk.fr                                         |
 
 
 [Contributeur(e)s](../../graphs/contributors)
