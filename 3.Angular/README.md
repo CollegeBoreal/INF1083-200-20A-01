@@ -26,4 +26,4 @@ Ouvrir son navigateur
 http://localhost:4200
 
 
-## [Participation](Participation.md)
+## [Participation](.scripts/Participation.md)
