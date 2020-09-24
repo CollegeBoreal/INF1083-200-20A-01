@@ -6,9 +6,9 @@ Développement d'applications
 
 |No| Date   | Cours                                                | Intitulé                                              |  Commentaires    |
 |--|--------|:-----------------------------------------------------|:------------------------------------------------------|:-----------------|
-|01|20-09-16| [1.Playground](1.Playground/README.md#participation) | Mon premier projet sous Angular Nativescript          |                  |
-|02|20-09-23| [2.Web](2.Web/README.md#participation)               | Mon premier fichier HTML                              |                  |   
-|03|20-09-30| [3.Angular](3.Angular/README.md#participation)       | Mon premier projet Angular                            |                  |   
+|01|20-09-16| [1.Playground](1.Playground/README.md)               | Mon premier projet sous Angular Nativescript          |                  |
+|02|20-09-23| [2.Web](2.Web/.scripts/Participation.md)             | Mon premier fichier HTML                              |                  |   
+|03|20-09-30| [3.Angular](3.Angular/.scripts/Participation.md)     | Mon premier projet Angular                            |                  |   
 
 ## :two: Elements de Performance
 
