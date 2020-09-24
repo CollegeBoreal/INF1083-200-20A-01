@@ -14,7 +14,7 @@ Développement d'applications
 
 |No| Date   | Cours                                          | Intitulé                                |  Commentaires     |
 |--|--------|:-----------------------------------------------|:----------------------------------------|:------------------|
-|01|20-09-09| [1.Playground](1.Playground) Introduction NativeScript Playground           | https://play.nativescript.org           |                   |
+|01|20-09-09| [1.Playground](1.Playground) Introduction NativeScript           | https://play.nativescript.org           |                   |
 |02|20-09-16| [2.Web](2.Web) et Javascript                   | La technologie du Web et [Node](https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/N.Node)           |                   |
 |03|20-09-23| [3.Angular](3.Angular)                         |                                         |                   |
 |04|20-09-30|                                                |                                         |                   |
