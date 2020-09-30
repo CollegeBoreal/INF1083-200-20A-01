@@ -25,7 +25,7 @@
 | 6    | [300116973](../300116973)  | https://play.nativescript.org/?template=play-ng&id=WemgNf&v=2  |
 | 7    | [300117178](../300117178)  | https://play.nativescript.org/?template=play-ng&id=uZ3zTU&v=2  |
 | 8    | [300117314](../300117314)  | https://play.nativescript.org/?template=play-ng&id=ZOUsMk&v=4  |
-| 9    | [300117444](../300117444)  | [:x:] |
+| 9    | [300117444](../300117444)  | https://play.nativescript.org/?template=play-ng&id=eA7eRF&v=1
 | 10   | [300117782](../300117782)  | https://play.nativescript.org/?template=play-ng&id=H5FrfH      | 
 | 11   | [300117784](../300117784)  | https://play.nativescript.org/?template=play-ng&id=3jwJIk&v=2  |
 | 12   | [300117806](../300117806)  | https://play.nativescript.org/?template=play-ng&id=71bVwY      |
