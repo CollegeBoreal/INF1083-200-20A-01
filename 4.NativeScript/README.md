@@ -9,9 +9,7 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 * Création
 
-```
-$  tns create b<mon ID> --template tns-template-tab-navigation-ng
-```
+` $ ns create b`:id:` --template tns-template-hello-world-ng`
 
 * Émulation
 
