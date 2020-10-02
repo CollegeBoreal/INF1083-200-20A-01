@@ -13,23 +13,17 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 * Émulation
 
+- [x] Ajouter la platforme désirée ([ios] ou [android])
+
 ```
-$  tns run
+$  ns platform add <platforme>
+```
+
+- [x] Lancer l'application
+
+```
+$ ns run
 ```
 
 ## [Participation](Participation.md)
 
-
-```typescript
-import { NativeScriptModule } from 'nativescript-angular/nativescript.module'
-
-export default {
-  id: 'org.nativescript.Blank',
-  appResourcesPath: 'App_Resources',
-  android: {
-    v8Flags: '--expose_gc',
-    markingMode: 'none',
-  },
-  appPath: 'src',
-} as NativeScriptModule
-```
