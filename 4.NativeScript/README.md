@@ -13,16 +13,16 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 * Émulation
 
-- [x] Ajouter la platforme désirée ([ios] ou [android])
+- [x] Ajouter la plateforme désirée ([ios] ou [android])
 
 ```
-$  ns platform add <platforme>
+$  ns platform add <plateforme>
 ```
 
 - [x] Lancer l'application
 
 ```
-$ ns run
+$ ns run <plateforme>
 ```
 
 ## [Participation](Participation.md)
