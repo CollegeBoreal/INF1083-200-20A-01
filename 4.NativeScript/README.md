@@ -20,3 +20,18 @@ $  tns run
 ```
 
 ## [Participation](Participation.md)
+
+
+```typescript
+import { NativeScriptModule } from 'nativescript-angular/nativescript.module'
+
+export default {
+  id: 'org.nativescript.Blank',
+  appResourcesPath: 'App_Resources',
+  android: {
+    v8Flags: '--expose_gc',
+    markingMode: 'none',
+  },
+  appPath: 'src',
+} as NativeScriptModule
+```
