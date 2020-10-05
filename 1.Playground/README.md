@@ -18,7 +18,7 @@
 |:hash:| Boréal :id:                | URL                  |
 |-----:|----------------------------|----------------------|
 | 1    | [300111441](../300111441)  | [https://play.nativescript.org/?template=play-ng&id=7TXJ8D&v=2]                |
-| 2    | [300115065](../300115065)  | [:x:]                |
+| 2    | [300115065](../300115065)  | [https://play.nativescript.org/?template=play-ng&id=OpFf2h&v=25]                |
 | 3    | [300115140](../300115140)  | https://play.nativescript.org/?template=play-ng&id=82vQHx      |
 | 4    | [300116670](../300116670)  | https://play.nativescript.org/?template=play-ng&id=B6VX8h&v=4  |
 | 5    | [300116685](../300116685)  | [:x:] |
