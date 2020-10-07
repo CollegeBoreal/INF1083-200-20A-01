@@ -21,7 +21,7 @@ Développement d'applications
 |02|20-09-16| [2.Web](2.Web) et Javascript                   | La technologie du Web et [Node](https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/N.Node)           |                   |
 |03|20-09-23| [3.Angular](3.Angular)                         |                                         |                   |
 |04|20-09-30| [4.NativeScript](4.NativeScript)               |                                         |                   |
-|05|20-10-07|                                                |                                         |                   |
+|05|20-10-07| [5.GIT Configuration](https://github.com/CollegeBoreal/Tutoriels/tree/master/0.GIT#three-configurer-git-gitconfig)                                               |                                         |                   |
 |06|20-10-14|                                                |                                         |                   |
 |07|20-10-21|                                                |                                         |                   |
 |08|20-10-28| Autumn Break                                   |                                         |                   |
