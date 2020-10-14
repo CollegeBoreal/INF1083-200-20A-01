@@ -12,6 +12,7 @@ Développement d'applications
 |01|20-09-16| [1.Playground](1.Playground/README.md)               | Mon premier projet sous Angular Nativescript          |                  |
 |02|20-09-23| [2.Web](2.Web/.scripts/Participation.md)             | Mon premier fichier HTML                              |                  |   
 |03|20-09-30| [3.Angular](3.Angular/.scripts/Participation.md)     | Mon premier projet Angular                            |                  |   
+|03|20-10-14| [6.GitPages](6.GitPages/.scripts/Participation.md)   | Ma premiere pages GitPages                            |                  |   
 
 ## :two: Elements de Performance
 
