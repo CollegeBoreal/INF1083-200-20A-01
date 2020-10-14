@@ -24,7 +24,7 @@
 | 4    | [300116670](https://auriane25.github.io/github-slideshow) | :-1: |
 | 5    | [300116685](https://b300098957.github.io/github-slideshow) | :x: |
 | 6    | [300116973](https://b300098957.github.io/github-slideshow) | :x: |
-| 7    | [300117178](https://b300098957.github.io/github-slideshow) | :x: |
+| 7    | [300117178](https://catvoops.me/github-slideshow) | :x: |
 | 8    | [300117314](https://morti747.github.io/github-slideshow)   | :heavy_check_mark: |
 | 9    | [300117444](https://b300098957.github.io/github-slideshow) | :x: |
 | 10   | [300117782](https://b300098957.github.io/github-slideshow) | :x: |
