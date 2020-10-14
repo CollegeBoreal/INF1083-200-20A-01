@@ -17,8 +17,8 @@
 
 |:hash:| Boréal :id:                | Fait               |
 |------|----------------------------|--------------------|
-| 0    | [300098957](https://sekou16.github.io/github-slideshow) | :x: |
-| 1    | [300111441](https://b300098957.github.io/github-slideshow) | :x: |
+| 0    | [300098957](https://b300098957.github.io/github-slideshow) | :x: |
+| 1    | [300111441](https://sekou16.github.io/github-slideshow) | :x: |
 | 2    | [300115065](https://b300098957.github.io/github-slideshow) | :x: |
 | 3    | [300115140](https://zackto.github.io/github-slideshow)     | :heavy_check_mark: |
 | 4    | [300116670](https://auriane25.github.io/github-slideshow) | :-1: |
