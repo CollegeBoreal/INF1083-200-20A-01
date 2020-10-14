@@ -16,16 +16,17 @@
 
 |:hash:| Boréal :id:                | Fait               |
 |------|----------------------------|--------------------|
-| 1    | [b300111441](https://www.manning.com/dashboard) | [:x:] |
-| 2    | [b300115065](../b300115065) | [:x:] |
-| 3    | [b300115140](../b300115140) | [:x:] |
-| 4    | [b300116670](../b300116670) | [:x:] |
-| 5    | [b300116685](../b300116685) | [:x:] |
-| 6    | [b300116973](../b300116973) | [:x:] |
-| 7    | [b300117178](../b300117178) | [:x:] |
-| 8    | [b300117314](../b300117314) | [:x:] |
-| 9    | [b300117444](../b300117444) | [:x:] |
-| 10   | [b300117782](../b300117782) | [:x:] |
-| 11   | [b300117784](../b300117784) | [:x:] |
-| 12   | [b300117806](../b300117806) | [:x:] |
-| 13   | [b300118524](../b300118524) | [:x:] |
+| 0    | [300098957](https://b300098957.github.io/github-slideshow) | :x: |
+| 1    | [300111441](https://b300098957.github.io/github-slideshow) | :x: |
+| 2    | [300115065](https://b300098957.github.io/github-slideshow) | :x: |
+| 3    | [300115140](https://b300098957.github.io/github-slideshow) | :x: |
+| 4    | [300116670](https://b300098957.github.io/github-slideshow) | :x: |
+| 5    | [300116685](https://b300098957.github.io/github-slideshow) | :x: |
+| 6    | [300116973](https://b300098957.github.io/github-slideshow) | :x: |
+| 7    | [300117178](https://b300098957.github.io/github-slideshow) | :x: |
+| 8    | [300117314](https://b300098957.github.io/github-slideshow) | :x: |
+| 9    | [300117444](https://b300098957.github.io/github-slideshow) | :x: |
+| 10   | [300117782](https://b300098957.github.io/github-slideshow) | :x: |
+| 11   | [300117784](https://b300098957.github.io/github-slideshow) | :x: |
+| 12   | [300117806](https://b300098957.github.io/github-slideshow) | :x: |
+| 13   | [300118524](https://b300098957.github.io/github-slideshow) | :x: |
