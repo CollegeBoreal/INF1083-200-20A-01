@@ -19,7 +19,7 @@
 | 3    | [300115140](https://zackto.github.io/github-slideshow)     | :heavy_check_mark: |
 | 4    | [300116670](https://auriane25.github.io/github-slideshow)  | :heavy_check_mark: |
 | 5    | [300116685](https://x.github.io/github-slideshow) | :x: |
-| 6    | [300116973](https://x.github.io/github-slideshow) | :x: |
+| 6    | [300116973](https://lagokamdem.github.io/github-slideshow) | :x: |
 | 7    | [300117178](http://catvoops.me/github-slideshow)           | :tada: |
 | 8    | [300117314](https://morti747.github.io/github-slideshow)   | :heavy_check_mark: |
 | 9    | [300117444](https://x.github.io/github-slideshow) | :x: |
