@@ -27,6 +27,6 @@
 | 8    | [300117314](https://morti747.github.io/github-slideshow)   | :x: |
 | 9    | [300117444](https://b300098957.github.io/github-slideshow) | :x: |
 | 10   | [300117782](https://b300098957.github.io/github-slideshow) | :x: |
-| 11   | [300117784](https://b300098957.github.io/github-slideshow) | :x: |
+| 11   | [300117784](https://BertrandMoyou.github.io/github-slideshow) | :x: |
 | 12   | [300117806](https://b300098957.github.io/github-slideshow) | :x: |
 | 13   | [300118524](https://b300098957.github.io/github-slideshow) | :x: |
