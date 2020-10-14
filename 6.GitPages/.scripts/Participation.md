@@ -9,6 +9,7 @@
 
 | Signe              | Signification                 |
 |--------------------|-------------------------------|
+| :tada:             | Très bon projet               |
 | :heavy_check_mark: | Prêt à être corrigé           |
 | :-1:               | Incomplet                     |
 | :x:                | Projet inexistant             |
