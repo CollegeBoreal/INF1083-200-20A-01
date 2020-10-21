@@ -9,20 +9,20 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 * Création
 
-` $ ns create b`:id:` --template tns-template-hello-world-ng`
+` $ tns create b`:id:` --template tns-template-hello-world-ng`
 
 * Émulation
 
 - [x] Ajouter la plateforme désirée ([ios] ou [android])
 
 ```
-$  ns platform add <plateforme>
+$  tns platform add <plateforme>
 ```
 
 - [x] Lancer l'application
 
 ```
-$ ns run <plateforme>
+$ tns run <plateforme>
 ```
 
 ## [Participation](Participation.md)
