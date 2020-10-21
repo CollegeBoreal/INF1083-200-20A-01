@@ -7,9 +7,12 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 ### Créer un nouveau projet en remplacant b<mon ID> par votre :id:
 
-* Création
+* [Création](https://docs.nativescript.org/tooling/docs-cli/project/creation/create)
 
 ` $ tns create b`:id:` --template tns-template-hello-world-ng`
+
+` $ tns create b`:id:` --template tns-template-tab-navigation-ng`
+
 
 * Émulation
 
