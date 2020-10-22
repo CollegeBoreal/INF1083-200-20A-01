@@ -30,3 +30,7 @@ $ tns run <plateforme>
 
 ## [Participation](Participation.md)
 
+
+## References
+
+https://github.com/CocoaPods/CocoaPods/issues/7314
