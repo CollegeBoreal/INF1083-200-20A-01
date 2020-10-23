@@ -42,11 +42,11 @@ $ ns run <plateforme>
 
 https://github.com/CocoaPods/CocoaPods/issues/7314
 
-#### :x: Error
+#### :x: Known Error
 
 https://github.com/NativeScript/NativeScript/issues/8807
 
-NDK Mismatch
+NDK Mismatch for Android
 
 ```
 No version of NDK matched the requested version 20.0.5594570. Versions available locally: 20.1.5948944
