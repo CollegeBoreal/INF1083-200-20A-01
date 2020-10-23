@@ -7,8 +7,6 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 ### Créer un nouveau projet en remplacant b<mon ID> par votre :id:
 
-* [Création](https://docs.nativescript.org/tooling/docs-cli/project/creation/create)
-
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
 | `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
