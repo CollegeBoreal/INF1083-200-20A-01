@@ -9,16 +9,16 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 * [Création](https://docs.nativescript.org/tooling/docs-cli/project/creation/create)
 
+|  Dernière version tns v7.0.1                                                                 |                                   |
+|-----------------------------------------------------------------------------|-----------------------------------|
+| `$ ns create b`:id:` --template @nativescript/template-blank-ng`           |                                   |
+| `$ ns create b`:id:` --template @nativescript/template-tab-navigation-ng`  |                                   |
+
+
 |  tns v6.5.1                                                       |            |
 |-------------------------------------------------------------------|------------|
 | `$ tns create b`:id:` --template tns-template-hello-world-ng`     |            |
 | `$ tns create b`:id:` --template tns-template-tab-navigation-ng`  |            |
-
-
-|  tns v7.0.1                                                                 |                                   |
-|-----------------------------------------------------------------------------|-----------------------------------|
-| `$ tns create b`:id:` --template @nativescript/template-blank-ng`           |                                   |
-| `$ tns create b`:id:` --template @nativescript/template-tab-navigation-ng`  |                                   |
 
 
 * Émulation
@@ -26,13 +26,13 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 - [x] Ajouter la plateforme désirée ([ios] ou [android])
 
 ```
-$  tns platform add <plateforme>
+$  ns platform add <plateforme>
 ```
 
 - [x] Lancer l'application
 
 ```
-$ tns run <plateforme>
+$ ns run <plateforme>
 ```
 
 ## [Participation](Participation.md)
