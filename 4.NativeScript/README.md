@@ -9,10 +9,16 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 * [Création](https://docs.nativescript.org/tooling/docs-cli/project/creation/create)
 
-|                                                                   |                                                                   |
-|-------------------------------------------------------------------|-------------------------------------------------------------------|
+|  tns v6.5.1                                                       |            |
+|-------------------------------------------------------------------|------------|
 | `$ tns create b`:id:` --template tns-template-hello-world-ng`     |            |
-| `$ tns create b`:id:` --template tns-template-tab-navigation-ng`  | `$ tns create b`:id:` --template @nativescript/template-blank-ng` |
+| `$ tns create b`:id:` --template tns-template-tab-navigation-ng`  |            |
+
+
+|  tns v7.0.1                                                                 |                                   |
+|-----------------------------------------------------------------------------|-----------------------------------|
+| `$ tns create b`:id:` --template @nativescript/template-blank-ng`           |                                   |
+| `$ tns create b`:id:` --template @nativescript/template-tab-navigation-ng`  |                                   |
 
 
 * Émulation
