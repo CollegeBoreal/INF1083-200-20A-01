@@ -26,7 +26,7 @@ Développement d'applications
 |06|20-10-14| [6.GitPages](6.GitPages)                       |                                         |                   |
 |07|20-10-21|                                                |                                         |                   |
 |08|20-10-28| Autumn Break                                   |                                         |                   |
-|09|20-11-04|                                                |                                         |                   |
+|09|20-11-04| [7.Layouts](7.Layouts)                         | [Layouts](https://docs.nativescript.org/ui/layouts/layout-containers) |                   |
 |10|20-11-11|                                                |                                         |                   |
 |11|20-11-18|                                                |                                         |                   |
 |12|20-11-25|                                                |                                         |                   |
