@@ -41,3 +41,19 @@ $ tns run <plateforme>
 ## References
 
 https://github.com/CocoaPods/CocoaPods/issues/7314
+
+#### :x: Error
+
+https://github.com/NativeScript/NativeScript/issues/8807
+
+NDK Mismatch
+
+```
+No version of NDK matched the requested version 20.0.5594570. Versions available locally: 20.1.5948944
+```
+
+Install the old NDK version
+
+```
+$ sdkmanager 'ndk;20.0.5594570'
+```
