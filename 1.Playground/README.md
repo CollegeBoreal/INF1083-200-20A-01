@@ -29,7 +29,7 @@
 | 10   | [300117782](../300117782)  | https://play.nativescript.org/?template=play-ng&id=H5FrfH      | 
 | 11   | [300117784](../300117784)  | https://play.nativescript.org/?template=play-ng&id=3jwJIk&v=2  |
 | 12   | [300117806](../300117806)  | https://play.nativescript.org/?template=play-ng&id=71bVwY      |
-| 13   | [300118524](../300118524)  | [:x:] |
+| 13   | [300118524](../300118524)  | https://play.nativescript.org/?template=play-ng&id=0Y7xWS |
 
 
 
