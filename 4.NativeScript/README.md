@@ -9,9 +9,7 @@ https://github.com/CollegeBoreal/Tutoriels/tree/master/W.Web/T.NativeScript
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
 | `$ ns create b`:id:` --template @nativescript/template-tab-navigation-ng`    |  Application avec onglets         |
-| `$ ns create b`:id:` --template @nativescript/template-drawer-navigation-ng` |  Application avec menu            |
 
 * Émulation
 
@@ -49,3 +47,9 @@ Install the old NDK version
 ```
 $ sdkmanager 'ndk;20.0.5594570'
 ```
+
+|  tns v7.0.1                                                                  |  Patrons                          |
+|------------------------------------------------------------------------------|-----------------------------------|
+| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
+| `$ ns create b`:id:` --template @nativescript/template-drawer-navigation-ng` |  Application avec menu            |
+
