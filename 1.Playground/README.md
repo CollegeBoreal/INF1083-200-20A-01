@@ -21,7 +21,7 @@
 | 2    | [300115065](../300115065)  | [https://play.nativescript.org/?template=play-ng&id=OpFf2h&v=25]                |
 | 3    | [300115140](../300115140)  | https://play.nativescript.org/?template=play-ng&id=82vQHx      |
 | 4    | [300116670](../300116670)  | https://play.nativescript.org/?template=play-ng&id=B6VX8h&v=4  |
-| 5    | [300116685](../300116685)  | [:x:] |
+| 5    | [300116685](../300116685)  | [:https://play.nativescript.org/?template=play-ng&id=Pvwnok:] |
 | 6    | [300116973](../300116973)  | https://play.nativescript.org/?template=play-ng&id=WemgNf&v=2  |
 | 7    | [300117178](../300117178)  | https://play.nativescript.org/?template=play-ng&id=uZ3zTU&v=2  |
 | 8    | [300117314](../300117314)  | https://play.nativescript.org/?template=play-ng&id=ZOUsMk&v=4  |
@@ -29,7 +29,7 @@
 | 10   | [300117782](../300117782)  | https://play.nativescript.org/?template=play-ng&id=H5FrfH      | 
 | 11   | [300117784](../300117784)  | https://play.nativescript.org/?template=play-ng&id=3jwJIk&v=2  |
 | 12   | [300117806](../300117806)  | https://play.nativescript.org/?template=play-ng&id=71bVwY      |
-| 13   | [300118524](../300118524)  | [:x:] |
+| 13   | [300118524](../300118524)  | https://play.nativescript.org/?template=play-ng&id=0Y7xWS |
 
 
 
