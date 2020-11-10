@@ -37,9 +37,9 @@ registerElement("Video", () => Video);
 ```html
     <!-- Add your page content here -->
     <Video
-        src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-        autoplay="true"
-        height="300"></Video>
+    src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+    autoplay="true"
+    height="300"></Video>
 ``````
 
 :four: Run the app
