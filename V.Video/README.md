@@ -2,7 +2,7 @@
 
 :one: create a project, replace b`<`your :id:`>`
 
-:pushpin: for example the project name will be `b300098957-blank-ng` 
+:pushpin: for example the project name will be `b300098957` 
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
