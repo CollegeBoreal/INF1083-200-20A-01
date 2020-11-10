@@ -11,11 +11,14 @@ $ ns create my-blank-ng --template tns-template-blank-ng
 * go to your project 
 
 
-:two: Add the [exoplayer](https://github.com/google/ExoPlayer) plugin
+:two: Add the [exoplayer](https://www.npmjs.com/package/@nstudio/nativescript-exoplayer) plugin
 
 ```
-$ ns plugin add nativescript-exoplayer
+$ ns plugin add @nstudio/nativescript-exoplayer
 ```
+
+
+
 
 :three: Add some code
 
@@ -23,9 +26,9 @@ $ ns plugin add nativescript-exoplayer
 
 ```typescript
 // somewhere at top of your component or bootstrap file
-import {registerElement} from "nativescript-angular/element-registry";
-registerElement("exoplayer", () => require("nativescript-exoplayer").Video);
-// documentation: https://docs.nativescript.org/angular/plugins/angular-third-party.html#simple-elements
+import { registerElement } from "@nativescript/angular";
+import { Video } from '@nstudio/nativescript-exoplayer';
+registerElement("Video", () => Video);
 ```
 
 :pushpin: Add the below snippet to the `home` template file `home.component.html`
@@ -33,24 +36,24 @@ registerElement("exoplayer", () => require("nativescript-exoplayer").Video);
 
 ```html
     <!-- Add your page content here -->
-    <exoplayer
-            src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-            autoplay="true"
-            height="300"></exoplayer>
-```
+    <Video
+        src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+        autoplay="true"
+        height="300"></Video>
+``````
 
 :four: Run the app
 
 :pushpin: Using local `Playground`
 
 ```
-% tns run
+% ns run
 ```
 
 :pushpin: Using Preview
 
 ```
-% tns preview
+% ns preview
 ```
 
 
