@@ -4,9 +4,9 @@
 
 :pushpin: for example the project name will be `b300098957-blank-ng` 
 
-```
-$ ns create my-blank-ng --template tns-template-blank-ng
-```
+|  tns v7.0.1                                                                  |  Patrons                          |
+|------------------------------------------------------------------------------|-----------------------------------|
+| `$ ns create b`:id:` --template @nativescript/template-tab-navigation-ng`    |  Application avec onglets         |
 
 * go to your project 
 
