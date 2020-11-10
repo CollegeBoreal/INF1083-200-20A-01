@@ -6,7 +6,7 @@
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --template @nativescript/template-tab-navigation-ng`    |  Application avec onglets         |
+| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
 
 * go to your project 
 
