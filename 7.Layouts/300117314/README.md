@@ -1,1 +1,1 @@
-![image](mort.png)
+![image](morti.png)
