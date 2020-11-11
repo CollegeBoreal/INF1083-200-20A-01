@@ -1,2 +1,2 @@
 
-![image](layout.png)
+![image](LAYOUT.png)
