@@ -15,7 +15,7 @@
 |------|--------------------------------------------------------------|--------------------|
 | 0    | [300098957](https://b300098957.github.io/github-slideshow)   | :heavy_check_mark: |
 | 1    | [300111441](https://sekou16.github.io/master-branche/#/)     | :-1:               |
-| 2    | [300115065](https://fadde68.github.io/github-slideshow)            | :x:                |
+| 2    | [300115065](https://fadde68.github.io/github-slideshow)      | :heavy_check_mark: |
 | 3    | [300115140](https://zackto.github.io/github-slideshow)       | :heavy_check_mark: |
 | 4    | [300116670](https://auriane25.github.io/github-slideshow)    | :heavy_check_mark: |
 | 5    | [300116685](https://amirali175.github.io/github-slideshow)   | :x:                |
