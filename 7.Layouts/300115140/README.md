@@ -1,1 +1,1 @@
-![image](layout.PNG)
+![image](images/layout.PNG)
