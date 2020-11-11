@@ -1,3 +1,3 @@
-#git training
+# Git training
 
 ![image](gitmerge.JPG)
