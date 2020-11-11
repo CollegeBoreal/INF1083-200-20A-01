@@ -2,17 +2,12 @@
 
 2 examples de `Forms` en NativeScript
 
-## Template Drive Forms
-
-[Template Driven Form](../R.RxJS#ab-créer-le-formulaire)
-
 ## ReactiveForms
 
-https://discourse.nativescript.org/t/reactive-forms-not-working/3044/5
+|  tns v7.0.1                                                                  |  Patrons                          |
+|------------------------------------------------------------------------------|-----------------------------------|
+| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
 
-```
-$ tns create my-blank-ng --template tns-template-blank-ng
-```
 
 :one: ReactiveForms
 
