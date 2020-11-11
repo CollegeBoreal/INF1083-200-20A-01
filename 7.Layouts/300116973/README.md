@@ -1,3 +1,3 @@
 #git training
 
-![image](git training.jpg)
+![image](git training.JPG)
