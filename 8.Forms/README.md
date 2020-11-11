@@ -4,6 +4,8 @@
 
 ## ReactiveForms
 
+https://nativescript.org/blog/angular-10-support/
+
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
 | `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
