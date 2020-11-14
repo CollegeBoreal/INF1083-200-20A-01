@@ -1,5 +1,10 @@
 # Angular CLI
 
+
+```
+% npm install @angular/cli --global
+```
+
 ```
 % npm install  typescript@4
 ```
