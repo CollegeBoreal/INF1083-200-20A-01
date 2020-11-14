@@ -22,13 +22,13 @@
 :bookmark: Choisir le `testing framework` `Jasmine`
 
 ```
-% tns test init --framework jasmine 
+% ns test init --framework jasmine 
 ```
 
 * Faire un test préalable
 
 ```
-% tns test ios
+% ns test android
 ```
 
 ## :three: Ajouter les outils de tests (Testing Tools incluant le TestBed et la visualisation)
