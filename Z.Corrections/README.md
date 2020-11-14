@@ -35,31 +35,20 @@
 
 ## :three: Ajouter les outils de tests (Testing Tools incluant le TestBed et la visualisation)
 
-* Créer le fichier `test-maint.ts`, comportant l'initialisation du TestBed,  
-
-```
- % touch src/tests/test-maint.ts
-```
-
-* avec le contenu suivant:
+* Créer le fichier `test-maint.ts`, comportant l'initialisation du TestBed avec le contenu suivant:
 
 ```typescript
-cat <<EOF > src/tests/test-maint.ts
+cat << EOF > src/tests/test-maint.ts
 import "nativescript-angular/zone-js/testing.jasmine";
 import { nsTestBedInit } from "nativescript-angular/testing";
 nsTestBedInit();
 EOF
 ```
 
-* Créer le fichier `test-utils.ts`, comportant la visualisation des composants non-DOM,  
-
-```
- % touch src/tests/test-utils.ts
-```
-
-* avec le contenu suivant:
+* Créer le fichier `test-utils.ts`, comportant la visualisation des composants non-DOM avec le contenu suivant:
 
 ```typescript
+cat << EOF > src/tests/test-utils.ts
 import { View } from "tns-core-modules/ui/core/view";
 import { TextBase } from "tns-core-modules/ui/text-base";
 import { Device } from "tns-core-modules/platform";
@@ -110,6 +99,7 @@ export function createDevice(os: string): Device {
         model: "test device"
     };
 }
+EOF
 ```
 
 ## :four: Créer le test
@@ -163,32 +153,3 @@ describe("HomeComponent", () => {
 % git add --force karma.conf.js
 ```
 
-
-# Références (à ignorer)
-
-* zsh
-
-```
-Set JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-Set ANDROID_HOME=/usr/local/share/android-sdk
-Set ANDROID_SDK_ROOT=/usr/local/share/android-sdk
-
-The ANDROID_HOME and JAVA_HOME environment variables have been added to your .bash_profile/.zprofile
-Restart the terminal or run `source ~/.bash_profile` to use them.
-```
-
-
-
-* Angular CLI schematics
-
-https://github.com/NativeScript/nativescript-schematics/issues/241
-
-```
- % npm i --save-dev @nativescript/schematics
-```
-
-* Dependency on Angular 
-
-```
-% npm install -D @angular/cli
-```
