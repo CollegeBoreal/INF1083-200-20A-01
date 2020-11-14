@@ -28,7 +28,7 @@
 * Faire un test préalable
 
 ```
-% ns test android
+% ns test android --justlaunch
 ```
 
 ## :three: Ajouter les outils de tests (Testing Tools incluant le TestBed et la visualisation)
