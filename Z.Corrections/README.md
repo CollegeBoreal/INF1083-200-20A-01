@@ -22,9 +22,7 @@
 :bookmark: Choisir le `testing framework` `Jasmine`
 
 ```
-% tns test init           
-? Select testing framework: (Use arrow keys)
-❯ jasmine 
+% tns test init --framework jasmine 
 ```
 
 * Faire un test préalable
