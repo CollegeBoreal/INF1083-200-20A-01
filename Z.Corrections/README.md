@@ -37,8 +37,7 @@
 
 ```typescript
 cat << EOF > src/tests/test-maint.ts
-import "nativescript-angular/zone-js/testing.jasmine";
-import { nsTestBedInit } from "nativescript-angular/testing";
+import { nsTestBedInit } from "@nativescript/angular/testing";
 nsTestBedInit();
 EOF
 ```
@@ -84,7 +83,7 @@ export function dumpView(view: View, verbose: boolean = false): string {
     return output.join("");
 }
 
-export function createDevice(os: string): Device {
+export function createDevice(os: string): typeof Device {
     return {
         os: os,
         osVersion: "0",
@@ -107,9 +106,15 @@ EOF
 ```typescript
 cat << EOF > src/tests/home.component.spec.ts
 import "reflect-metadata";
-import { nsTestBedBeforeEach, nsTestBedAfterEach, nsTestBedRender }     from "nativescript-angular/testing";
+import { 
+    nsTestBedBeforeEach
+    , nsTestBedAfterEach
+    , nsTestBedRender
+} from "@nativescript/angular/testing";
 
-import {Component, ComponentRef} from "@angular/core";
+import {Component
+    , ComponentRef
+} from "@angular/core";
 
 import {dumpView} from './test-utils';
 import {HomeComponent} from "~/app/home/home.component";
@@ -139,7 +144,7 @@ describe("HomeComponent", () => {
 EOF
 ```
 
-## :five: Ajouter le fichier `karma.conf.js` pour conserver les parametres de tests 
+## :grey_question: Ajouter le fichier `karma.conf.js` pour conserver les parametres de tests 
 
 ```
 % git add --force karma.conf.js
