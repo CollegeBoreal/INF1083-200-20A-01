@@ -44,9 +44,11 @@
 * avec le contenu suivant:
 
 ```typescript
+cat <<EOF > src/tests/test-maint.ts
 import "nativescript-angular/zone-js/testing.jasmine";
 import { nsTestBedInit } from "nativescript-angular/testing";
 nsTestBedInit();
+EOF
 ```
 
 * Créer le fichier `test-utils.ts`, comportant la visualisation des composants non-DOM,  
