@@ -102,16 +102,10 @@ EOF
 
 ## :four: Créer le test
 
-* Home Component Test Script
-
-```
-% touch src/tests/home.component.spec.ts
-```
-
-* avec le contenu suivant:
+* Home Component Test Script avec le contenu suivant:
 
 ```typescript
-
+cat << EOF > src/tests/home.component.spec.ts
 import "reflect-metadata";
 import { nsTestBedBeforeEach, nsTestBedAfterEach, nsTestBedRender }     from "nativescript-angular/testing";
 
@@ -142,7 +136,7 @@ describe("HomeComponent", () => {
     });
 
 });
-
+EOF
 ```
 
 ## :five: Ajouter le fichier `karma.conf.js` pour conserver les parametres de tests 
