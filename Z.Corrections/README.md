@@ -22,9 +22,7 @@
 :bookmark: Choisir le `testing framework` `Jasmine`
 
 ```
-% tns test init           
-? Select testing framework: (Use arrow keys)
-❯ jasmine 
+% tns test init --framework jasmine 
 ```
 
 * Faire un test préalable
@@ -35,32 +33,22 @@
 
 ## :three: Ajouter les outils de tests (Testing Tools incluant le TestBed et la visualisation)
 
-* Créer le fichier `test-maint.ts`, comportant l'initialisation du TestBed,  
-
-```
- % touch src/tests/test-maint.ts
-```
-
-* avec le contenu suivant:
+* Créer le fichier `test-maint.ts`, comportant l'initialisation du TestBed avec le contenu suivant:
 
 ```typescript
-import "nativescript-angular/zone-js/testing.jasmine";
-import { nsTestBedInit } from "nativescript-angular/testing";
+cat << EOF > src/tests/test-maint.ts
+import { nsTestBedInit } from "@nativescript/angular/testing";
 nsTestBedInit();
+EOF
 ```
 
-* Créer le fichier `test-utils.ts`, comportant la visualisation des composants non-DOM,  
-
-```
- % touch src/tests/test-utils.ts
-```
-
-* avec le contenu suivant:
+* Créer le fichier `test-utils.ts`, comportant la visualisation des composants non-DOM avec le contenu suivant:
 
 ```typescript
-import { View } from "tns-core-modules/ui/core/view";
-import { TextBase } from "tns-core-modules/ui/text-base";
-import { Device } from "tns-core-modules/platform";
+cat << EOF > src/tests/test-utils.ts
+import { View } from "@nativescript/core/ui/core/view";
+import { TextBase } from "@nativescript/core/ui/text-base";
+import { Device } from "@nativescript/core/platform";
 
 function getChildren(view: View): Array<View> {
     let children: Array<View> = [];
@@ -95,7 +83,7 @@ export function dumpView(view: View, verbose: boolean = false): string {
     return output.join("");
 }
 
-export function createDevice(os: string): Device {
+export function createDevice(os: string): typeof Device {
     return {
         os: os,
         osVersion: "0",
@@ -108,24 +96,25 @@ export function createDevice(os: string): Device {
         model: "test device"
     };
 }
+EOF
 ```
 
 ## :four: Créer le test
 
-* Home Component Test Script
-
-```
-% touch src/tests/home.component.spec.ts
-```
-
-* avec le contenu suivant:
+* Home Component Test Script avec le contenu suivant:
 
 ```typescript
-
+cat << EOF > src/tests/home.component.spec.ts
 import "reflect-metadata";
-import { nsTestBedBeforeEach, nsTestBedAfterEach, nsTestBedRender }     from "nativescript-angular/testing";
+import { 
+    nsTestBedBeforeEach
+    , nsTestBedAfterEach
+    , nsTestBedRender
+} from "@nativescript/angular/testing";
 
-import {Component, ComponentRef} from "@angular/core";
+import {Component
+    , ComponentRef
+} from "@angular/core";
 
 import {dumpView} from './test-utils';
 import {HomeComponent} from "~/app/home/home.component";
@@ -152,41 +141,12 @@ describe("HomeComponent", () => {
     });
 
 });
-
+EOF
 ```
 
-## :five: Ajouter le fichier `karma.conf.js` pour conserver les parametres de tests 
+## :grey_question: Ajouter le fichier `karma.conf.js` pour conserver les parametres de tests 
 
 ```
 % git add --force karma.conf.js
 ```
 
-
-# Références (à ignorer)
-
-* zsh
-
-```
-Set JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-Set ANDROID_HOME=/usr/local/share/android-sdk
-Set ANDROID_SDK_ROOT=/usr/local/share/android-sdk
-
-The ANDROID_HOME and JAVA_HOME environment variables have been added to your .bash_profile/.zprofile
-Restart the terminal or run `source ~/.bash_profile` to use them.
-```
-
-
-
-* Angular CLI schematics
-
-https://github.com/NativeScript/nativescript-schematics/issues/241
-
-```
- % npm i --save-dev @nativescript/schematics
-```
-
-* Dependency on Angular 
-
-```
-% npm install -D @angular/cli
-```
