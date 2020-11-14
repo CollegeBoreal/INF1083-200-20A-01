@@ -6,10 +6,6 @@
 ```
 
 ```
-% npm install  typescript@4
-```
-
-```
 % npm install @schematics/angular @nativescript/schematics tslint --save-dev
 ```
 
@@ -39,3 +35,9 @@ UPDATE src/app/login/login.module.tns.ts (338 bytes)
 https://market.nativescript.org/plugins/@nativescript/schematics/
 
 https://github.com/NativeScript/NativeScript/issues/8994
+
+```
+% npm install  typescript@4
+```
+
+
