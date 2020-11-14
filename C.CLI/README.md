@@ -11,4 +11,6 @@
 
 # References
 
+https://market.nativescript.org/plugins/@nativescript/schematics/
+
 https://github.com/NativeScript/NativeScript/issues/8994
