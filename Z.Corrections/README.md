@@ -15,6 +15,16 @@
     }
 ```
 
+Le script suivant remplace les lignes ci-dessus en mimiquant l'éditeur `vi`
+
+```
+$ ex src/app/home/home.component.ts <<EOF
+   :%s/import { Component, OnInit }/import { Component, ElementRef, OnInit }/g
+   :%s/constructor()/constructor(public elementRef: ElementRef)/g
+   :wq
+EOF
+```
+
 ## :two: Créer l'environnement de test
 
 * Dans le répertoire de votre projet, lancer la commande suivante 
