@@ -154,6 +154,48 @@ describe("HomeComponent", () => {
 EOF
 ```
 
+* Page Component Test Script avec le contenu suivant:
+
+```typescript
+cat << EOF > src/tests/page.component.spec.ts
+import "reflect-metadata";
+import { 
+    nsTestBedBeforeEach
+    , nsTestBedAfterEach
+    , nsTestBedRender
+} from "@nativescript/angular/testing";
+
+import {Component
+    , ComponentRef
+} from "@angular/core";
+
+import {dumpView} from './test-utils';
+import {HomeComponent} from "~/app/login/page/page.component";
+
+describe("PageComponent", () => {
+
+    // const result = "(proxyviewcontainer (stacklayout (button))";
+    const button = "(button)";
+
+    beforeEach(nsTestBedBeforeEach([PageComponent]));
+    afterEach(nsTestBedAfterEach());
+
+    describe("PageComponent", () => {
+        it("should contain: button ", () => {
+            return nsTestBedRender(PageComponent).then((fixture) => {
+                const componentRef: ComponentRef<PageComponent> = fixture.componentRef;
+                const componentRoot = componentRef.instance.elementRef.nativeElement;
+                const view = dumpView(componentRoot);
+                expect(view).toContain(button);
+            });
+        });
+    });
+
+});
+EOF
+```
+
+
 ## :grey_question: Ajouter le fichier `karma.conf.js` pour conserver les parametres de tests 
 
 ```
