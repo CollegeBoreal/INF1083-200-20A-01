@@ -214,7 +214,7 @@ EOF
 
     // list of files / patterns to load in the browser
     files: [
-      'src/tests/setup.ts',
+      'src/tests/test-main.ts',
       'src/tests/**/*.spec.ts'
     ],
 ```
