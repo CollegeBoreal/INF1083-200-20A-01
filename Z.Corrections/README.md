@@ -43,10 +43,10 @@ EOF
 
 ## :three: Ajouter les outils de tests (Testing Tools incluant le TestBed et la visualisation)
 
-* Créer le fichier `test-maint.ts`, comportant l'initialisation du TestBed avec le contenu suivant:
+* Créer le fichier `test-main.ts`, comportant l'initialisation du TestBed avec le contenu suivant:
 
 ```typescript
-cat << EOF > src/tests/test-maint.ts
+cat << EOF > src/tests/test-main.ts
 import { nsTestBedInit } from "@nativescript/angular/testing";
 nsTestBedInit();
 EOF
