@@ -198,7 +198,17 @@ EOF
 
 ## :grey_question: Ajouter le fichier `karma.conf.js` pour conserver les parametres de tests 
 
+
+Le script suivant remplace les lignes ci-dessus en mimiquant l'éditeur `vi`
+
+```
+$ ex karma.conf.js <<EOF
+   :%s/import { Component, OnInit }/import { Component, ElementRef, OnInit }/g
+   :%s/files: ['src//tests//**//*.ts'],/files: ['src//tests//**//*.ts','src//tests//**//*.spec.ts'],/g
+   :wq
+EOF
+```
+
 ```
 % git add --force karma.conf.js
 ```
-
