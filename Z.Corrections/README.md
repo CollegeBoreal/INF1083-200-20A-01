@@ -209,5 +209,16 @@ EOF
 ```
 
 ```
+    // list of files / patterns to load in the browser
+    files: ['src/tests/**/*.ts'],
+
+    // list of files / patterns to load in the browser
+    files: [
+      'src/tests/setup.ts',
+      'src/tests/**/*.spec.ts'
+    ],
+```
+
+```
 % git add --force karma.conf.js
 ```
