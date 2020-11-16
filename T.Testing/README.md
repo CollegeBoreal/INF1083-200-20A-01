@@ -34,14 +34,19 @@ $ npm install --save-dev nativescript-dev-appium
   none 
 ```
 
-:three: Add some code
-
-:pushpin: Add the below `import` and `registration` to the `home` component file `home.component.ts`
+:three: Tree Code
 
 ```
-my-plugin
-├── demo
-|   └── app
-|   └── e2e
-└── src
+b000000000
+├── app
+├── e2e
+    ├── config
+        ├── jasmine.opts
+        ├── appium.capabilities.json
+    ├── sample.e2e-test.ts
+    ├── setup.ts
+    ├── tsconfig.json
+├── ...
+├── package.json
+├── tsconfig.json
 ```
