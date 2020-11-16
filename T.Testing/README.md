@@ -14,8 +14,11 @@ https://docs.nativescript.org/plugins/ui-tests
 
 * go to your project 
 
-
 :two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
+
+```
+$ npm install -g appium
+```
 
 :pushpin: Choose `angular` and `jasmine`
 
@@ -52,3 +55,9 @@ b000000000
 ├── package.json
 ├── tsconfig.json
 ```
+
+
+```
+$ ns build android
+```
+
