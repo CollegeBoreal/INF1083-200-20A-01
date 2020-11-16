@@ -61,3 +61,17 @@ b000000000
 $ ns build android
 ```
 
+
+# References
+
+:apple: On MacOS
+
+```
+$ brew cask install appium
+```
+
+:computer: On Windows
+
+```
+PS > choco install appium-desktop
+```
