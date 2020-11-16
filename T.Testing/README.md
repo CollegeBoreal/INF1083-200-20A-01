@@ -19,6 +19,19 @@ https://docs.nativescript.org/plugins/ui-tests
 
 ```
 $ npm install --save-dev nativescript-dev-appium
+...
+? What kind of project do you use? (Use arrow keys)
+  javascript 
+  typescript 
+❯ angular 
+  vue 
+  shared-ng-project 
+...
+? What kind of project do you use? angular
+? Which testing framework do you prefer? (Use arrow keys)
+  mocha 
+❯ jasmine 
+  none 
 ```
 
 :three: Add some code
