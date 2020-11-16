@@ -10,7 +10,7 @@ https://docs.nativescript.org/plugins/ui-tests
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
+| `$ ns create b`:id:` --ng                                                    |  Hellow World                     |
 
 * go to your project 
 
