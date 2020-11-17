@@ -38,10 +38,10 @@ i=1
 
 for id in "${ETUDIANTS[@]}"
 do
-   FILE=b${id}
-   OK="| ${i} | [b${id}](../b${id}) | [:heavy_check_mark:] | "
-   KO="| ${i} | [b${id}](../b${id}) | [:x:]                | "
-   if [ -d "$FILE" ]; then
+   FILE=${id}/README.md
+   OK="| ${i} | [${id}](../${id}) | [:heavy_check_mark:] | "
+   KO="| ${i} | [${id}](../${id}) | [:x:]                | "
+   if [ -f "$FILE" ]; then
        echo ${OK}
    else
        echo ${KO}
