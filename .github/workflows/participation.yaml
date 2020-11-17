@@ -10,8 +10,16 @@ jobs:
       - uses: actions/checkout@v1
       - shell: bash
         run: |
-          cd 2.web
+          ##
+          ## Evaluating chapter 2.Web Student Participation
+          ## 
+          echo "Evaluating chapter 2.Web Student Participation"
+          cd 2.Web
           bash .scripts/run.sh
+          ##
+          ## Evaluating chapter 7.Layouts Student Participation
+          ## 
+          echo "Evaluating chapter 7.Layouts Student Participation"
           cd ../7.Layouts
           bash .scripts/run.sh
       - name: Commit files
