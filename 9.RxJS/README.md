@@ -145,7 +145,7 @@ export class ApicallService {
 :pushpin: Rajouter le module `NativeScriptHttpClientModule` à `app.module.ts`
 
 ```
-import { NativeScriptHttpClientModule } from "@nativescript/angular/http-client";
+import { NativeScriptHttpClientModule } from "@nativescript/angular";
 ```
 
 le rajouter à `@NgModule` le champ (propriété) `imports`
@@ -277,7 +277,7 @@ Binding with [Template Reference Variable](https://angular.io/guide/template-syn
 :pushpin: Finalement rajouter le module `NativeScriptFormsModule` à `search.module.ts`
 
 ```
-import { NativeScriptFormsModule } from "@nativescript/angular/forms"
+import { NativeScriptFormsModule } from "@nativescript/angular"
 ```
 
 le rajouter à `@NgModule` le champ `import`
