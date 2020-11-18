@@ -1,8 +1,12 @@
 # 8.Forms
 
-2 examples de `Forms` en NativeScript
+2 examples de `Forms` en NativeScript:
 
-## [ReactiveForms](https://angular.io/guide/forms-overview#setup-in-reactive-forms)
+- [ ] [Template Driven Forms](https://angular.io/guide/forms-overview#setup-in-template-driven-forms)
+
+- [ ] [ReactiveForms](https://angular.io/guide/forms-overview#setup-in-reactive-forms)
+
+## ReactiveForms
 
 https://nativescript.org/blog/angular-10-support/
 
