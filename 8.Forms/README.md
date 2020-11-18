@@ -2,9 +2,10 @@
 
 2 examples de `Forms` en NativeScript:
 
-- [ ] [Template Driven Forms](https://angular.io/guide/forms-overview#setup-in-template-driven-forms)
+- [ ] [ReactiveForms](https://angular.io/guide/forms-overview#setup-in-reactive-forms) - ce module
 
-- [ ] [ReactiveForms](https://angular.io/guide/forms-overview#setup-in-reactive-forms)
+- [ ] [Template Driven Forms](https://angular.io/guide/forms-overview#setup-in-template-driven-forms) - le module `RxJS`
+
 
 ## ReactiveForms
 
