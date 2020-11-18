@@ -43,7 +43,7 @@ $ npm install @schematics/angular @nativescript/schematics tslint --save-dev
 - [ ] Génerer la classe
 
 ```
-% ng generate class shared/country
+% ng generate class shared/country --skipTests=true 
 ```
 
 
