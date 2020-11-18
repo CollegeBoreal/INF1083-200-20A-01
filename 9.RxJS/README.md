@@ -32,7 +32,13 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 ## :b: Créer le service
 
-##### :warning: Installer [NS Schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/Schematics.md) pour pouvoir genérer le service et les classes
+##### :bangbang: Installer Angular CLI
+
+```
+$ npm install @angular/cli --global
+```
+
+##### :bangbang: Installer [NS Schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/Schematics.md) pour pouvoir genérer le service et les classes
 
 ```
 $ npm install @schematics/angular @nativescript/schematics tslint --save-dev
