@@ -148,7 +148,7 @@ export class ApicallService {
 import { NativeScriptHttpClientModule } from "@nativescript/angular/http-client";
 ```
 
-le rajouter à `@NgModule` le champ `import`
+le rajouter à `@NgModule` le champ (propriété) `imports`
 
 ```
     imports: [
