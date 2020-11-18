@@ -260,7 +260,7 @@ avec :
     </StackLayout>
 ```
 
-:tada: Observez l'utilisation de la variable `name`, `countries` et la fonction `searchCapital`
+:tada: Observez l'utilisation de la variable `name`, `countries` et la fonction `searchCapital()`
 
 Binding with [Template Reference Variable](https://angular.io/guide/template-syntax#template-reference-variables--var-) usually called #name
 
