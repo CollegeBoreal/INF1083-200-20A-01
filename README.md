@@ -30,8 +30,8 @@ Développement d'applications
 |07|20-10-21|                                                |                                         |                   |
 |08|20-10-28| Autumn Break                                   |                                         |                   |
 |09|20-11-04| [7.Layouts](7.Layouts)                         | [Layouts](https://docs.nativescript.org/ui/layouts/layout-containers) |                   |
-|10|20-11-11|                                                |                                         |                   |
-|11|20-11-18|                                                |                                         |                   |
+|10|20-11-11| [8.Forms](8.Forms)                             | [Reactive Forms](https://angular.io/guide/forms-overview#setup-in-reactive-forms)          |        |
+|11|20-11-18| [9.RxJS](9.RxJS)                               |  [The Power of RxJS in NativeScript and Angular](https://nativescript.org/blog/nativescript-developer-day-the-power-of-rxjs-in-nativescript-and-angular/)   |                   |
 |12|20-11-25|                                                |                                         |                   |
 |13|20-12-02|                                                |                                         |                   |
 |14|20-12-09|                                                |                                         |                   |
