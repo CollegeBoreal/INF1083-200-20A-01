@@ -159,7 +159,7 @@ le rajouter à `@NgModule` le champ (propriété) `imports`
 
 
 
-:pushpin: Éditer le composant `Home` - `home.component.ts`
+:pushpin: Éditer le composant `Home` - `search.component.ts`
 
 * Ajouter les variables `name` et `countries`
 
@@ -176,13 +176,14 @@ le rajouter à `@NgModule` le champ (propriété) `imports`
     }
 ```
 
-* Importer le service `Apicall` dans le component `home`
+* Importer le service `Apicall` dans le component `SearchComponent`
 
 ```typescript
-import {ApicallService} from "~/app/shared/apicall.service";
+import { ApicallService } from "../shared/apicall.service";
+import { Country } from "../shared/country";
 ```
 
-* Ajouter la fonction `searchCapital` permettant l'appel au service en passant la capitale
+* Ajouter la fonction `searchCapital` permettant l'appel au service en passant la capitale après la fonction `ngOnInit()`
 
 ```typescript
     searchCapital() {
@@ -200,24 +201,24 @@ import {ApicallService} from "~/app/shared/apicall.service";
 
 ```typescript
 import { Component, OnInit } from "@angular/core";
-import {Country} from "~/app/shared/country";
-import {ApicallService} from "~/app/shared/apicall.service";
+import { ApicallService } from "../shared/apicall.service";
+import { Country } from "../shared/country";
 
 @Component({
-    selector: "Home",
-    templateUrl: "./home.component.html"
+    selector: "Search",
+    templateUrl: "./search.component.html"
 })
-export class HomeComponent implements OnInit {
+export class SearchComponent implements OnInit {
 
-    name:string;
+    name: string;
     countries: Array<Country>;
 
-    constructor(private apiService: ApicallService){
-        // Use the component constructor to inject providers.
+    constructor(private apiService: ApicallService) {
+        // Use the constructor to inject services.
     }
 
     ngOnInit(): void {
-        // Init your component properties here.
+        // Use the "ngOnInit" handler to initialize data for the view.
     }
 
     searchCapital() {
@@ -228,17 +229,17 @@ export class HomeComponent implements OnInit {
                 this.countries = data;
             });
     }
-
 }
 ```
 
-:pushpin: Éditer le `template` du composant `Home` - `home.component.html`
+:pushpin: Éditer le `template` du composant `Search` - `search.component.html`
 
 Remplacer :
 
 ```html
-<GridLayout>
-    <!-- Add your page content here -->
+<GridLayout class="page__content">
+    <Label class="page__content-icon fas" text="&#xf002;"></Label>
+    <Label class="page__content-placeholder" text="<!-- Search page content goes here -->"></Label>
 </GridLayout>
 ```
 
@@ -273,10 +274,10 @@ Binding with [Template Reference Variable](https://angular.io/guide/template-syn
 
 🔖 ngModel is used to link the reference variable to the <Input> form field (i.e. phone.touched)
 
-:pushpin: Finalement rajouter le module `NativeScriptFormsModule` à `home.module.ts`
+:pushpin: Finalement rajouter le module `NativeScriptFormsModule` à `search.module.ts`
 
 ```
-import { NativeScriptFormsModule } from "nativescript-angular/forms"
+import { NativeScriptFormsModule } from "@nativescript/angular/forms"
 ```
 
 le rajouter à `@NgModule` le champ `import`
