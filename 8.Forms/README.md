@@ -32,6 +32,8 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
     }
 ``` 
 
+:bulb: Quick Fix -> `ALT .` :computer: Windows -> `⌘ .` :apple: MacOS
+
 * Add the `signUpForm: FormGroup;` attribute to the `home` component
 
 ```typescript
