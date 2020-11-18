@@ -145,7 +145,7 @@ export class ApicallService {
 :pushpin: Rajouter le module `NativeScriptHttpClientModule` à `app.module.ts`
 
 ```
-import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
+import { NativeScriptHttpClientModule } from "@nativescript/angular/http-client";
 ```
 
 le rajouter à `@NgModule` le champ `import`
