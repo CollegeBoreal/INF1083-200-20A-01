@@ -32,17 +32,22 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 ## :b: Créer le service
 
+##### :warning: Installer [NS Schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/Schematics.md) pour pouvoir genérer le service et les classes
+
+```
+$ npm install @schematics/angular @nativescript/schematics tslint --save-dev
+```
+
 :pushpin: Créer la classe `Country`
 
-* Créer la classe
+- [ ] Génerer la classe
 
 ```
 % ng generate class shared/country
 ```
 
-##### :warning: Installer [NS Schematics](https://github.com/CollegeBoreal/Tutoriels/blob/master/3.Angular/M.Mobile/Schematics.md#m-nativescript-schematics) pour pouvoir genérer le service et les classes
 
-* Rajouter les champs
+- [ ]  Rajouter les champs
 
 ```typescript
 export class Country {
@@ -54,18 +59,19 @@ export class Country {
 
 :pushpin: Créer le service `APICall`
 
+- [ ] Génerer le service
+
 ```
 % ng generate service shared/apicall
 ```
 
-
-* Rajouter le constructeur se connectant au Module `HttpModule`
+- [ ] Rajouter le constructeur se connectant au Module `HttpModule`
 
 ```typescript
 constructor(private httpClient: HttpClient) {}
 ```
 
-* Rajouter la fonction search se connectant au Module `HttpModule`
+- [ ] Rajouter la fonction search se connectant au Module `HttpModule`
 
 ```typescript
     searchCountryByName(name: string): Observable<Country[]>{
@@ -88,7 +94,7 @@ constructor(private httpClient: HttpClient) {}
     }
 ```
 
-* Rajouter les autres modules par importer au debut du fichier
+- [ ] Rajouter les autres modules par importer au debut du fichier ou utiliser `QuickFix`
 
 ```typescript
 import { HttpClient, HttpHeaders } from '@angular/common/http';
