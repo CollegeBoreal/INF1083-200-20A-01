@@ -43,6 +43,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
 * Add the `signUpForm` initialization in `ngOnInit` method
 
 ```typescript
+        // Init your component properties here.
         this.signUpForm = this.formBuilder.group({
             email: ["", Validators.required],
             username: ["", Validators.required],
