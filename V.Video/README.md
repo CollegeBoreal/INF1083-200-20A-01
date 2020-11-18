@@ -56,5 +56,16 @@ registerElement("Video", () => Video);
 % ns preview
 ```
 
+## :x: Custom
+
+:mobile: Android
+
+
+
+```xml
+	<application
+		...
+		android:usesCleartextTraffic="true">
+```
 
 # [Participation](Participation.md)
