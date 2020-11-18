@@ -91,7 +91,7 @@ constructor(private httpClient: HttpClient) {}
         headers = headers.append('Accept', 'application/json');
         headers = headers.append(
             'X-RapidAPI-Key',
-            '1108554cc1mshf11c17c4fea2b3dp179054jsn2446fb7a8965'
+            'lsllsllsls17c4fea2b3dp179054jsn24pqpwppwpppw'
         );
         return this.httpClient.get(
             `https://restcountries-v1.p.rapidapi.com/capital/` + name,
