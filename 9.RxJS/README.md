@@ -1,5 +1,6 @@
 # rxjs
 
+## [Participation](.scripts/Participation.md)
 
 ## Pourquoi RxJS ?
 
