@@ -62,7 +62,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
 
 ```typescript
 import { Component, OnInit } from "@angular/core";
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 
 @Component({
     selector: "Home",
@@ -77,6 +77,7 @@ export class HomeComponent implements OnInit {
     }
 
     ngOnInit(): void {
+        // Init your component properties here.
         this.signUpForm = this.formBuilder.group({
             email: ["", Validators.required],
             username: ["", Validators.required],
