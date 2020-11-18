@@ -18,6 +18,10 @@ https://nativescript.org/blog/angular-10-support/
 | `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                     |
 
 
+:zero: Ouvrir votre projet 
+
+:keyboard: Dans [VSC](https://code.visualstudio.com/), en rajoutant un `folder` dans votre `WorkSpace`
+
 :one: ReactiveForms
 
 Open up home component template `home.component.html` replace `<GridLayout>` by the following :
