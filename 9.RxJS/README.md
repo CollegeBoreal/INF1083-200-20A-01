@@ -1,8 +1,9 @@
 # rxjs
 
-https://rxjs-dev.firebaseapp.com/guide/overview
 
 ## Pourquoi RxJS ?
+
+https://rxjs-dev.firebaseapp.com/guide/overview
 
 #### :m: JS vs [RxJS](.documentation)
 
