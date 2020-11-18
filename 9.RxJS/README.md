@@ -27,7 +27,7 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                     |
+| `$ ns create b`:id:` --template @nativescript/template-tab-navigation-ng`    |  Application avec onglets         |
 
 
 ## :b: Créer le service
