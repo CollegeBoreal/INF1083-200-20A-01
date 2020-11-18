@@ -1,6 +1,6 @@
 # 7.Layouts
 
-[Participations](.scripts/Participation.md)
+[`Participations`](.scripts/Participation.md)
 
 https://docs.nativescript.org/ui/layouts/layout-containers
 
