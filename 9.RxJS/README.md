@@ -62,7 +62,7 @@ export class Country {
 - [ ] Génerer le service
 
 ```
-% ng generate service shared/apicall
+% ng generate service shared/apicall --skipTests=true 
 ```
 
 - [ ] Rajouter le constructeur se connectant au Module `HttpModule`
