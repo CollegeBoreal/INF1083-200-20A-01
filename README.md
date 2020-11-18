@@ -13,7 +13,9 @@ Développement d'applications
 |02|20-09-23| [2.Web](2.Web/.scripts/Participation.md)             | Mon premier fichier HTML                              |                  |   
 |03|20-09-30| [3.Angular](3.Angular/.scripts/Participation.md)     | Mon premier projet Angular                            |                  |   
 |04|20-10-14| [6.GitPages](6.GitPages/.scripts/Participation.md)   | Ma premiere pages GitPages                            |                  |   
-|04|20-11-18| [7.Layouts](7.Layouts/.scripts/Participation.md)     | Mon Layout et Mon Git Merge                           |                  |   
+|05|20-11-18| [7.Layouts](7.Layouts/.scripts/Participation.md)     | Mon Layout et Mon Git Merge                           |                  |   
+|05|20-11-24| [8.Forms](8.Forms/.scripts/Participation.md)         | Reactive Forms.                                       |                  |   
+|06|20-11-24| [9.RxJS](9.RxJS/.scripts/Participation.md)           | Acces aux données                                     |                  |   
 
 ## :two: Elements de Performance
 
