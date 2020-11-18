@@ -2,10 +2,12 @@
 
 https://rxjs-dev.firebaseapp.com/guide/overview
 
-Pourquoi [RxJS](documentation) ?
+## Pourquoi RxJS ?
+
+#### JS vs RxJS(documentation)
 
 
-## Examples
+#### Examples
 
 https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
