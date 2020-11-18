@@ -95,8 +95,8 @@ export class HomeComponent implements OnInit {
 :pushpin: Finalement rajouter le module `NativeScriptFormsModule` à `home.module.ts` et le module `ReactiveFormsModule`
 
 ```
-import { NativeScriptFormsModule } from "nativescript-angular/forms"
-import { ReactiveFormsModule} from "@angular/forms";
+import { NativeScriptFormsModule } from "@nativescript/angular";
+import { ReactiveFormsModule } from "@angular/forms";
 ```
 
 le rajouter à `@NgModule` le champ `import`
