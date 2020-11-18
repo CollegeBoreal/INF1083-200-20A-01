@@ -1,5 +1,7 @@
 # 8.Forms
 
+## [Participation](.scripts/Participation.md)
+
 2 examples de `Forms` en NativeScript:
 
 - [ ] [ReactiveForms](https://angular.io/guide/forms-overview#setup-in-reactive-forms) - ce module
