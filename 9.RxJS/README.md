@@ -10,7 +10,7 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 
 # :o: Construire un accès à des données
 
-* Le projet utilise deux modules externes `HttpModule` et `FormsModule`
+* Le projet utilise deux modules externes `HttpModule` et `FormsModule` de type [Template Driven Forms](https://angular.io/guide/forms-overview#setup-in-template-driven-forms)
 
 <image src="images/httpmodule.png" width="630" heigth="347"></image>
 
