@@ -1,6 +1,13 @@
 # 8.Forms
 
-2 examples de `Forms` en NativeScript
+## [Participation](.scripts/Participation.md)
+
+2 examples de `Forms` en NativeScript:
+
+- [ ] [ReactiveForms](https://angular.io/guide/forms-overview#setup-in-reactive-forms) - ce module
+
+- [ ] [Template Driven Forms](https://angular.io/guide/forms-overview#setup-in-template-driven-forms) - le module `RxJS`
+
 
 ## ReactiveForms
 
@@ -8,7 +15,7 @@ https://nativescript.org/blog/angular-10-support/
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
+| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                     |
 
 
 :one: ReactiveForms
@@ -32,6 +39,8 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
     }
 ``` 
 
+:bulb: Quick Fix -> `ALT .` :computer: Windows -> `⌘ .` :apple: MacOS
+
 * Add the `signUpForm: FormGroup;` attribute to the `home` component
 
 ```typescript
@@ -41,6 +50,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
 * Add the `signUpForm` initialization in `ngOnInit` method
 
 ```typescript
+        // Init your component properties here.
         this.signUpForm = this.formBuilder.group({
             email: ["", Validators.required],
             username: ["", Validators.required],
@@ -59,7 +69,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
 
 ```typescript
 import { Component, OnInit } from "@angular/core";
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 
 @Component({
     selector: "Home",
@@ -74,6 +84,7 @@ export class HomeComponent implements OnInit {
     }
 
     ngOnInit(): void {
+        // Init your component properties here.
         this.signUpForm = this.formBuilder.group({
             email: ["", Validators.required],
             username: ["", Validators.required],
@@ -91,8 +102,8 @@ export class HomeComponent implements OnInit {
 :pushpin: Finalement rajouter le module `NativeScriptFormsModule` à `home.module.ts` et le module `ReactiveFormsModule`
 
 ```
-import { NativeScriptFormsModule } from "nativescript-angular/forms"
-import { ReactiveFormsModule} from "@angular/forms";
+import { NativeScriptFormsModule } from "@nativescript/angular";
+import { ReactiveFormsModule } from "@angular/forms";
 ```
 
 le rajouter à `@NgModule` le champ `import`
@@ -103,8 +114,29 @@ le rajouter à `@NgModule` le champ `import`
         ReactiveFormsModule,
 ```
 
-```
+:bulb: Final Result
 
-NativeScriptFormsModule,
-ReactiveFormsModule
+```typescript
+import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
+import { ReactiveFormsModule } from "@angular/forms";
+import { NativeScriptCommonModule, NativeScriptFormsModule } from "@nativescript/angular";
+
+import { HomeRoutingModule } from "./home-routing.module";
+import { HomeComponent } from "./home.component";
+
+@NgModule({
+    imports: [
+        NativeScriptFormsModule,
+        ReactiveFormsModule,
+        NativeScriptCommonModule,
+        HomeRoutingModule
+    ],
+    declarations: [
+        HomeComponent
+    ],
+    schemas: [
+        NO_ERRORS_SCHEMA
+    ]
+})
+export class HomeModule { }
 ```
