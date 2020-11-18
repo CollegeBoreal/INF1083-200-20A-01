@@ -71,7 +71,7 @@ export class Country {
 constructor(private httpClient: HttpClient) {}
 ```
 
-- [ ] Rajouter la fonction search se connectant au Module `HttpModule`
+- [ ] Rajouter la fonction search se connectant au Module `HttpModule` et fournir votre clé Rapid-API
 
 ```typescript
     searchCountryByName(name: string): Observable<Country[]>{
@@ -94,7 +94,7 @@ constructor(private httpClient: HttpClient) {}
     }
 ```
 
-- [ ] Rajouter les autres modules par importer au debut du fichier ou utiliser `QuickFix`
+- [ ] Rajouter les autres modules par importer au début du fichier ou utiliser `QuickFix`
 
 ```typescript
 import { HttpClient, HttpHeaders } from '@angular/common/http';
@@ -138,7 +138,6 @@ export class ApicallService {
         })
     )
   }
-
 }
 ```
 
@@ -161,14 +160,14 @@ le rajouter à `@NgModule` le champ (propriété) `imports`
 
 :pushpin: Éditer le composant `Home` - `search.component.ts`
 
-* Ajouter les variables `name` et `countries`
+- [ ] Ajouter les variables `name` et `countries`
 
 ```typescript
     name: string;
     countries: Array<Country>;
 ```
 
-* Modifier le constructeur en lui passant le service `Apicall`
+- [ ] Modifier le constructeur en lui passant le service `Apicall`
 
 ```typescript
     constructor(private apiService: ApicallService){
@@ -176,14 +175,14 @@ le rajouter à `@NgModule` le champ (propriété) `imports`
     }
 ```
 
-* Importer le service `Apicall` dans le component `SearchComponent`
+- [ ] Importer le service `Apicall` dans le component `SearchComponent`
 
 ```typescript
 import { ApicallService } from "../shared/apicall.service";
 import { Country } from "../shared/country";
 ```
 
-* Ajouter la fonction `searchCapital` permettant l'appel au service en passant la capitale après la fonction `ngOnInit()`
+- [ ] Ajouter la fonction `searchCapital` permettant l'appel au service en passant la capitale après la fonction `ngOnInit()`
 
 ```typescript
     searchCapital() {
@@ -237,10 +236,7 @@ export class SearchComponent implements OnInit {
 Remplacer :
 
 ```html
-<GridLayout class="page__content">
-    <Label class="page__content-icon fas" text="&#xf002;"></Label>
     <Label class="page__content-placeholder" text="<!-- Search page content goes here -->"></Label>
-</GridLayout>
 ```
 
 avec :
