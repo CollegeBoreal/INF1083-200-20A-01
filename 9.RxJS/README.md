@@ -19,19 +19,16 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 <image src="images/RapidAPIKey.png" width="453" heigth="283"></image>
 
 
-### :a: Créer un projet, remplacer `my` dans `my-blank-ng` par b`<`votre :id:`>`
+### :a: Créer un projet, avec b`<`votre :id:`>` comme nom de projet
 
-:pushpin: par example le nom du projet sera `b300098957-blank-ng` 
+:pushpin: par example le nom du projet sera `b300098957` 
 
 * Création utilisant un autre [template](https://github.com/NativeScript/nativescript-app-templates)
 
-```
-$ tns create my-blank-ng --template tns-template-blank-ng
-```
+|  tns v7.0.1                                                                  |  Patrons                          |
+|------------------------------------------------------------------------------|-----------------------------------|
+| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                     |
 
-:warning: Ne pas toucher le `routage` 
-
-* le fichier `app.component.html` doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
 
 ## :b: Créer le service
 
