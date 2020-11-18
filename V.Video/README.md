@@ -1,5 +1,7 @@
 # nativescript-evoplayer
 
+# [Participation](Participation.md)
+
 :one: create a project, replace b`<`your :id:`>`
 
 :pushpin: for example the project name will be `b300098957` 
@@ -71,4 +73,7 @@ Open up the manifest file `AndroidManifest.xml` and add by the following in `<ap
 		android:usesCleartextTraffic="true">
 ```
 
-# [Participation](Participation.md)
+# References:
+
+https://developer.android.com/training/articles/security-config
+
