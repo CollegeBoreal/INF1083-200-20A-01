@@ -49,7 +49,11 @@ registerElement("Video", () => Video);
 :pushpin: Using local `Playground`
 
 ```
-% ns run
+$ ns platform add <android|ios>
+```
+
+```
+% ns run <android|ios>
 ```
 
 :pushpin: Using Preview
