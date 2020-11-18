@@ -4,7 +4,7 @@ https://rxjs-dev.firebaseapp.com/guide/overview
 
 ## Pourquoi RxJS ?
 
-#### :m: JS vs [RxJS](documentation)
+#### :m: JS vs [RxJS](.documentation)
 
 
 #### :m: Examples
