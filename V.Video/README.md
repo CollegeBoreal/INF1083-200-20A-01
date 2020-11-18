@@ -60,6 +60,9 @@ registerElement("Video", () => Video);
 
 :mobile: Android
 
+Open up the manifest file `AndroidManifest.xml` and add by the following in `<application>` parameter tag:
+
+:keyboard: Dans [VSC](https://code.visualstudio.com/) Ouvrir un fichier -> `Ctrl p` :computer: Windows -> `⌘ p` :apple: MacOS
 
 
 ```xml
