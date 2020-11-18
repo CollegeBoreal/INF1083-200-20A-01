@@ -22,7 +22,7 @@ https://nativescript.org/blog/angular-10-support/
 
 Open up home component template `home.component.html` replace `<GridLayout>` by the following :
 
-:keyboard: Dans [VSC](https://code.visualstudio.com/) Ouvrir un fichier -> `CTL p` :computer: Windows -> `⌘ p` :apple: MacOS
+:keyboard: Dans [VSC](https://code.visualstudio.com/) Ouvrir un fichier -> `Ctrl p` :computer: Windows -> `⌘ p` :apple: MacOS
 
 
 ```xml
@@ -42,7 +42,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
     }
 ``` 
 
-:keyboard: Dans [VSC](https://code.visualstudio.com/) Quick Fix -> `ALT .` :computer: Windows -> `⌘ .` :apple: MacOS
+:keyboard: Dans [VSC](https://code.visualstudio.com/) Quick Fix -> `Ctrl .` :computer: Windows -> `⌘ .` :apple: MacOS
 
 * Add the `signUpForm: FormGroup;` attribute to the `home` component
 
