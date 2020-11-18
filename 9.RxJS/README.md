@@ -242,22 +242,22 @@ Remplacer :
 avec :
 
 ```html
-<StackLayout class="form" >
+    <StackLayout class="form" >
 
-    <TextField class="input" hint="Capital" [(ngModel)]="name"></TextField>
-
-    <Button text="Search" class="btn btn-primary" (tap)="searchCapital()"></Button>
-
-    <ListView [items]="countries">
-        <ng-template let-item="item">
-            <StackLayout>
-                <Label [text]="item.name"></Label>
-                <Label [text]="item.capital"></Label>
-            </StackLayout>
-        </ng-template>
-    </ListView>
-
-</StackLayout>
+        <TextField class="input" hint="Capital" [(ngModel)]="name"></TextField>
+    
+        <Button text="Search" class="btn btn-primary" (tap)="searchCapital()"></Button>
+    
+        <ListView [items]="countries" height="650">
+            <ng-template let-item="item">
+                <StackLayout>
+                    <Label [text]="item.name"></Label>
+                    <Label [text]="item.capital"></Label>
+                </StackLayout>
+            </ng-template>
+        </ListView>
+    
+    </StackLayout>
 ```
 
 :tada: Observez l'utilisation de la variable `name`, `countries` et la fonction `searchCapital`
