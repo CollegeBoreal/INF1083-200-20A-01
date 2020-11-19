@@ -18,9 +18,11 @@ https://nativescript.org/blog/angular-10-support/
 | `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                     |
 
 
-:zero: Ouvrir votre projet 
+:zero: Naviguer vers votre projet et pour l'Ouvrir avec :keyboard: Avec [VSC](https://code.visualstudio.com/), taper:
 
-:keyboard: Dans [VSC](https://code.visualstudio.com/), en rajoutant un `folder` dans votre `WorkSpace`
+```
+$ code .
+```
 
 :one: ReactiveForms
 
