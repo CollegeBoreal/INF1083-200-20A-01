@@ -55,3 +55,5 @@ https://github.com/juliangarnier/anime/issues/617
 https://docs.nativescript.org/ui/animation
 
 https://nativescripting.com/posts/using-angular-animations-in-nativescript
+
+https://nativescripting.com/posts/animations-using-angular-directives
