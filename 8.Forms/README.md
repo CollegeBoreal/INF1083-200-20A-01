@@ -18,7 +18,7 @@ https://nativescript.org/blog/angular-10-support/
 | `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                     |
 
 
-:zero: Naviguer vers votre projet et pour l'Ouvrir avec :keyboard: Avec [VSC](https://code.visualstudio.com/), taper:
+:zero: Naviguer vers votre projet et pour l'Ouvrir avec :keyboard: Avec [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper:
 
 ```
 $ code .
