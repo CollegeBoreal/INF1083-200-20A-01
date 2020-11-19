@@ -1,0 +1,12 @@
+.container {
+    font-size: 20;
+    background-color: #D0CCE0;
+    padding: 10 0;
+}
+
+.cards {
+    margin: 4 20;
+    background-color: #fff;
+    padding: 20;
+    border-radius: 10;
+}

@@ -1,7 +1,23 @@
-<ActionBar>
-    <Label text="Home"></Label>
+<ActionBar title="Home">
 </ActionBar>
 
 <GridLayout>
-    <!-- Add your page content here -->
+    <ScrollView>
+        <StackLayout class="container">
+            <StackLayout appTouchScaleAnimation class="cards" (tap)="onCardTap(1)">
+                <Image src="res://icon" width="200" stretch="aspectFit"></Image>
+            </StackLayout>
+
+            <StackLayout appTouchScaleAnimation class="cards"
+                (tap)="onCardTap(2)">
+                <Image src="res://icon" width="200" stretch="aspectFit"></Image>
+            </StackLayout>
+
+            <StackLayout appTouchScaleAnimation class="cards"
+                (tap)="onCardTap(3)">
+                <Image src="res://icon" width="200" stretch="aspectFit"></Image>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
 </GridLayout>

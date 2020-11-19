@@ -1,17 +1,18 @@
 import { Component, OnInit } from "@angular/core";
-import anime from '@mabs.dk/nativescript-animejs';
 
 @Component({
     selector: "Home",
-    templateUrl: "./home.component.html"
+    moduleId: module.id,
+    templateUrl: "./home.component.html",
+    styleUrls: ["./home.component.css"]
 })
 export class HomeComponent implements OnInit {
 
-    constructor() {
-        // Use the component constructor to inject providers.
-    }
+    constructor() {}
 
-    ngOnInit(): void {
-        // Init your component properties here.
+    ngOnInit(): void {}
+
+    onCardTap(index: number): void {
+        console.log('card tap', index);
     }
 }
