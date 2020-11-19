@@ -28,7 +28,7 @@ $ code .
 
 Open up home component template `home.component.html` replace `<GridLayout>` by the following :
 
-:keyboard: Dans [VSC](https://code.visualstudio.com/) Ouvrir un fichier -> `Ctrl p` :computer: Windows -> `⌘ p` :apple: MacOS
+:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Ouvrir un fichier -> `Ctrl p` :computer: Windows -> `⌘ p` :apple: MacOS
 
 
 ```xml
@@ -48,7 +48,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
     }
 ``` 
 
-:keyboard: Dans [VSC](https://code.visualstudio.com/) Quick Fix -> `Ctrl .` :computer: Windows -> `⌘ .` :apple: MacOS
+:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Quick Fix -> `Ctrl .` :computer: Windows -> `⌘ .` :apple: MacOS
 
 * Add the `signUpForm: FormGroup;` attribute to the `home` component
 
