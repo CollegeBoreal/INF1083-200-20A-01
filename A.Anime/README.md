@@ -28,9 +28,14 @@ $ npm install @angular/animation --save
 - [ ] par le module `app.module.ts`
 
 ```
-imports: [
-   NativeScriptAnimationsModule,
+// app.module.ts
+
+import { NativeScriptAnimationsModule } from "@nativescript/angular/animations";
+
 ...
+imports: [
+  ...
+  NativeScriptAnimationsModule
 ]
 ```
 
