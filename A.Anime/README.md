@@ -40,6 +40,11 @@ imports: [
 ```
 
 
+```
+$ ng generate directive directives/touch-scale-animation --skipTests=true
+```
+
+
 ### Anime
 https://github.com/m-abs/anime
 
