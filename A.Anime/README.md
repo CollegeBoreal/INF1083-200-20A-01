@@ -17,8 +17,21 @@
 $ code .
 ```
 
+:one: Ajouter la librairie animation au projet
+
+- [ ] par le CLI
+
 ```
 $ npm install @angular/animation --save
+```
+
+- [ ] par le module `app.module.ts`
+
+```
+imports: [
+   NativeScriptAnimationsModule,
+...
+]
 ```
 
 
