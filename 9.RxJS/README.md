@@ -45,6 +45,8 @@ $ code .
 
 ##### :bangbang: Installer Angular CLI
 
+Le projet utilise `Angular` et son CLI, si il n'est pas encore installé sur la machine le faire avec la commande ci-dessous
+
 ```
 $ npm install @angular/cli --global
 ```
