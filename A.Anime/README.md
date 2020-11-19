@@ -17,6 +17,10 @@
 $ code .
 ```
 
+```
+$ npm install @angular/animation --save
+```
+
 
 ### Anime
 https://github.com/m-abs/anime
