@@ -18,7 +18,7 @@ https://nativescript.org/blog/angular-10-support/
 | `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                     |
 
 
-:zero: Naviguer vers votre projet et pour l'Ouvrir avec :keyboard: Avec [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper:
+:zero: Naviguer vers votre projet et pour l'éditer avec :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper:
 
 ```
 $ code .
@@ -28,7 +28,7 @@ $ code .
 
 Open up home component template `home.component.html` replace `<GridLayout>` by the following :
 
-:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Ouvrir un fichier -> `Ctrl p` :computer: Windows -> `⌘ p` :apple: MacOS
+:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Ouvrir un fichier -> `Ctrl p` :computer: Windows ou `⌘ p` :apple: MacOS
 
 
 ```xml
@@ -48,7 +48,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
     }
 ``` 
 
-:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Quick Fix -> `Ctrl .` :computer: Windows -> `⌘ .` :apple: MacOS
+:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Quick Fix -> `Ctrl .` :computer: Windows ou `⌘ .` :apple: MacOS
 
 * Add the `signUpForm: FormGroup;` attribute to the `home` component
 
