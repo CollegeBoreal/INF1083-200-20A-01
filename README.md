@@ -39,13 +39,13 @@ Développement d'applications
 
 # References
 
-|  NativeScript PlayGroud                                                            |  Commentaire                              |
+|  NativeScript PlayGroud                                                            |  Commentaires                              |
 |------------------------------------------------------------------------------------|-------------------------------------------|
 | [Telerik Play Ground](https://play.nativescript.org)                                |                                           |   
 | [Google Play](https://play.google.com/store/apps/details?id=org.nativescript.play) |                                           |
 | [Apple Store](https://apps.apple.com/ca/app/nativescript-playground/id1263543946)  |                                           |
 
-|  :red_book:                                                            |  Commentaire                              |
+|  :blue_book:                                                            |  Commentaires                              |
 |------------------------------------------------------------------------------------|-------------------------------------------|
 | [The Nativescript Book](https://nativescript.org/get-the-nativescript-book)        | |
 
