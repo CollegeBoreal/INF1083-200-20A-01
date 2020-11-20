@@ -17,6 +17,10 @@
 $ code .
 ```
 
+```
+$ ns resources generate icons ../images/CollegeBoreeal.png 
+```
+
 # References
 
 https://docs.nativescript.org/tooling/docs-cli/project/configuration/resources/resources-generate-icons
