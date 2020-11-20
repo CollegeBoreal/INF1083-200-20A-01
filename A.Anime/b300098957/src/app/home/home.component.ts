@@ -12,66 +12,62 @@ import { AnimationCurve } from "@nativescript/core/ui/enums";
 })
 export class HomeComponent implements OnInit {
 
-    view: View;
-
     constructor(private page: Page) {
         // Use the component constructor to inject providers.
-        // Init your component properties here.
-        this.view = page.getViewById<View>("view");
     }
 
     ngOnInit(): void {
     }
 
-    onAnimateLinear(): void {
-        this.view.animate({
+    onAnimateLinear(view: View): void {
+        view.animate({
             translate: { x: 0, y: 100},
             duration: 1000,
             curve: AnimationCurve.linear
         });
     }
     
-    onAnimateEaseIn(): void {
-        this.view.animate({
+    onAnimateEaseIn(view: View): void {
+        view.animate({
             translate: { x: 0, y: 100},
             duration: 1000,
             curve: AnimationCurve.easeIn
         });}
     
-    onAnimateEaseOut(): void {
-        this.view.animate({
+    onAnimateEaseOut(view: View): void {
+        view.animate({
             translate: { x: 0, y: 100},
             duration: 1000,
             curve: AnimationCurve.easeOut
         });
     }
     
-    onAnimateEaseInEaseOut(): void {
-        this.view.animate({
+    onAnimateEaseInEaseOut(view: View): void {
+        view.animate({
             translate: { x: 0, y: 100},
             duration: 1000,
             curve: AnimationCurve.easeInOut
         });
     }
     
-    onAnimateSpring(): void {
-        this.view.animate({
+    onAnimateSpring(view: View): void {
+        view.animate({
             translate: { x: 0, y: 100},
             duration: 1000,
             curve: AnimationCurve.spring
         });
     }
     
-    onAnimateCustom(): void {
-        this.view.animate({
+    onAnimateCustom(view: View): void {
+        view.animate({
             translate: { x: 0, y: 100},
             duration: 1000,
             curve: AnimationCurve.cubicBezier(0.1, 0.1, 0.1, 1)
         });
     }
     
-    onReset(): void {
-        this.view.translateX = 0;
-        this.view.translateY = 0;
+    onReset(view: View): void {
+        view.translateX = 0;
+        view.translateY = 0;
     }
 }
