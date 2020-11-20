@@ -37,11 +37,17 @@ Développement d'applications
 |14|20-12-09|                                                |                                         |                   |
 |15|20-12-16| Fin des cours                                  |                                         |                   |
 
-|  NativeScript PlayGroud                                                            |  Commentaire                              |
+# References
+
+|  NativeScript PlayGroud                                                            |  Commentaires                              |
 |------------------------------------------------------------------------------------|-------------------------------------------|
 | [Telerik Play Ground](https://play.nativescript.org)                                |                                           |   
 | [Google Play](https://play.google.com/store/apps/details?id=org.nativescript.play) |                                           |
 | [Apple Store](https://apps.apple.com/ca/app/nativescript-playground/id1263543946)  |                                           |
+
+|  :blue_book:                                                            |  Commentaires                              |
+|------------------------------------------------------------------------------------|-------------------------------------------|
+| [The Nativescript Book](https://nativescript.org/get-the-nativescript-book)        | |
 
 
 |                              Glossaire                                                    |                                      |
