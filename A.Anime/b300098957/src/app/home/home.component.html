@@ -2,6 +2,17 @@
     <Label text="Home"></Label>
 </ActionBar>
 
-<GridLayout>
-    <!-- Add your page content here -->
-</GridLayout>
+<ScrollView>
+    <StackLayout>
+      <Button text="Linear" tap="onAnimateLinear"></Button>
+      <Button text="EaseIn" tap="onAnimateEaseIn"></Button>
+      <Button text="EaseOut" tap="onAnimateEaseOut"></Button>
+      <Button text="EaseInEaseOut" tap="onAnimateEaseInEaseOut"></Button>
+      <Button text="Spring" tap="onAnimateSpring"></Button>
+      <Button text="Custom" tap="onAnimateCustom"></Button>
+      <Button text="Reset" tap="onReset"></Button>
+      <AbsoluteLayout width="300" height="200" clipToBounds="true" backgroundColor="LightGray">
+        <Image id="view" src="res://icon" width="100" height="100" left="100" top="0"></Image>
+      </AbsoluteLayout>
+    </StackLayout>
+</ScrollView>
