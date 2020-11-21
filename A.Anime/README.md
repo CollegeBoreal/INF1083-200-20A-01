@@ -104,6 +104,14 @@ en ajoutant les méthodes suivantes :
     }
 ```
 
+- [ ] S'assurer que les librairies soient importées en conséquence
+
+:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Quick Fix -> `Ctrl .` :computer: Windows ou `⌘ .` :apple: MacOS
+
+```
+import { View } from "@nativescript/core";
+import { AnimationCurve } from "@nativescript/core/ui/enums";
+```
 
 
 ### Anime
