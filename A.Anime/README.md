@@ -34,7 +34,7 @@ par
 ```html
 ```
 
-```sass
+```css
 @keyframes example {
     from { background-color: red; }
     to { background-color: green; }
