@@ -32,7 +32,7 @@ en changeant la ligne :
 par 
 
 ```html
-  <Button id="myButton" text="{N}" class="example"/>
+  <Button id="myButton" text="{N}" class="example"></Button>
 ```
 
 ```css
