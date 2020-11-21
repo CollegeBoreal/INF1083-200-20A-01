@@ -34,6 +34,19 @@ par
 ```html
 ```
 
+```sass
+@keyframes example {
+    from { background-color: red; }
+    to { background-color: green; }
+}
+
+.view {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+```
+
 
 ### Anime
 https://github.com/m-abs/anime
