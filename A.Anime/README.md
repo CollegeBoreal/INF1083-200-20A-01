@@ -9,7 +9,7 @@
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                      |
+| `$ ns create b`:id:` --template @nativescript/template-drawer-navigation-ng` |  Tiroirs, Angular et SaSS         |
 
 :+1: Naviguer vers votre projet et pour l'éditer avec :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper:
 
