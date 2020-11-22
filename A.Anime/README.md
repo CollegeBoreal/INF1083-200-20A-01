@@ -32,18 +32,17 @@ en changeant la ligne :
 par 
 
 ```html
-  <Button id="myButton" text="{N}" class="example"></Button>
+    <Button id="MyButton" text="{N}" class="background" ></Button>
 ```
 
 ```css
-@keyframes example {
+@keyframes bgAnimation {
     from { background-color: red; }
     to { background-color: green; }
 }
-
-.view {
-    animation-name: example;
-    animation-duration: 4s;
+.background {
+    animation-name: bgAnimation;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 ```
