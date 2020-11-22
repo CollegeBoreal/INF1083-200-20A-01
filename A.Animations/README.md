@@ -37,7 +37,7 @@ par
 
 - [ ] Ajouter le fichier de styles `home.component.scss`
 
-:keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl N` sous Windows ou ` N` sous MacOS
+* :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl N` sous Windows ou ` N` sous MacOS
 
 ```css
 @keyframes bgAnimation {
@@ -51,7 +51,7 @@ par
 }
 ```
 
-:keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl S` sous Windows ou ` S` sous MacOS
+* :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl S` sous Windows ou ` S` sous MacOS
 
 et donner le nom de fichier `home.component.scss`
 
