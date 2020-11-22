@@ -42,7 +42,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
 
 :bulb: [Angular Event Binding](https://angular.io/guide/event-binding)
 
-<img src="https://angular.io/generated/images/guide/template-syntax/syntax-diagram.svg"><img>
+<img src="https://angular.io/generated/images/guide/template-syntax/syntax-diagram.svg" width=300 height=63 ><img>
 
 * Add the `formBuilder` variable to the `home` component constructor
 
