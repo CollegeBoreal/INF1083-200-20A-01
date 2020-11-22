@@ -100,6 +100,16 @@ export class HomeComponent implements OnInit {
 }
 ```
 
+### :b: Imperative Animation
+
+```
+    <StackLayout class="background" >
+        <AbsoluteLayout width="300" height="300" class="bg-primary m-15" borderRadius="20">
+            <Image #target src="res://icon" class="img-rounded curve"></Image>
+        </AbsoluteLayout>
+        <Button text="Animate" (tap)="animate(target)" class="btn btn-primary btn-active"></Button>
+    </StackLayout>
+```
 
 ```
     animate(view: View) {
