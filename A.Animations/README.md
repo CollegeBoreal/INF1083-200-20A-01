@@ -4,7 +4,7 @@ Dans cet exercice, il est questions d'[animations](https://docs.nativescript.org
 
 - [Declarative](https://docs.nativescript.org/ui/animation-css.html) ou encore connue sous le nom de `CSS Animation`
 
-- [Imperative](https://docs.nativescript.org/ui/animation-code.html) où l'animation est éxécutée dans les code de la classe
+- [Imperative](https://docs.nativescript.org/ui/animation-code.html) où l'animation est éxécutée dans le code sourcec du composant
 
 ### :a: Créer un projet, avec b`<`votre :id:`>` comme nom de projet
 
