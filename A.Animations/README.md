@@ -17,11 +17,13 @@
 $ code .
 ```
 
+### :b: [CSS Animation](https://docs.nativescript.org/ui/animation-css.html)
+
+
 :one: Composant `Home`
 
 - [ ] Modifier le template `home.component.html`
 
-[CSS Animation](https://docs.nativescript.org/ui/animation-css.html)
 
 en changeant la ligne :
 
