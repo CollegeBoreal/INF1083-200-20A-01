@@ -35,7 +35,7 @@ par
     <Button id="MyButton" text="{N}" class="background" ></Button>
 ```
 
-- [ ] Ajouter le fichier de styles `home.component.scss`
+- [ ] Ajouter un nouveau fichier de styles `scss`
 
 * :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl N` sous Windows ou ` N` sous MacOS
 
