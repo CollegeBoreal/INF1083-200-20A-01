@@ -34,7 +34,7 @@ en changeant la ligne :
 par 
 
 ```html
-    <Button id="MyButton" text="{N}" class="background" ></Button>
+  <Button text="{N}" class="background" ></Button>
 ```
 
 - [ ] Ajouter un nouveau fichier de styles `scss`
