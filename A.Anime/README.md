@@ -21,6 +21,8 @@ $ code .
 
 - [ ] Modifier le template `home.component.html`
 
+[CSS Animation](https://docs.nativescript.org/ui/animation-css.html)
+
 en changeant la ligne :
 
 ```html
@@ -30,4 +32,36 @@ en changeant la ligne :
 par 
 
 ```html
-ùùù
+    <Button id="MyButton" text="{N}" class="background" ></Button>
+```
+
+```css
+@keyframes bgAnimation {
+    from { background-color: red; }
+    to { background-color: green; }
+}
+.background {
+    animation-name: bgAnimation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+```
+
+
+### Anime
+https://github.com/m-abs/anime
+
+https://github.com/juliangarnier/anime/issues/617
+
+### Animation
+
+https://docs.nativescript.org/ui/animation
+
+https://nativescripting.com/posts/using-angular-animations-in-nativescript
+
+https://nativescripting.com/posts/animations-using-angular-directives
+
+
+### Gesture
+
+https://docs.nativescript.org/angular/ui/ng-components/gestures
