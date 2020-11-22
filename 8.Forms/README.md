@@ -2,7 +2,7 @@
 
 ## [Participation](.scripts/Participation.md)
 
-2 examples de `Forms` en NativeScript:
+2 examples de `Forms` en Angular:
 
 - [ ] [ReactiveForms](https://angular.io/guide/forms-overview#setup-in-reactive-forms) - ce module
 
