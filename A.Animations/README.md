@@ -22,7 +22,7 @@ Dans cet exercice, il est questions d'[animations](https://docs.nativescript.org
 $ code .
 ```
 
-### :b: [CSS Animation](https://docs.nativescript.org/ui/animation-css.html)
+### :b: Declarative Animation ou  [CSS Animation](https://docs.nativescript.org/ui/animation-css.html)
 
 
 :one: Composant `Home`
