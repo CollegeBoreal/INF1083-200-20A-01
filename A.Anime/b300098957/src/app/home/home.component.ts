@@ -1,73 +1,43 @@
 import { Component, OnInit } from "@angular/core";
-
-import { Page } from "@nativescript/core/ui/page";
-import { View } from "@nativescript/core/ui/core/view";
-import { AnimationCurve } from "@nativescript/core/ui/enums";
+import { RadSideDrawer } from "nativescript-ui-sidedrawer";
+import { Application } from "@nativescript/core";
+import { View } from "@nativescript/core";
 
 @Component({
     selector: "Home",
-    moduleId: module.id,
     templateUrl: "./home.component.html",
-    styleUrls: ["./home.component.css"]
+    styleUrls: ["./home.component.scss"]
 })
 export class HomeComponent implements OnInit {
 
-    constructor(private page: Page) {
+    constructor() {
         // Use the component constructor to inject providers.
     }
 
     ngOnInit(): void {
+        // Init your component properties here.
     }
 
-    onAnimateLinear(view: View): void {
-        view.animate({
-            translate: { x: 0, y: 100},
-            duration: 1000,
-            curve: AnimationCurve.linear
-        });
+    onDrawerButtonTap(): void {
+        const sideDrawer = <RadSideDrawer>Application.getRootView();
+        sideDrawer.showDrawer();
     }
-    
-    onAnimateEaseIn(view: View): void {
-        view.animate({
-            translate: { x: 0, y: 100},
-            duration: 1000,
-            curve: AnimationCurve.easeIn
-        });}
-    
-    onAnimateEaseOut(view: View): void {
-        view.animate({
-            translate: { x: 0, y: 100},
-            duration: 1000,
-            curve: AnimationCurve.easeOut
-        });
-    }
-    
-    onAnimateEaseInEaseOut(view: View): void {
-        view.animate({
-            translate: { x: 0, y: 100},
-            duration: 1000,
-            curve: AnimationCurve.easeInOut
-        });
-    }
-    
-    onAnimateSpring(view: View): void {
-        view.animate({
-            translate: { x: 0, y: 100},
-            duration: 1000,
-            curve: AnimationCurve.spring
-        });
-    }
-    
-    onAnimateCustom(view: View): void {
-        view.animate({
-            translate: { x: 0, y: 100},
-            duration: 1000,
-            curve: AnimationCurve.cubicBezier(0.1, 0.1, 0.1, 1)
-        });
-    }
-    
-    onReset(view: View): void {
-        view.translateX = 0;
-        view.translateY = 0;
-    }
+
+    // animate(view: View) {
+    //     let duration = 300;
+    //     view.animate({ opacity: 0, duration: duration })
+    //         .then(() => view.animate({ opacity: 1, duration: duration }))
+    //         .then(() => view.animate({ translate: { x: 200, y: 200 }, duration: duration }))
+    //         .then(() => view.animate({ translate: { x: 0, y: 0 }, duration: duration }))
+    //         .then(() => view.animate({ scale: { x: 5, y: 5 }, duration: duration }))
+    //         .then(() => view.animate({ scale: { x: 1, y: 1 }, duration: duration }))
+    //         .then(() => view.animate({ rotate: 180, duration: duration }))
+    //         .then(() => view.animate({ rotate: 0, duration: duration }))
+    //         .then(() => {
+    //             console.log("Animation finished");
+    //         })
+    //         .catch((e) => {
+    //             console.log(e.message);
+    //         });
+    // }
 }

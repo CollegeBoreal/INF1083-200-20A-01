@@ -1,22 +1,21 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
-import { NativeScriptAnimationsModule, NativeScriptModule } from "@nativescript/angular";
+import { NativeScriptModule } from "@nativescript/angular";
+import { NativeScriptUISideDrawerModule } from "nativescript-ui-sidedrawer/angular";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { TouchScaleAnimationDirective } from './directives/touch-scale-animation.directive';
 
 @NgModule({
     bootstrap: [
         AppComponent
     ],
     imports: [
-        NativeScriptAnimationsModule,
+        AppRoutingModule,
         NativeScriptModule,
-        AppRoutingModule
+        NativeScriptUISideDrawerModule
     ],
     declarations: [
-        AppComponent,
-        TouchScaleAnimationDirective
+        AppComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA

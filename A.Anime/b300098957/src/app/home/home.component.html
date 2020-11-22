@@ -1,17 +1,21 @@
-<ActionBar title="Home">
+<ActionBar>
+    <!-- 
+    Use the NavigationButton as a side-drawer button in Android
+    because ActionItems are shown on the right side of the ActionBar
+    -->
+    <NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>
+    <!-- 
+    Use the ActionItem for IOS with position set to left. Using the
+    NavigationButton as a side-drawer button in iOS is not possible,
+    because its function is to always navigate back in the application.
+    -->
+    <ActionItem icon="res://menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"
+        ios.position="left">
+    </ActionItem>
+    <Label text="Home"></Label>
 </ActionBar>
 
-<ScrollView>
-    <StackLayout>
-      <Button text="Linear" tap="onAnimateLinear(view)"></Button>
-      <Button text="EaseIn" tap="onAnimateEaseIn(view)"></Button>
-      <Button text="EaseOut" tap="onAnimateEaseOut(view)"></Button>
-      <Button text="EaseInEaseOut" tap="onAnimateEaseInEaseOut(view)"></Button>
-      <Button text="Spring" tap="onAnimateSpring(view)"></Button>
-      <Button text="Custom" tap="onAnimateCustom(view)"></Button>
-      <Button text="Reset" tap="onReset(view)"></Button>
-      <AbsoluteLayout width="300" height="200" clipToBounds="true" backgroundColor="LightGray">
-        <Image #view src="res://icon" width="100" height="100" left="100" top="0"></Image>
-      </AbsoluteLayout>
-    </StackLayout>
-</ScrollView>
+<GridLayout class="page__content">
+    <Label class="page__content-icon fas" text="&#xf015;"></Label>
+    <Button id="myButton" text="{N}" class="background"></Button>
+</GridLayout>
