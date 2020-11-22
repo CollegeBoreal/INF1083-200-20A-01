@@ -35,10 +35,17 @@ https://www.pluralsight.com/guides/using-http-with-rxjs-observables
 |------------------------------------------------------------------------------|-----------------------------------|
 | `$ ns create b`:id:` --template @nativescript/template-tab-navigation-ng`    |  Application avec onglets         |
 
+:+1: Naviguer vers votre projet et pour l'éditer avec :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper:
+
+```
+$ code .
+```
 
 ## :b: Créer le service
 
 ##### :bangbang: Installer Angular CLI
+
+Le projet utilise `Angular` et son CLI, si il n'est pas encore installé sur la machine le faire avec la commande ci-dessous
 
 ```
 $ npm install @angular/cli --global

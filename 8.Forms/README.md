@@ -2,7 +2,7 @@
 
 ## [Participation](.scripts/Participation.md)
 
-2 examples de `Forms` en NativeScript:
+2 examples de [`Forms`](https://angular.io/guide/forms) en Angular:
 
 - [ ] [ReactiveForms](https://angular.io/guide/forms-overview#setup-in-reactive-forms) - ce module
 
@@ -18,9 +18,18 @@ https://nativescript.org/blog/angular-10-support/
 | `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                     |
 
 
+:zero: Naviguer vers votre projet et pour l'éditer avec :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper:
+
+```
+$ code .
+```
+
 :one: ReactiveForms
 
 Open up home component template `home.component.html` replace `<GridLayout>` by the following :
+
+:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Ouvrir un fichier -> `Ctrl p` :computer: Windows ou `⌘ p` :apple: MacOS
+
 
 ```xml
 
@@ -31,6 +40,10 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
 </StackLayout>
 ```
 
+:bulb: [Angular Event Binding](https://angular.io/guide/event-binding)
+
+<img src="https://angular.io/generated/images/guide/template-syntax/syntax-diagram.svg" width=300 height=63 ><img>
+
 * Add the `formBuilder` variable to the `home` component constructor
 
 ```typescript
@@ -39,7 +52,7 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
     }
 ``` 
 
-:bulb: Quick Fix -> `ALT .` :computer: Windows -> `⌘ .` :apple: MacOS
+:keyboard: Dans [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md) Quick Fix -> `Ctrl .` :computer: Windows ou `⌘ .` :apple: MacOS
 
 * Add the `signUpForm: FormGroup;` attribute to the `home` component
 
