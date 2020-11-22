@@ -19,7 +19,7 @@ $ code .
 
 :one: Composant `Home`
 
-- [ ] Modifier le template `home.component.html`
+- [X] Modifier le template `home.component.html`
 
 [CSS Animation](https://docs.nativescript.org/ui/animation-css.html)
 
@@ -54,6 +54,11 @@ par
 * :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl S` sous Windows ou `⌘ S` sous MacOS
 
 et donner le nom de fichier `home.component.scss`
+
+- [X] Modifier la classe du composant `Home` 
+
+* :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl P` sous Windows ou `⌘ P` sous MacOS - ouvrir le fichier `home.component.html`
+
 
 ### Anime
 https://github.com/m-abs/anime
