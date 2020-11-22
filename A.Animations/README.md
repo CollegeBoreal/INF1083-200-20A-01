@@ -102,7 +102,20 @@ export class HomeComponent implements OnInit {
 
 ### :b: Imperative Animation
 
+:one: Composant `Browse`
+
+- [ ] Modifier le template `browse.component.html`
+
+
+en changeant la ligne :
+
+```html
+  <Label class="page__content-placeholder" text="<!-- Page content goes here -->"></Label>
 ```
+
+par 
+
+```html
     <StackLayout>
         <AbsoluteLayout width="300" height="300" class="bg-primary m-15" borderRadius="20">
             <Image #cible src="res://icon" class="img-rounded"></Image>
@@ -111,7 +124,13 @@ export class HomeComponent implements OnInit {
     </StackLayout>
 ```
 
-```
+- [ ] Modifier la classe du composant `Home` 
+
+* :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl P` sous Windows ou `⌘ P` sous MacOS - ouvrir le fichier `home.component.ts`
+
+ajouter la méthode `animate(view: View)` qui est une liste d'animations
+
+```typescript
     animate(view: View) {
         let duration = 300;
         view.animate({ opacity: 0, duration: duration })
@@ -130,6 +149,37 @@ export class HomeComponent implements OnInit {
             });
     }
 ```
+
+:bulb: Final Result
+
+```typescript
+import { Component, OnInit } from "@angular/core";
+import { RadSideDrawer } from "nativescript-ui-sidedrawer";
+import { Application } from "@nativescript/core";
+
+@Component({
+    selector: "Home",
+    templateUrl: "./home.component.html",
+    styleUrls: ["./home.component.scss"]
+})
+export class HomeComponent implements OnInit {
+
+    constructor() {
+        // Use the component constructor to inject providers.
+    }
+
+    ngOnInit(): void {
+        // Init your component properties here.
+    }
+
+    onDrawerButtonTap(): void {
+        const sideDrawer = <RadSideDrawer>Application.getRootView();
+        sideDrawer.showDrawer();
+    }
+
+}
+```
+
 
 ### Anime
 https://github.com/m-abs/anime
