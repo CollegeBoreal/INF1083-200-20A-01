@@ -107,6 +107,8 @@ export class HomeComponent implements OnInit {
 
 ### :b: Imperative Animation
 
+Dans cet exercice, il sera question [Gestures](https://docs.nativescript.org/angular/ui/ng-components/gestures)
+
 :one: Composant `Browse`
 
 - [ ] Modifier le template `browse.component.html`
@@ -201,21 +203,16 @@ export class BrowseComponent implements OnInit {
 }
 ```
 
+# References
 
 ### Anime
 https://github.com/m-abs/anime
-
 https://github.com/juliangarnier/anime/issues/617
 
-### Animation
-
-https://docs.nativescript.org/ui/animation
+### NS Animations
 
 https://nativescripting.com/posts/using-angular-animations-in-nativescript
-
 https://nativescripting.com/posts/animations-using-angular-directives
 
-
-### Gesture
-
+### Gestures
 https://docs.nativescript.org/angular/ui/ng-components/gestures
