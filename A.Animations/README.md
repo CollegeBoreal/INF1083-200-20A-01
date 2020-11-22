@@ -124,9 +124,9 @@ par
     </StackLayout>
 ```
 
-- [ ] Modifier la classe du composant `Home` 
+- [ ] Modifier la classe du composant `Browse` 
 
-* :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl P` sous Windows ou `⌘ P` sous MacOS - ouvrir le fichier `home.component.ts`
+* :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl P` sous Windows ou `⌘ P` sous MacOS - ouvrir le fichier `brwose  .component.ts`
 
 ajouter la méthode `animate(view: View)` qui est une liste d'animations
 
@@ -155,14 +155,13 @@ ajouter la méthode `animate(view: View)` qui est une liste d'animations
 ```typescript
 import { Component, OnInit } from "@angular/core";
 import { RadSideDrawer } from "nativescript-ui-sidedrawer";
-import { Application } from "@nativescript/core";
+import { Application, View } from "@nativescript/core";
 
 @Component({
-    selector: "Home",
-    templateUrl: "./home.component.html",
-    styleUrls: ["./home.component.scss"]
+    selector: "Browse",
+    templateUrl: "./browse.component.html"
 })
-export class HomeComponent implements OnInit {
+export class BrowseComponent implements OnInit {
 
     constructor() {
         // Use the component constructor to inject providers.
@@ -177,6 +176,23 @@ export class HomeComponent implements OnInit {
         sideDrawer.showDrawer();
     }
 
+    animate(view: View) {
+        let duration = 300;
+        view.animate({ opacity: 0, duration: duration })
+            .then(() => view.animate({ opacity: 1, duration: duration }))
+            .then(() => view.animate({ translate: { x: 200, y: 200 }, duration: duration }))
+            .then(() => view.animate({ translate: { x: 0, y: 0 }, duration: duration }))
+            .then(() => view.animate({ scale: { x: 5, y: 5 }, duration: duration }))
+            .then(() => view.animate({ scale: { x: 1, y: 1 }, duration: duration }))
+            .then(() => view.animate({ rotate: 180, duration: duration }))
+            .then(() => view.animate({ rotate: 0, duration: duration }))
+            .then(() => {
+                console.log("Animation finished");
+            })
+            .catch((e) => {
+                console.log(e.message);
+            });
+    }
 }
 ```
 
