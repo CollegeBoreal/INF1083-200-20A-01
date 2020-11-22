@@ -1,5 +1,10 @@
 # Animations
 
+Dans cet exercice, il est questions d'[animations](https://docs.nativescript.org/ui/animation.html). Il existe plusieurs types d'animations et on présentera deux animations:
+
+- [Declarative](https://docs.nativescript.org/ui/animation-css.html) ou encore connue sous le nom de `CSS Animation`
+
+- [Imperative](https://docs.nativescript.org/ui/animation-code.html) où l'animation est éxécutée dans les code de la classe
 
 ### :a: Créer un projet, avec b`<`votre :id:`>` comme nom de projet
 
