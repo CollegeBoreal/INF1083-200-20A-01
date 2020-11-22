@@ -40,6 +40,8 @@ Open up home component template `home.component.html` replace `<GridLayout>` by 
 </StackLayout>
 ```
 
+:bulb: [Angular Event Binding](https://angular.io/guide/event-binding)
+
 * Add the `formBuilder` variable to the `home` component constructor
 
 ```typescript
