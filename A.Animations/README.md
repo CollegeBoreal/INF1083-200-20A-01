@@ -35,6 +35,10 @@ par
     <Button id="MyButton" text="{N}" class="background" ></Button>
 ```
 
+- [ ] Ajouter le fichier de styles `home.component.scss`
+
+:keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl N` sous Windows ou ` N` sous MacOS
+
 ```css
 @keyframes bgAnimation {
     from { background-color: red; }
@@ -47,6 +51,9 @@ par
 }
 ```
 
+:keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl S` sous Windows ou ` S` sous MacOS
+
+et donner le nom de fichier `home.component.scss`
 
 ### Anime
 https://github.com/m-abs/anime
