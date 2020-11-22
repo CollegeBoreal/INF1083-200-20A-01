@@ -59,6 +59,15 @@ et donner le nom de fichier `home.component.scss`
 
 * :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl P` sous Windows ou `⌘ P` sous MacOS - ouvrir le fichier `home.component.ts`
 
+ajouter la propriété `styleUrls` qui est un liste et peux comprendre plusieurs fichiers `scss`
+
+```typescript
+@Component({
+    ... ,
+    styleUrls: ["./home.component.scss"]
+})
+
+
 
 ### Anime
 https://github.com/m-abs/anime
