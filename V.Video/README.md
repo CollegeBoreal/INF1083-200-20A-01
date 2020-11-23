@@ -66,7 +66,7 @@ $ ns platform add <android|ios>
 
 :mobile: Android
 
-Open up the manifest file `AndroidManifest.xml` and add by the following in `<application>` parameter tag:
+Open up the manifest file `AndroidManifest.xml` (in `App_Resource/Android/src/main`) and add by the following in `<application>` parameter tag:
 
 :keyboard: Dans [VSC](https://code.visualstudio.com/) Ouvrir un fichier -> `Ctrl p` :computer: Windows -> `⌘ p` :apple: MacOS
 
