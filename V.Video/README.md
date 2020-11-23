@@ -1,4 +1,4 @@
-# nativescript-evoplayer
+# nativescript-exoplayer
 
 # [Participation](Participation.md)
 
