@@ -24,3 +24,5 @@ $ ns resources generate icons ../images/milky-way-2-1.jpg
 # References
 
 https://docs.nativescript.org/tooling/docs-cli/project/configuration/resources/resources-generate-icons
+
+https://market.nativescript.org/plugins/nativescript-image/
