@@ -2,7 +2,39 @@
     <Label text="Home"></Label>
 </ActionBar>
 
-<GridLayout>
-    <!-- Add your page content here -->
-    <Image id="view" src="res://icon" width="100" height="100" left="100" top="0"></Image>
-</GridLayout>
+<StackLayout>
+    <Tabs height="400px">
+        <TabStrip>
+            <TabStripItem>
+                <Label text="Home"></Label>
+                <Image src="res://icon"></Image>
+            </TabStripItem>
+            <TabStripItem>
+                <Label text="Settings"></Label>
+                <Image src="res://icon"></Image>
+            </TabStripItem>
+            <TabStripItem>
+                <Label text="Search"></Label>
+                <Image src="res://icon" class="m15 "></Image>
+            </TabStripItem>
+        </TabStrip>
+        <TabContentItem>
+            <GridLayout>
+                <Label text="Home Page" class="h2 text-center">
+                </Label>
+            </GridLayout>
+        </TabContentItem>
+        <TabContentItem>
+            <GridLayout>
+                <Label text="Settings Page" class="h2 text-center">
+                </Label>
+            </GridLayout>
+        </TabContentItem>
+        <TabContentItem>
+            <GridLayout>
+                <Label text="Search Page" class="h2 text-center">
+                </Label>
+            </GridLayout>
+        </TabContentItem>
+    </Tabs>
+</StackLayout>

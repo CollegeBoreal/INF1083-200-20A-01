@@ -18,7 +18,7 @@ $ code .
 ```
 
 ```
-$ ns resources generate icons ../images/CollegeBoreeal.png 
+$ ns resources generate icons ../images/milky-way-2-1.jpg
 ```
 
 # References
