@@ -30,3 +30,5 @@ https://market.nativescript.org/plugins/nativescript-image/
 https://blog.angelengineering.com/nativescript-images/
 
 https://www.youtube.com/watch?v=VDJe0I7PPaI
+
+https://github.com/hypery2k/nativescript-media-generator
