@@ -9,7 +9,8 @@ import { Country } from './country';
 })
 export class ApicallService {
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient) { }
+
   searchCountryByName(name: string): Observable<Country[]>{
     let headers: HttpHeaders = new HttpHeaders();
     headers = headers.append('Accept', 'application/json');
@@ -27,5 +28,5 @@ export class ApicallService {
             return throwError( 'Capital not found!' );
         })
     )
-}
+  }
 }
