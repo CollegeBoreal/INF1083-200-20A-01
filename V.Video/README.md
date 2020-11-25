@@ -1,4 +1,6 @@
-# nativescript-evoplayer
+# nativescript-exoplayer
+
+# [Participation](Participation.md)
 
 :one: create a project, replace b`<`your :id:`>`
 
@@ -37,7 +39,7 @@ registerElement("Video", () => Video);
 ```html
     <!-- Add your page content here -->
     <Video
-    src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+    src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
     autoplay="true"
     height="300"></Video>
 ``````
@@ -47,7 +49,11 @@ registerElement("Video", () => Video);
 :pushpin: Using local `Playground`
 
 ```
-% ns run
+$ ns platform add <android|ios>
+```
+
+```
+% ns run <android|ios>
 ```
 
 :pushpin: Using Preview
@@ -56,5 +62,22 @@ registerElement("Video", () => Video);
 % ns preview
 ```
 
+## :x: Custom
 
-# [Participation](Participation.md)
+:mobile: Android
+
+Open up the manifest file `AndroidManifest.xml` (in `App_Resource/Android/src/main`) and add by the following in `<application>` parameter tag:
+
+:keyboard: Dans [VSC](https://code.visualstudio.com/) Ouvrir un fichier -> `Ctrl p` :computer: Windows -> `⌘ p` :apple: MacOS
+
+
+```xml
+	<application
+		...
+		android:usesCleartextTraffic="true">
+```
+
+# References:
+
+https://developer.android.com/training/articles/security-config
+

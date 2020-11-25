@@ -3,11 +3,11 @@
 </ActionBar>
 
 <GridLayout>
-    <ListView [items]="items">
-        <ng-template let-item="item">
+    <StackLayout [FormGroup]="signUpForm">
+        <TextField FormControlName = "email" hint ="Email" KeybordType = "email"> </TextField>
             <StackLayout>
                 <Label [nsRouterLink]="['../item', item.id]" [text]="item.name"></Label>
             </StackLayout>
-        </ng-template>
-    </ListView>
+        </TextField>
+    </StackLayout>
 </GridLayout>
