@@ -4,7 +4,9 @@
 
 https://docs.nativescript.org/ui/layouts/layout-containers
 
-# Visualizin GIT
+[Mastering NativeScript Layouts - Brad Martin](https://www.youtube.com/watch?v=U191esT9_zY)
+
+# Visualizing GIT
 
 You were introduced to the tool [Visualizing Git](http://git-school.github.io/visualizing-git/) in this lesson. I would like you to replicate this visualization using Visulaizing Git:
 
