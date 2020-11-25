@@ -16,7 +16,7 @@ export class ApicallService {
     headers = headers.append('Accept', 'application/json');
     headers = headers.append(
         'X-RapidAPI-Key',
-        '----------hf11c17c4fea2b3dp179054jsn24----------'
+        'fbb61f70b0mshe3878c846ced4b4p12a2bbjsn299e7a63bfb1'
     );
     return this.httpClient.get(
         `https://restcountries-v1.p.rapidapi.com/capital/` + name,
