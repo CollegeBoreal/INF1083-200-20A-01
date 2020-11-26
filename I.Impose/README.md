@@ -39,7 +39,7 @@ La page comprendra du texte et une ou des images
 
 :four: Remplacer le contenu du composant `search` pour afficher un `API` de RapidAPI 
 
-:bulb: Voir le projet [R.RxJS](../R.RxJS)
+:bulb: Voir le projet [9.RxJS](../9.RxJS)
 
 :ab: Activités `git` et [MarkDown](https://github.com/CollegeBoreal/Tutoriels/tree/master/M.MarkDown)
 
