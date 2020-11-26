@@ -2,34 +2,34 @@
     "compilerOptions": {
         "module": "esnext",
         "target": "es2017",
+        "moduleResolution": "node",
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "noEmitHelpers": true,
         "noEmitOnError": true,
+        "skipLibCheck": true,
         "lib": [
-            "es6",
-            "dom",
-            "es2015.iterable",
-            "es2017"
+            "es2017",
+            "dom"
         ],
         "baseUrl": ".",
         "paths": {
-            "*": [
-                "./node_modules/tns-core-modules/*",
-                "./node_modules/*"
-            ],
             "~/*": [
-                "app/*"
+                "src/*"
             ]
-        },
-        "moduleResolution": "node",
-        "removeComments": false
+        }
     },
+    "include": [
+      "src/tests/**/*.ts",
+      "src/**/*.ios.ts",
+      "src/**/*.android.ts"
+    ],
+    "files": [
+      "./src/main.ts"
+    ],
     "exclude": [
         "node_modules",
         "platforms",
-        "typings",
-        "**/*.aot.ts",
-        "additional-models"
+        "e2e"
     ]
 }
