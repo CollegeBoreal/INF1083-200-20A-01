@@ -1,11 +1,11 @@
-import { SegmentedBar, SegmentedBarItem } from "ui/segmented-bar";
+import { SegmentedBar, SegmentedBarItem } from "@nativescript/core/ui/segmented-bar";
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from "@angular/core";
-import { RouterExtensions } from 'nativescript-angular/router';
-import { TabView } from "ui/tab-view";
-import { Page } from 'ui/page';
-import { ObservableArray } from "tns-core-modules/data/observable-array";
+import { RouterExtensions } from '@nativescript/angular/router';
+import { TabView } from "@nativescript/core/ui/tab-view";
+import { Page } from '@nativescript/core/ui/page';
+import { ObservableArray } from "@nativescript/core/data/observable-array";
 import { ListViewEventData, RadListView, ListViewLoadOnDemandMode } from "nativescript-ui-listview";
-import { GridLayout } from "ui/layouts/grid-layout";
+import { GridLayout } from "@nativescript/core/ui/layouts/grid-layout";
 @Component({
     selector: "player",
     moduleId: module.id,
@@ -14,7 +14,7 @@ import { GridLayout } from "ui/layouts/grid-layout";
 })
 export class PlayerComponent implements OnInit {
 
-    @ViewChild('bg') gridlayout: ElementRef;
+    @ViewChild('bg', {static: false}) gridlayout: ElementRef;
 
     constructor(private router: RouterExtensions, private page: Page) {
     }

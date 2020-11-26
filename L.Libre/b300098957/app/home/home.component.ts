@@ -1,8 +1,8 @@
-import { SegmentedBar, SegmentedBarItem } from "ui/segmented-bar";
+import { SegmentedBar, SegmentedBarItem } from "@nativescript/core/ui/segmented-bar";
 import { Component, OnInit } from "@angular/core";
-import { RouterExtensions } from 'nativescript-angular/router';
-import { Page } from "ui/page";
-import { screen } from "platform";
+import { RouterExtensions } from '@nativescript/angular/router';
+import { Page } from "@nativescript/core/ui/page";
+import { Screen } from "@nativescript/core/platform";
 
 @Component({
     selector: "Home",
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
 
     ngOnInit(): void {
         this.page.actionBarHidden = true;
-        this.viewHeigth = screen.mainScreen.heightDIPs * 0.6;
+        this.viewHeigth = Screen.mainScreen.heightDIPs * 0.6;
         // console.log(this.viewHeigth);
     }
 
