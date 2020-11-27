@@ -1,16 +1,35 @@
 import { Component, OnInit } from "@angular/core";
+import { RouterExtensions } from "@nativescript/angular";
+import { SearchBar } from "@nativescript/core/ui/search-bar";
+
 
 @Component({
     selector: "Home",
-    templateUrl: "./home.component.html"
+    templateUrl: "./home.component.html",
+    styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
 
-    constructor() {
-        // Use the component constructor to inject providers.
+    textFieldValue: string = "";
+
+    onButtonTap(): void {
+        console.log("Button was pressed");
+    }
+
+    searchPhrase: string;
+    onSearchSubmit(args): void {
+        let searchBar = <SearchBar>args.object;
+        console.log("You are searching for " + searchBar.text);
+    }
+
+
+    constructor(private routerExtensions: RouterExtensions) {
     }
 
     ngOnInit(): void {
-        // Init your component properties here.
+    }
+
+    onTaylorSwiftTap(): void {
+        this.routerExtensions.navigate(["/detail"]);
     }
 }
