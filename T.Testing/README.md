@@ -87,5 +87,9 @@ https://github.com/nstudio/nativescript-audio/blob/master/.github/workflows/buil
 ```
 
 ```
+% ns test init --framework mocha
+```
+
+```
 % ns test android --justlaunch
 ```
