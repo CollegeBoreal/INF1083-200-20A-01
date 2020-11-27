@@ -77,6 +77,10 @@ PS > choco install appium-desktop
 ```
 
 
+## Github Actions Examples
+
+https://github.com/nstudio/nativescript-audio/blob/master/.github/workflows/build.yml
+
 
 ```
 % emulator -avd test -no-audio -no-window &
