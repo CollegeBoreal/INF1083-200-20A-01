@@ -75,3 +75,13 @@ $ brew cask install appium
 ```
 PS > choco install appium-desktop
 ```
+
+
+
+```
+% emulator -avd test -no-audio -no-window &
+```
+
+```
+% ns test android --justlaunch
+```
