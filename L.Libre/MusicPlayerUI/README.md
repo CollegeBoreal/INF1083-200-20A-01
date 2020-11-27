@@ -1,8 +1,11 @@
 
 
+
+![image](https://raw.githubusercontent.com/NativeScript/code-samples/master/screens/music-player-ui.gif)
+
 webpack.config.js
 
-```json
+```
   const copyTargets = [
     { from: 'assets/**', noErrorOnMissing: true, globOptions: { dot: false, ...copyIgnore } },
     { from: 'fonts/**', noErrorOnMissing: true, globOptions: { dot: false, ...copyIgnore } },
