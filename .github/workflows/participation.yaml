@@ -44,9 +44,9 @@ jobs:
 
       - name: Emulator for Android development.
         run: |
-           sdkmanager "emulator" "platform-tools" "extras;android;m2repository" "extras;google;m2repository"                   
-           sdkmanager "platforms;android-28" "build-tools;28.0.3"
-           sdkmanager --install "system-images;android-28;google_apis;x86_64"
+           echo y | sdkmanager "emulator" "platform-tools" "extras;android;m2repository" "extras;google;m2repository"                   
+           echo y | sdkmanager "platforms;android-28" "build-tools;28.0.3"
+           echo y | sdkmanager --install "system-images;android-28;google_apis;x86_64"
            echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
 
       - shell: bash
