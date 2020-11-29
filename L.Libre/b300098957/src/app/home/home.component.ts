@@ -30,6 +30,11 @@ export class HomeComponent implements OnInit {
         this.router.navigate(["player"]);
     }
 
+    gotolist() {
+        console.log('none');
+    }
+
+
 }
 
 
