@@ -55,7 +55,7 @@ jobs:
            # Launch the Android device
            emulator -avd test -no-audio -no-window &
            # Wait for the device to start
-           adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
+           # adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
            # Show the Android device
            adb devices
 
