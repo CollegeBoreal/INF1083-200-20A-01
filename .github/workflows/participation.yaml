@@ -18,8 +18,9 @@ jobs:
           brew install node@10
           echo 'export PATH="/usr/local/opt/node@10/bin:$PATH"' >> ~/.bash_profile
           source ~/.bash_profile
-          echo "node --version "; node --version
-          echo "xcodebuild -version "; xcodebuild -version
+          echo "echo $SHELL \t"; echo $SHELL
+          echo "node --version \t"; node --version
+          echo "xcodebuild -version \t"; xcodebuild -version
 
       - shell: bash
         run: |
