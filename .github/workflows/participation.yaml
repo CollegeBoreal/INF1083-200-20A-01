@@ -27,9 +27,10 @@ jobs:
           ##
           ## Continuation for android-sdk
           ## Install Java 8
-          ## brew cask install adoptopenjdk8
+          ## brew cask install homebrew/cask-versions/adoptopenjdk8
           ## echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)' >> ~/.bash_profile
           ## source ~/.bash_profile
+          ## Java 8 is already installed on Mac
           echo "echo $JAVA_HOME \t"; echo $JAVA_HOME
           echo "java -version \t"; java -version
           ## Install Android SDK
@@ -38,6 +39,15 @@ jobs:
           source ~/.bash_profile
           echo "echo $ANDROID_HOME \t"; echo $ANDROID_HOME
           echo "sdkmanager --version \t"; sdkmanager --version
+          echo 'export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH' >> ~/.bash_profile
+          source ~/.bash_profile
+
+      - name: Emulator for Android development.
+        run: |
+           sdkmanager "emulator" "platform-tools" "extras;android;m2repository" "extras;google;m2repository"                   
+           sdkmanager "platforms;android-28" "build-tools;28.0.3"
+           sdkmanager --install "system-images;android-28;google_apis;x86_64"
+           echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
 
       - shell: bash
         run: |
