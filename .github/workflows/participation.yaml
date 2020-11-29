@@ -37,7 +37,7 @@ jobs:
           echo 'export ANDROID_HOME=/usr/local/share/android-sdk' >> ~/.bash_profile
           source ~/.bash_profile
           echo "echo $ANDROID_HOME \t"; echo $ANDROID_HOME
-          echo "sdkmanager -version \t"; sdkmanager -version
+          echo "sdkmanager --version \t"; sdkmanager --version
 
       - shell: bash
         run: |
