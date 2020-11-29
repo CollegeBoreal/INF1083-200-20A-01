@@ -27,9 +27,9 @@ jobs:
           ##
           ## Continuation for android-sdk
           ## Install Java 8
-          brew cask install adoptopenjdk8
-          echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)' >> ~/.bash_profile
-          source ~/.bash_profile
+          ## brew cask install adoptopenjdk8
+          ## echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)' >> ~/.bash_profile
+          ## source ~/.bash_profile
           echo "echo $JAVA_HOME \t"; echo $JAVA_HOME
           echo "java -version \t"; java -version
           ## Install Android SDK
