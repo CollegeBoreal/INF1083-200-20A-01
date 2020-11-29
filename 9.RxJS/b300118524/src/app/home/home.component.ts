@@ -1,28 +1,17 @@
 import { Component, OnInit } from "@angular/core";
-import { ApicallService } from "../shared/apicall.service";
-import { Country } from "../shared/country";
+
+import { DataService, DataItem } from "../shared/data.service";
 
 @Component({
     selector: "Home",
     templateUrl: "./home.component.html"
 })
 export class HomeComponent implements OnInit {
-    name: string;
-    countries: Array<Country>;
+    items: Array<DataItem>;
 
-    constructor(private apiService: ApicallService){
-        // Use the component constructor to inject providers.
-    }
+    constructor(private _itemService: DataService) { }
 
     ngOnInit(): void {
-        //this.items = this._itemService.getItems();
-    }
-    searchCapital() {
-        this.apiService
-            .searchCountryByName(this.name)
-            .subscribe((data:Country[]) => {
-                console.log(data);
-                this.countries = data;
-            });
+        this.items = this._itemService.getItems();
     }
 }

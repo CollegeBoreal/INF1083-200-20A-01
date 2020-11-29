@@ -7,10 +7,8 @@ import { Country } from "../shared/country";
     templateUrl: "./search.component.html"
 })
 export class SearchComponent implements OnInit {
-
     name: string;
     countries: Array<Country>;
-
     constructor(private apiService: ApicallService) {
         // Use the constructor to inject services.
     }
@@ -18,7 +16,6 @@ export class SearchComponent implements OnInit {
     ngOnInit(): void {
         // Use the "ngOnInit" handler to initialize data for the view.
     }
-
     searchCapital() {
         this.apiService
             .searchCountryByName(this.name)
