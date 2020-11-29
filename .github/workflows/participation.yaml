@@ -10,17 +10,38 @@ jobs:
     steps:
       - uses: actions/checkout@v1
         
-      - name: Install android-sdk
+      - name: Install the dependencies for iOS development.
         run: |
           ##
           ## Install nodejs
-          ## 
-          brew install node@10
-          echo 'export PATH="/usr/local/opt/node@10/bin:$PATH"' >> ~/.bash_profile
+          ## https://docs.nativescript.org/start/ns-setup-os-x
+          brew install node@12
+          echo 'export PATH="/usr/local/opt/node@12/bin:$PATH"' >> ~/.bash_profile
           source ~/.bash_profile
           echo "echo $SHELL \t"; echo $SHELL
           echo "node --version \t"; node --version
           echo "xcodebuild -version \t"; xcodebuild -version
+
+      - name: Install the dependencies for Android development.
+        run: |
+          ##
+          ## Continuation for android-sdk
+          ## Install Java 8
+          brew tap AdoptOpenJDK/openjdk
+          brew cask install adoptopenjdk8
+          echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)' >> ~/.bash_profile
+          source ~/.bash_profile
+          echo "echo $JAVA_HOME \t"; echo $JAVA_HOME
+          echo "java -version \t"; java -version
+          ## Install Android SDK
+          brew cask install android-sdk
+          echo 'export ANDROID_HOME=/usr/local/share/android-sdk' >> ~/.bash_profile
+          source ~/.bash_profile
+          echo "echo $ANDROID_HOME \t"; echo $ANDROID_HOME
+          echo "sdkmanager -version \t"; sdkmanager -version
+
+
+
 
       - shell: bash
         run: |
