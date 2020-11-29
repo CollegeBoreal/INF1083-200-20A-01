@@ -27,7 +27,6 @@ jobs:
           ##
           ## Continuation for android-sdk
           ## Install Java 8
-          brew tap AdoptOpenJDK/openjdk
           brew cask install adoptopenjdk8
           echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)' >> ~/.bash_profile
           source ~/.bash_profile
@@ -39,9 +38,6 @@ jobs:
           source ~/.bash_profile
           echo "echo $ANDROID_HOME \t"; echo $ANDROID_HOME
           echo "sdkmanager -version \t"; sdkmanager -version
-
-
-
 
       - shell: bash
         run: |
