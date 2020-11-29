@@ -3,11 +3,36 @@ name: Participations
 on: [push]
 
 jobs:
+  k6_local_test:
+    name: k6 local test on macos
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install k6 by homebrew
+        run: brew install k6
+
+      - name: Local k6 test
+        run: k6 run basic/script.js
+
+jobs:
   presence:
     name: presence de fichiers pour la participation
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
+
     steps:
       - uses: actions/checkout@v1
+        
+      - name: Install android-sdk
+        run: |
+          brew update
+          brew install node@10
+          echo 'export PATH="/usr/local/opt/node@10/bin:$PATH"' >> ~/.bash_profile
+          source ~/.bash_profile
+          node --version
+
       - shell: bash
         run: |
           ##
