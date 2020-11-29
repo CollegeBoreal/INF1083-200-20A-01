@@ -47,9 +47,9 @@ jobs:
            # Accepting All Licenses first 
            echo yes | sdkmanager --licenses
            # Install the Android packages
-           sdkmanager "emulator" "platform-tools" "extras;android;m2repository" "extras;google;m2repository"                   
-           sdkmanager "platforms;android-28" "build-tools;28.0.3"
-           sdkmanager "system-images;android-28;google_apis;x86_64"
+           echo y | sdkmanager "emulator" "platform-tools" "extras;android;m2repository" "extras;google;m2repository"                   
+           echo y | sdkmanager "platforms;android-28" "build-tools;28.0.3"
+           echo y | sdkmanager "system-images;android-28;google_apis;x86_64"
            # Create the Android device
            echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
            # Launch the Android device
