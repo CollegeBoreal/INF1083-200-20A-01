@@ -12,7 +12,9 @@ jobs:
         
       - name: Install android-sdk
         run: |
-          brew update
+          ##
+          ## Install nodejs
+          ## 
           brew install node@10
           echo 'export PATH="/usr/local/opt/node@10/bin:$PATH"' >> ~/.bash_profile
           source ~/.bash_profile
