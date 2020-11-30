@@ -25,7 +25,7 @@ $  ns platform add <plateforme>
 $ ns run <plateforme>
 ```
 
-## [Participation](Participation.md)
+## [Participation](.scripts/Participation.md)
 
 
 ## References
