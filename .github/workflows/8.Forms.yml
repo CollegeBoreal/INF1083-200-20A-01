@@ -1,0 +1,32 @@
+name: 8.Forms
+
+on: [push]
+
+jobs:
+  CheckForms:
+    name: Build iOS on MacOSX
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+    - uses: hrueger/setup-nativescript@v1.1.0
+      with:
+        nativescript-version: '7.0.10'
+    - name: Update pods
+      run: pod repo update
+      
+    - name: Check b300098957
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300098957
+      
+    - name: Check b300115065
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300115065
+      
+      
