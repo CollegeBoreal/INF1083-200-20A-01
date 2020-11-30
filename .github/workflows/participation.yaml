@@ -59,13 +59,11 @@ jobs:
     - uses: hrueger/setup-nativescript@v1.1.0
       with:
         nativescript-version: '7.0.10'
-    - name: Clone a NativeScript Demo App
-      run: git clone https://github.com/hrueger/nativescript-angular-template
     - name: Install dependencies
       run: npm install
-      working-directory: nativescript-angular-template
+      working-directory: V.Video/b300098957
     - name: Update pods
       run: pod repo update
     - name: Build NativeScript Demo App
       run: ns build ios
-      working-directory: nativescript-angular-template
+      working-directory: V.Video/b300098957
