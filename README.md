@@ -17,6 +17,7 @@ Développement d'applications
 |06|20-11-18| [7.Layouts](7.Layouts/.scripts/Participation.md)     | Mon Layout et Mon Git Merge                           |                  |   
 |07|20-11-24| [8.Forms](8.Forms/.scripts/Participation.md)         | Reactive Forms.                                       |                  |   
 |08|20-11-24| [9.RxJS](9.RxJS/.scripts/Participation.md)           | Acces aux données                                     |                  |   
+|08|20-12-02| [A.Animations](A.Animations/.scripts/Participation.md)| Anime l'application                                   |                  |   
 
 ## :two: Elements de Performance
 
