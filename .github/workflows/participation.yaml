@@ -46,11 +46,11 @@ jobs:
       - name: Emulator for Android development.
         run: |
            # Accepting All Licenses first 
-           yes | sdkmanager --licenses
+           yes | sdkmanager --licenses > /dev/null
            # Install the Android packages
-           yes | sdkmanager "emulator" "platform-tools" "extras;android;m2repository" "extras;google;m2repository"
-           yes | sdkmanager "platforms;android-28" "build-tools;28.0.3"
-           yes | sdkmanager "system-images;android-28;google_apis;x86_64"
+           yes | sdkmanager "emulator" "platform-tools" "extras;android;m2repository" "extras;google;m2repository"  > /dev/null
+           yes | sdkmanager "platforms;android-28" "build-tools;28.0.3"  > /dev/null
+           yes | sdkmanager "system-images;android-28;google_apis;x86_64"  > /dev/null
            # Create the Android device
            echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
            # Launch the Android device
