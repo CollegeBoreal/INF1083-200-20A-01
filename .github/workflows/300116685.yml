@@ -21,6 +21,7 @@ jobs:
     steps:
       # Set Students Environment Variable
       - name: Student ID
+        run: |
          echo "STUDENT_ID=b300116685" >> $GITHUB_ENV
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
