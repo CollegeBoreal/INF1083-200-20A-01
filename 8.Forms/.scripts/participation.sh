@@ -39,7 +39,7 @@ i=1
 for id in "${ETUDIANTS[@]}"
 do
    FILE=b${id}
-   OK="| ${i} | [b${id}](../b${id}) - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](../..//actions?query=workflow:b${id})" |
+   OK="| ${i} | [b${id}](../b${id}) - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](../../actions?query=workflow:b${id}) |"
    KO="| ${i} | [b${id}](../b${id}) - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | [:x:]                | [:x:] | "
    if [ -d "$FILE" ]; then
        echo ${OK}
