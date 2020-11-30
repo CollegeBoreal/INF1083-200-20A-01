@@ -41,6 +41,7 @@ jobs:
           echo "sdkmanager --version \t"; sdkmanager --version
           echo 'export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH' >> ~/.bash_profile
           source ~/.bash_profile
+          avdmanager list avd
 
       - name: Emulator for Android development.
         run: |
@@ -55,9 +56,8 @@ jobs:
            # Launch the Android device
            emulator -avd test -no-audio -no-window &
            # Wait for the device to start
-           adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
-           # Show the Android device
-           avdmanager list avd
+           # adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
+           # Show the Android device           
            adb devices
 
       - shell: bash
