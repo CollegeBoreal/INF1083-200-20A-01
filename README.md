@@ -1,9 +1,8 @@
 # INF1083-200-20A-01
 
-
-Nimporte quoi
-
 Développement d'applications
+
+## Épreuves: [:date:](.epreuves)
 
 ## :one: [Devoirs](Devoirs)
 
