@@ -1,6 +1,6 @@
 # Animations
 
-[Participation](.scripts/Participation.md)
+## [Participation](.scripts/Participation.md)
 
 Dans cet exercice, il est questions d'[animations](https://docs.nativescript.org/ui/animation.html). Il existe plusieurs types d'animations et on présentera deux animations:
 
