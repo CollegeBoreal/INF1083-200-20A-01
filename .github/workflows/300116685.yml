@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: b300116685
 
 # Controls when the action will run. 
 on:
@@ -44,6 +44,7 @@ jobs:
       # First Assignment
       - name: Check 8.Forms
         run: |
+          cd 8.Forms/$STUDENT_ID
           npm install
           ns build ios
-        working-directory: 8.Forms/$STUDENT_ID
+          cd ..
