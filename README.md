@@ -2,7 +2,7 @@
 
 Développement d'applications
 
-## Épreuves: [:date:](.epreuves)
+## :date: [Épreuves](.epreuves) 
 
 ## :one: [Devoirs](Devoirs)
 
