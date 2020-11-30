@@ -31,7 +31,7 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Fait               | Resultat |"
+echo "|:hash:| Boréal :id:                | Fait               | Actions  |"
 echo "|------|----------------------------|--------------------|----------|"
 
 i=1
@@ -39,8 +39,8 @@ i=1
 for id in "${ETUDIANTS[@]}"
 do
    FILE=b${id}
-   OK="| ${i} | [b${id}](../b${id}) | [:heavy_check_mark:] | [:red_book:](/actions?query=workflow:b${id})"
-   KO="| ${i} | [b${id}](../b${id}) | [:x:]                | [:x:] | "
+   OK="| ${i} | [b${id}](../b${id}) - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](../..//actions?query=workflow:b${id})" |
+   KO="| ${i} | [b${id}](../b${id}) - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | [:x:]                | [:x:] | "
    if [ -d "$FILE" ]; then
        echo ${OK}
    else
