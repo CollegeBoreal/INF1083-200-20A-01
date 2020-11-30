@@ -31,8 +31,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Fait               | Actions  |"
-echo "|------|----------------------------|--------------------|----------|"
+echo "|:hash:| Boréal :id:                | Fait               | Éxécution  |"
+echo "|------|----------------------------|--------------------|------------|"
 
 i=1
 
