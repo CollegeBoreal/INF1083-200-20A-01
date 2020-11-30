@@ -51,28 +51,21 @@ jobs:
   testDemoiOS:
     name: Build iOS on MacOSX
     runs-on: macOS-latest
-    
     steps:
-      - uses: actions/checkout@v1
-        
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '12'
-        
-      - uses: ./
-        with:
-          nativescript-version: '7.0.10'
-       
-      - name: Clone a NativeScript Demo App
-        run: git clone https://github.com/hrueger/nativescript-angular-template
-
-      - name: Install dependencies
-        run: npm install
-        working-directory: nativescript-angular-template
-
-      - name: Update pods
-        run: pod repo update
-
-      - name: Build NativeScript Demo App
-        run: ns build ios
-        working-directory: nativescript-angular-template
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+    - uses: ./
+      with:
+        nativescript-version: '7.0.10'
+    - name: Clone a NativeScript Demo App
+      run: git clone https://github.com/hrueger/nativescript-angular-template
+    - name: Install dependencies
+      run: npm install
+      working-directory: nativescript-angular-template
+    - name: Update pods
+      run: pod repo update
+    - name: Build NativeScript Demo App
+      run: ns build ios
+      working-directory: nativescript-angular-template
