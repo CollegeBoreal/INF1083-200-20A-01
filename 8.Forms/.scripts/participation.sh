@@ -34,7 +34,7 @@ echo ""
 echo "|:hash:| Boréal :id:                | Fait               | Éxécution  |"
 echo "|------|----------------------------|--------------------|------------|"
 
-i=1
+i=0
 
 URL="https://github.com/CollegeBoreal/INF1083-200-20A-01"
 
