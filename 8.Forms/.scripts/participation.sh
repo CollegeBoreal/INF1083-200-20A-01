@@ -31,16 +31,16 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Fait               |"
-echo "|------|----------------------------|--------------------|"
+echo "|:hash:| Boréal :id:                | Fait               | Resultat |"
+echo "|------|----------------------------|--------------------|----------|"
 
 i=1
 
 for id in "${ETUDIANTS[@]}"
 do
    FILE=b${id}
-   OK="| ${i} | [b${id}](../b${id}) | [:heavy_check_mark:] | "
-   KO="| ${i} | [b${id}](../b${id}) | [:x:]                | "
+   OK="| ${i} | [b${id}](../b${id}) | [:heavy_check_mark:] | [:red_book:](/actions?query=workflow:b${id})"
+   KO="| ${i} | [b${id}](../b${id}) | [:x:]                | [:x:] | "
    if [ -d "$FILE" ]; then
        echo ${OK}
    else
