@@ -17,16 +17,68 @@ jobs:
     - name: Update pods
       run: pod repo update
       
-    - name: Check b300098957
-      run: |
-        npm install
-        ns build ios
-      working-directory: 8.Forms/b300098957
-      
     - name: Check b300115065
       run: |
         npm install
         ns build ios
       working-directory: 8.Forms/b300115065
-      
-      
+
+    - name: Check b300115140
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300115140
+
+    - name: Check b300116670
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300116670
+
+    - name: Check b300116685
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300116685
+
+    - name: Check b300116973
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300116973
+
+    - name: Check b300117178
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300117178
+
+    - name: Check b300117314
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300117314
+
+    - name: Check b300117444
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300117444
+
+    - name: Check b300117782
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300117782
+
+    - name: Check b300117784
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300117784
+
+    - name: Check b300118524
+      run: |
+        npm install
+        ns build ios
+      working-directory: 8.Forms/b300118524
