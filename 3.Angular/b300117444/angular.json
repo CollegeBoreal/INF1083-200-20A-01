@@ -43,7 +43,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -114,7 +113,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "b300117314:serve"
+            "devServerTarget": "b300117444:serve"
           },
           "configurations": {
             "production": {
@@ -123,5 +122,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "b300117444"
+}

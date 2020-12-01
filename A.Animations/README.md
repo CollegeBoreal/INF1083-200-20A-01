@@ -1,5 +1,7 @@
 # Animations
 
+## [Participation](.scripts/Participation.md)
+
 Dans cet exercice, il est questions d'[animations](https://docs.nativescript.org/ui/animation.html). Il existe plusieurs types d'animations et on présentera deux animations:
 
 - [Declarative](https://docs.nativescript.org/ui/animation-css.html) ou encore connue sous le nom de `CSS Animation`
