@@ -1,4 +1,4 @@
-# Angular NS Component
+# P.Projets
 
 
 https://www.linkedin.com/learning/building-native-mobile-apps-with-nativescript-and-angular-2/components?u=56968449
@@ -13,22 +13,19 @@ La page comprendra du texte et une ou des images
 
 * montrer l'image du `sketch` dans son fichier `README.md` (voir ci-dessous)
 
-### :b: Créer un projet, remplacer `my` dans `my-tab-ng` par b`<`votre :id:`>`
+### :b: Créer un projet, appeler le par b`<`votre :id:`>`
 
-:one: par example le nom du projet sera `b300098957-tab-ng` 
+:one: par example le nom du projet sera `b300098957` 
 
 * Création utilisant un autre [template](https://github.com/NativeScript/nativescript-app-templates)
 
-```
-$  tns create my-tab-ng --template tns-template-tab-navigation-ng
-```
+`$  tns create b`:id:` --template @nativescript/template-tab-navigation-ng`
 
 :warning: Ne pas toucher le `routage` 
 
 * le fichier `app.component.html` il doit contenir plusieurs `<page-router-outlet></page-router-outlet>`
 
 * les `routing` modules
-
 
 :two: Remplacer le contenu de `items: Array<IDataItem>;` du composant `home` par le votre:
 
