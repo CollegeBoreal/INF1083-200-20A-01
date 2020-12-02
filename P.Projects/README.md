@@ -51,5 +51,5 @@ La page comprendra du texte et une ou des images
 
 # [Participation](Participation.md)
 
-# [Liste de Vérification](ListeDeVerification.md)
+# [:construction: Liste de Vérification](ListeDeVerification.md)
 
