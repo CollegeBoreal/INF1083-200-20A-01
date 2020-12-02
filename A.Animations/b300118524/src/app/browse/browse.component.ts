@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { RadSideDrawer } from "nativescript-ui-sidedrawer";
-import { Application } from "@nativescript/core";
+import { Application, View } from "@nativescript/core";
 
 @Component({
     selector: "Browse",
