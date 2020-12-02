@@ -47,6 +47,7 @@ Développement d'applications
 | [Telerik Play Ground](https://play.nativescript.org)                                |                                           |   
 | [Google Play](https://play.google.com/store/apps/details?id=org.nativescript.play) |                                           |
 | [Apple Store](https://apps.apple.com/ca/app/nativescript-playground/id1263543946)  |                                           |
+| [Open JS Foundation](https://openjsf.org/)  |                                           |
 
 |  :blue_book:                                                            |  Commentaires                              |
 |------------------------------------------------------------------------------------|-------------------------------------------|
