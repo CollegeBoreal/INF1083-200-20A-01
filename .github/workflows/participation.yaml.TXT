@@ -1,0 +1,97 @@
+name: Participations
+
+on: [push]
+
+jobs:
+  presence:
+    name: presence de fichiers pour la participation
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        
+      - name: Install the dependencies for iOS development.
+        run: |
+          ##
+          ## Install nodejs
+          ## https://docs.nativescript.org/start/ns-setup-os-x
+          brew install node@12
+          echo 'export PATH="/usr/local/opt/node@12/bin:$PATH"' >> ~/.bash_profile
+          source ~/.bash_profile
+          echo "echo $SHELL \t"; echo $SHELL
+          echo "node --version \t"; node --version
+          echo "xcodebuild -version \t"; xcodebuild -version
+
+      - name: Install the dependencies for Android development.
+        run: |
+          ##
+          ## Continuation for android-sdk
+          ## Install Java 8
+          ## brew cask install homebrew/cask-versions/adoptopenjdk8
+          ## echo 'export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)' >> ~/.bash_profile
+          ## source ~/.bash_profile
+          ## Java 8 is already installed on Mac
+          echo "echo $JAVA_HOME \t"; echo $JAVA_HOME
+          echo "java -version \t"; java -version
+          ## Install Android SDK
+          brew cask install android-sdk
+          echo 'export ANDROID_HOME=/usr/local/share/android-sdk' >> ~/.bash_profile
+          source ~/.bash_profile
+          echo "echo $ANDROID_HOME \t"; echo $ANDROID_HOME
+          echo "sdkmanager --version \t"; sdkmanager --version
+          echo 'export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH' >> ~/.bash_profile
+          source ~/.bash_profile
+
+      - name: Emulator for Android development.
+        run: |
+           # Accepting All Licenses first 
+           echo yes | sdkmanager --licenses > /dev/null
+           # Install the Android packages
+           echo y | sdkmanager "emulator" "platform-tools" "extras;android;m2repository" "extras;google;m2repository"  > /dev/null
+           echo y | sdkmanager "platforms;android-28" "build-tools;28.0.3"  > /dev/null
+           echo y | sdkmanager "system-images;android-28;google_apis;x86_64"  > /dev/null
+           # Create the Android device
+           echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
+           # Launch the Android device
+           # emulator -avd test -no-audio -no-window &
+           # Wait for the device to start
+           # adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
+           # Show the Android device           
+           avdmanager list avd
+           adb devices
+
+      - shell: bash
+        run: |
+          ##
+          ## Evaluating chapter 2.Web Student Participation
+          ## 
+          echo "Evaluating chapter 2.Web Student Participation"
+          cd 2.Web
+          bash .scripts/run.sh
+          ##
+          ## Evaluating chapter 7.Layouts Student Participation
+          ## 
+          echo "Evaluating chapter 7.Layouts Student Participation"
+          cd ../7.Layouts
+          bash .scripts/run.sh
+          ##
+          ## Evaluating chapter 8.Forms Student Participation
+          ## 
+          echo "Evaluating chapter 8.Forms Student Participation"
+          cd ../8.Forms
+          bash .scripts/run.sh
+          ##
+          ## Evaluating chapter 9.RxJS Student Participation
+          ## 
+          echo "Evaluating chapter 9.RxJS Student Participation"
+          cd ../9.RxJS
+          bash .scripts/run.sh
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Vérification de la participation" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

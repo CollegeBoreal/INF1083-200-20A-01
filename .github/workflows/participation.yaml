@@ -5,9 +5,11 @@ on: [push]
 jobs:
   presence:
     name: presence de fichiers pour la participation
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
+
     steps:
       - uses: actions/checkout@v1
+    
       - shell: bash
         run: |
           ##
@@ -34,11 +36,13 @@ jobs:
           echo "Evaluating chapter 9.RxJS Student Participation"
           cd ../9.RxJS
           bash .scripts/run.sh
+          
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Vérification de la participation" -a
+          
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

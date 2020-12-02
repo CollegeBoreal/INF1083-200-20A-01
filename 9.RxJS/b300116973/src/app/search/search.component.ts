@@ -9,7 +9,6 @@ import { ApicallService } from "../shared/apicall.service";
 export class SearchComponent implements OnInit {
     name: string;
     countries: Array<Country>;
-    
     constructor(private apiService: ApicallService) {
         // Use the constructor to inject services.
     }
