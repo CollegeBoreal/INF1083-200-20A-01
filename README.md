@@ -52,6 +52,7 @@ Développement d'applications
 |  :blue_book:                                                            |  Commentaires                              |
 |------------------------------------------------------------------------------------|-------------------------------------------|
 | [The Nativescript Book](https://nativescript.org/get-the-nativescript-book)        | |
+| [LinkedIn Learning](https://www.linkedin.com/learning/building-native-mobile-apps-with-nativescript-and-angular-2/welcome?u=56968449) | |
 
 
 |                              Glossaire                                                    |                                      |
