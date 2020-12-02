@@ -17,7 +17,7 @@ Développement d'applications
 |07|20-11-24| [8.Forms](8.Forms)                     | Reactive Forms.                        | [:student:](8.Forms/.scripts/Participation.md)     |
 |08|20-11-24| [9.RxJS](9.RxJS)                       | Acces aux données                      | [:student:](9.RxJS/.scripts/Participation.md)      |
 |08|20-12-02| [A.Animations](A.Animations)           | Anime l'application                    | [:student:](A.Animations/.scripts/Participation.md) |   
-|08|20-12-09| [V.Videos](V.Videos)                   | Montre une video                       | [:student:](V.Videos/.scripts/Participation.md)    |   
+|08|20-12-09| [V.Video](V.Video)                     | Montre une video                       | [:student:](V.Videos/.scripts/Participation.md)    |   
 |08|20-12-16| [P.Projects](P.Projects)               | Projet Final, c.f. [L.Libre](L.Libre)  | [:student:](P.Projetcs/.scripts/Participation.md)  |
 
 ## :two: Elements de Performance
