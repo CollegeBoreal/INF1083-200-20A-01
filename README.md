@@ -17,6 +17,7 @@ Développement d'applications
 |07|20-11-24| [8.Forms](8.Forms/.scripts/Participation.md)         | Reactive Forms.                                       |                  |   
 |08|20-11-24| [9.RxJS](9.RxJS/.scripts/Participation.md)            | Acces aux données                                     |                  |   
 |08|20-12-02| [A.Animations](A.Animations/.scripts/Participation.md)| Anime l'application                                  |                  |   
+|08|20-12-09| [V.Videos](V.Videos/.scripts/Participation.md)        | Montre une video                                      |                  |   
 |08|20-12-16| [P.Projects](P.Projetcs/.scripts/Participation.md)    | Projet Final                                          | voir aussi [L.Libre](L.Libre)|   
 
 ## :two: Elements de Performance
@@ -35,7 +36,7 @@ Développement d'applications
 |10|20-11-11| [8.Forms](8.Forms)                             | [Reactive Forms](https://angular.io/guide/forms-overview#setup-in-reactive-forms)          |        |
 |11|20-11-18| [9.RxJS](9.RxJS)                               |  [The Power of RxJS in NativeScript and Angular](https://nativescript.org/blog/nativescript-developer-day-the-power-of-rxjs-in-nativescript-and-angular/)   |                   |
 |12|20-11-25| [A.Animations](A.Animations)                   |                                         |                   |
-|13|20-12-02|                                                |                                         |                   |
+|13|20-12-02| [V.Videos](V.Videos)                           |                                         |                   |
 |14|20-12-09|                                                |                                         |                   |
 |15|20-12-16| Fin des cours                                  |                                         |                   |
 
