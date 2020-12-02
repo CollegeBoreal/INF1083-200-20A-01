@@ -14,7 +14,7 @@ Développement d'applications
 |04|20-10-07| [4.NativeScript](4.NativeScript)       | Ma premiere application mobile         | [:student:](4.NativeScript/.scripts/Participation.md)   |
 |05|20-10-14| [6.GitPages](6.GitPages)               | Ma premiere pages GitPages             | [:student:](6.GitPages/.scripts/Participation.md) | 
 |06|20-11-18| [7.Layouts](7.Layouts)                 | Mon Layout et Mon Git Merge            | [:student:](7.Layouts/.scripts/Participation.md)  |
-|07|20-11-24| [8.Forms](8.Forms)                     | Reactive Forms.                        | [::student](8.Forms/.scripts/Participation.md)     |
+|07|20-11-24| [8.Forms](8.Forms)                     | Reactive Forms.                        | [:student:](8.Forms/.scripts/Participation.md)     |
 |08|20-11-24| [9.RxJS](9.RxJS)                       | Acces aux données                      | [:student:](9.RxJS/.scripts/Participation.md)      |
 |08|20-12-02| [A.Animations](A.Animations)           | Anime l'application                    | [:student](A.Animations/.scripts/Participation.md) |   
 |08|20-12-09| [V.Videos](V.Videos)                   | Montre une video                       | [:student:](V.Videos/.scripts/Participation.md)    |   
