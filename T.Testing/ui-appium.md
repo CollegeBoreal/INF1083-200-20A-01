@@ -1,4 +1,4 @@
-# ui-tests
+# ui-tests with Appium
 
 
 
@@ -104,3 +104,7 @@ Launch Test
 ```
 % ns test android --justlaunch
 ```
+
+# References
+
+https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
