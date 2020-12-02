@@ -6,9 +6,9 @@ Développement d'applications
 
 ## :one: [Devoirs](Devoirs)
 
-|No| Date   | Cours                                  | Intitulé                               |  Commentaires    |
-|--|--------|:---------------------------------------|:---------------------------------------|:-----------------|
-|01|20-09-16| [1.Playground](1.Playground/README.md) | Mon premier projet sous Ng Nativescript| [:student:](1.Playground/.scripts/Participation.md) |
+|No| Date   | Cours                                  | Intitulé                               |  Commentaires                                   |
+|--|--------|:---------------------------------------|:---------------------------------------|:------------------------------------------------|
+|01|20-09-16| [1.Playground](1.Playground/README.md) | Mon premier projet sous Ng Nativescript| [:student:](1.Playground) |
 |02|20-09-23| [2.Web](2.Web)                         | Mon premier fichier HTML               | [:student:](2.Web/.scripts/Participation.md) |
 |03|20-09-30| [3.Angular](3.Angular)                 | Mon premier projet Angular             | [:student:](3.Angular/.scripts/Participation.md) |
 |04|20-10-07| [4.NativeScript](4.NativeScript)       | Ma premiere application mobile         | [:student:](4.NativeScript/.scripts/Participation.md)   |
