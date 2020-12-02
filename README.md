@@ -33,7 +33,7 @@ Développement d'applications
 |09|20-11-04| [7.Layouts](7.Layouts)                         | [Layouts](https://docs.nativescript.org/ui/layouts/layout-containers) |                   |
 |10|20-11-11| [8.Forms](8.Forms)                             | [Reactive Forms](https://angular.io/guide/forms-overview#setup-in-reactive-forms)          |        |
 |11|20-11-18| [9.RxJS](9.RxJS)                               |  [The Power of RxJS in NativeScript and Angular](https://nativescript.org/blog/nativescript-developer-day-the-power-of-rxjs-in-nativescript-and-angular/)   |                   |
-|12|20-11-25|                                                |                                         |                   |
+|12|20-11-25| [A.Animations](A.Animations)                   |                                         |                   |
 |13|20-12-02|                                                |                                         |                   |
 |14|20-12-09|                                                |                                         |                   |
 |15|20-12-16| Fin des cours                                  |                                         |                   |
