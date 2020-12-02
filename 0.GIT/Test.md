@@ -1,3 +1,5 @@
 * branch
 
-* 
+* init
+
+* remote
