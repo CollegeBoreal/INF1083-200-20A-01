@@ -67,7 +67,7 @@ $ ns build android
 :apple: On MacOS
 
 ```
-$ brew cask install appium
+$ brew install appium --cask 
 ```
 
 :computer: On Windows
