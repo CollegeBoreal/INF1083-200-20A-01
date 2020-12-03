@@ -108,3 +108,5 @@ Launch Test
 # References
 
 https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
+
+http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ 
