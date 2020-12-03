@@ -235,4 +235,6 @@ EOF
 
 - [ ] Error: zone-testing.js is needed for the async() test helper but could not be found.
 
+https://github.com/NativeScript/nativescript-cli/issues/5281
+
 https://stackoverflow.com/questions/57052129/asynctestzonespec-is-needed-for-the-async-angular
