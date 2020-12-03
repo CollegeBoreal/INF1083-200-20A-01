@@ -1,4 +1,4 @@
-# Correction
+# Tests avec Jasmine
 
 ## :one: Modifier les composants à tester 
 
