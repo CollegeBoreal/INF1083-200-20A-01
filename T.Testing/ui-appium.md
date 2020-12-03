@@ -17,7 +17,7 @@ https://docs.nativescript.org/plugins/ui-tests
 :two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
 
 ```
-$ npm install -g appium
+$ npm install appium --global 
 ```
 
 :pushpin: Choose `angular` and `jasmine`
