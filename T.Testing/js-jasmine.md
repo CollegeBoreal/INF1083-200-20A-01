@@ -1,5 +1,12 @@
 # Tests avec Jasmine
 
+## :zero: Créer un projet {N}
+
+
+```
+$ ns create test-jasmine --template @nativescript/template-tab-navigation-n
+```
+
 ## :one: Modifier les composants à tester 
 
 :bulb: Malheureusement, les composants NativeScript ne suivent pas le DOM
@@ -7,7 +14,7 @@
 * Ajouter au constructeur du composant `HomeComponent`, le parametre public suivant:
 
 ```typescript
-    import { Component, ElementRef, OnInit } from "@angular/core";
+    import { ElementRef } from "@angular/core";
     
 ...
     constructor(public elementRef: ElementRef) {
@@ -19,8 +26,8 @@ Le script suivant remplace les lignes ci-dessus en mimiquant l'éditeur `vi`
 
 ```
 $ ex src/app/home/home.component.ts <<EOF
-   :%s/import { Component, OnInit }/import { Component, ElementRef, OnInit }/g
-   :%s/constructor()/constructor(public elementRef: ElementRef)/g
+   :%s/import { Component, OnInit/import { Component, OnInit, ElementRef/g
+   :%s/constructor(/constructor(public elementRef: ElementRef, /g
    :wq
 EOF
 ```
@@ -35,7 +42,7 @@ EOF
 % ns test init --framework jasmine 
 ```
 
-* Faire un test préalable
+* Faire un test préalable avec :iphone: Android
 
 ```
 % ns test android --justlaunch
