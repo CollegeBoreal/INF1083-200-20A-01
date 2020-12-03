@@ -229,3 +229,10 @@ EOF
 ```
 % git add --force karma.conf.js
 ```
+
+
+# References
+
+- [ ] Error: zone-testing.js is needed for the async() test helper but could not be found.
+
+https://stackoverflow.com/questions/57052129/asynctestzonespec-is-needed-for-the-async-angular
