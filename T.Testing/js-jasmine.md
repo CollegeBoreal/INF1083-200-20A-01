@@ -53,7 +53,7 @@ EOF
 * Créer le fichier `test-main.ts`, comportant l'initialisation du TestBed avec le contenu suivant:
 
 ```typescript
-cat << EOF > src/tests/test-main.ts
+$ cat << EOF > src/tests/test-main.ts
 import { nsTestBedInit } from "@nativescript/angular/testing";
 nsTestBedInit();
 EOF
@@ -62,7 +62,7 @@ EOF
 * Créer le fichier `test-utils.ts`, comportant la visualisation des composants non-DOM avec le contenu suivant:
 
 ```typescript
-cat << EOF > src/tests/test-utils.ts
+$ cat << EOF > src/tests/test-utils.ts
 import { View } from "@nativescript/core/ui/core/view";
 import { TextBase } from "@nativescript/core/ui/text-base";
 import { Device } from "@nativescript/core/platform";
@@ -121,7 +121,7 @@ EOF
 * Home Component Test Script avec le contenu suivant:
 
 ```typescript
-cat << EOF > src/tests/home.component.spec.ts
+$ cat << EOF > src/tests/home.component.spec.ts
 import "reflect-metadata";
 import { 
     nsTestBedBeforeEach
@@ -164,7 +164,7 @@ EOF
 * Page Component Test Script avec le contenu suivant:
 
 ```typescript
-cat << EOF > src/tests/page.component.spec.ts
+$ cat << EOF > src/tests/page.component.spec.ts
 import "reflect-metadata";
 import { 
     nsTestBedBeforeEach
