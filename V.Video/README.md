@@ -62,9 +62,9 @@ $ ns platform add <android|ios>
 % ns preview
 ```
 
-## :x: Custom
+## :o: Customization
 
-:ios: Android
+:iphone: Android
 
 Open up the manifest file `AndroidManifest.xml` (in `App_Resource/Android/src/main`) and add the following to the `<application>` parameter tag:
 
