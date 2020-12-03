@@ -19,7 +19,7 @@ La page comprendra du texte et une ou des images
 
 * Création utilisant un autre [template](https://github.com/NativeScript/nativescript-app-templates)
 
-`$  tns create b`:id:` --template @nativesccript/template-tab-navigation-ng`
+`$  tns create b`:id:` --template @nativescript/template-tab-navigation-ng`
 
 
 :warning: Ne pas toucher le `routage` 
