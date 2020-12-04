@@ -82,7 +82,7 @@ $ ns build android
 
 [Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
 
-Esxample of Capabilities:
+Simple Example of Capabilities:
 
 ```json
 {
