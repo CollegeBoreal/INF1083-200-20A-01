@@ -107,6 +107,8 @@ Launch Test
 
 # References
 
+[Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
+
 https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
 
 http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ 
