@@ -1,5 +1,18 @@
 # ui-tests with Appium
 
+## :o: Install Appium-Desktop
+
+:apple: On MacOS
+
+```
+$ brew install appium --cask 
+```
+
+:computer: On Windows
+
+```
+PS > choco install appium-desktop
+```
 
 
 https://docs.nativescript.org/plugins/ui-tests
@@ -62,19 +75,6 @@ $ ns build android
 ```
 
 
-# References
-
-:apple: On MacOS
-
-```
-$ brew install appium --cask 
-```
-
-:computer: On Windows
-
-```
-PS > choco install appium-desktop
-```
 
 
 # References
