@@ -56,6 +56,24 @@ $ echo angular | npm install nativescript-dev-appium --save-dev
   none 
 ```
 
+````
+    "android28": {
+        "platformName": "Android",
+        "platformVersion": "28",
+        "deviceName": "emulator-5554",
+        "avd": "test",
+        "lt": 60000,
+        "newCommandTimeout": 720,
+        "noReset": true,
+        "fullReset": false,
+        "app": ""
+    },
+```
+
+```
+$ export ANDROID_AVD_HOME="???"
+```
+
 #### :three: Tree Code
 
 ```
