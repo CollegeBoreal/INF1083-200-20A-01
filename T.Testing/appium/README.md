@@ -123,6 +123,7 @@ for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS ap
 
 # References
 
+https://github.com/igniteram/appium-webdriverio-typescript :+1:
 
 https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
 
