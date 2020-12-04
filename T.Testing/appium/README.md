@@ -14,10 +14,18 @@ $ brew install appium --cask
 PS > choco install appium-desktop
 ```
 
+## :a: Create a {NS} Project
+
+#### :zero: Install Appium CLI globally
+
+```
+$ npm install appium --global 
+```
+
+
+#### :one: create a project, replace b`<`your :id:`>`
 
 https://docs.nativescript.org/plugins/ui-tests
-
-:one: create a project, replace b`<`your :id:`>`
 
 :pushpin: for example the project name will be `b300098957` 
 
@@ -27,11 +35,7 @@ https://docs.nativescript.org/plugins/ui-tests
 
 * go to your project 
 
-:two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
-
-```
-$ npm install appium --global 
-```
+#### :two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
 
 :pushpin: Choose `angular` and `jasmine`
 
@@ -52,7 +56,7 @@ $ echo angular | npm install nativescript-dev-appium --save-dev
   none 
 ```
 
-:three: Tree Code
+#### :three: Tree Code
 
 ```
 b000000000
@@ -74,12 +78,24 @@ b000000000
 $ ns build android
 ```
 
+## :b: Separate Testing of Appium 
 
+[Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
 
+Esxample of Capabilities:
+
+```json
+{
+  "deviceName": "emulator-5554",
+  "platformName": "Android",
+  "appPackage": "org.nativescript.b300098957",
+  "appActivity": "com.tns.NativeScriptActivity",
+  "noReset": true
+}
+```
 
 # References
 
-[Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
 
 https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
 
