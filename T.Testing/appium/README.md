@@ -32,7 +32,24 @@ https://docs.nativescript.org/plugins/ui-tests
 |------------------------------------------------------------------------------|-----------------------------------|
 | `$ ns create b`:id:` --ts                                                    |  taps left                        |
 
-* go to your project 
+-  [ ]  go to your project 
+
+```
+$ cd b300098957
+```
+
+-  [ ]  run you project against an emulator or a device
+
+```
+$ ns run android
+```
+
+-  [ ]  build you project for future tests use
+
+```
+$ ns build android
+```
+
 
 #### :two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
 
@@ -55,7 +72,7 @@ $ npm install nativescript-dev-appium --save-dev
   none 
 ```
 
-#### :three: Tree Code
+:pushpin: The tree code should look like this
 
 ```
 b000000000
@@ -72,11 +89,9 @@ b000000000
 ├── tsconfig.json
 ```
 
+#### :three: Setting up appium
 
-
-```
-$ ns build android
-```
+:bulb: Set `ANDROID_AVD_HOME` due to a [bug](https://github.com/NativeScript/mobile-devices-controller/issues/10)
 
 ```
 $ export ANDROID_AVD_HOME="???"
