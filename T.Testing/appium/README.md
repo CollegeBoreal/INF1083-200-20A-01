@@ -125,6 +125,12 @@ Searching for devices...
     },
 ```
 
+- [ ] Run the test
+
+```
+$ npm run e2e -- --runType android28
+```
+
 :round_pushpin: Real Device set `deviceToken` property in `appium.capabilities` to `Device Identifier`
 
 ```
@@ -151,6 +157,12 @@ Searching for devices...
         "fullReset": false,
         "app": ""
     },
+```
+
+- [ ] Run the test
+
+```
+$ npm run e2e -- --runType android29
 ```
 
 
