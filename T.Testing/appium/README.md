@@ -1,10 +1,31 @@
 # ui-tests with Appium
 
+## :o: Install Appium-Desktop
 
+:apple: On MacOS
+
+```
+$ brew install appium --cask 
+```
+
+:computer: On Windows
+
+```
+PS > choco install appium-desktop
+```
+
+## :a: Create a {NS} Project
+
+#### :zero: Install Appium CLI globally
+
+```
+$ npm install appium --global 
+```
+
+
+#### :one: create a project, replace b`<`your :id:`>`
 
 https://docs.nativescript.org/plugins/ui-tests
-
-:one: create a project, replace b`<`your :id:`>`
 
 :pushpin: for example the project name will be `b300098957` 
 
@@ -14,11 +35,7 @@ https://docs.nativescript.org/plugins/ui-tests
 
 * go to your project 
 
-:two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
-
-```
-$ npm install appium --global 
-```
+#### :two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
 
 :pushpin: Choose `angular` and `jasmine`
 
@@ -39,7 +56,7 @@ $ echo angular | npm install nativescript-dev-appium --save-dev
   none 
 ```
 
-:three: Tree Code
+#### :three: Tree Code
 
 ```
 b000000000
@@ -61,56 +78,58 @@ b000000000
 $ ns build android
 ```
 
-
-# References
-
-:apple: On MacOS
-
-```
-$ brew install appium --cask 
-```
-
-:computer: On Windows
-
-```
-PS > choco install appium-desktop
-```
-
-
-## Github Actions Examples
-
-https://github.com/nstudio/nativescript-audio/blob/master/.github/workflows/build.yml
-
-Launch Emulator
-
-```
-% emulator -avd test -no-audio -no-window &
-```
-
-Wait for Emulator to start
-
-```
-% adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
-```
-
-Create Test
-
-```
-% ns test init --framework mocha
-```
-
-Launch Test
-
-```
-% ns test android --justlaunch
-```
-
-# References
+## :b: Separate Testing of Appium 
 
 [Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
+
+Simple Example of Capabilities:
+
+- [ ] Locate your device name
+
+```
+$ adb devices
+List of devices attached
+emulator-5554	device
+
+```
+
+- [ ] Locate your App `Package` and `Activity` name
+
+* run your app on the emulator
+
+* Start tracing the log
+
+```
+$ adb logcat > keeplog.txt
+```
+
+* Find the App `Package` and `Activity` name
+
+for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS app name called `b300098957`
+
+- [ ] Resulting capability file
+
+```json
+{
+  "deviceName": "emulator-5554",
+  "platformName": "Android",
+  "appPackage": "org.nativescript.b300098957",
+  "appActivity": "com.tns.NativeScriptActivity",
+  "noReset": true
+}
+```
+
+![image](images/appium-server.png)
+
+# References
+
 
 https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
 
 http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ 
 
 https://www.techaheadcorp.com/blog/how-to-install-appium-on-mac/
+
+# :x: Errors
+
+https://github.com/NativeScript/mobile-devices-controller/issues/10
