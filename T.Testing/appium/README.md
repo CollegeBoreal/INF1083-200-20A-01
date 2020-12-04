@@ -14,7 +14,7 @@ $ brew install appium --cask
 PS > choco install appium-desktop
 ```
 
-## :a: Create a {NS} Project
+## :a: Create a {N} Project
 
 #### :zero: Install Appium CLI globally
 
