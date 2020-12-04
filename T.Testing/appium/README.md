@@ -84,6 +84,31 @@ $ ns build android
 
 Simple Example of Capabilities:
 
+- [ ] Locate your device name
+
+```
+$ adb devices
+List of devices attached
+emulator-5554	device
+
+```
+
+- [ ] Locate your App `Package` and `Activity` name
+
+* run your app on the emulator
+
+* Start tracing the log
+
+```
+$ adb logcat > keeplog.txt
+```
+
+* Find the App `Package` and `Activity` name
+
+for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS app name called `b300098957`
+
+- [ ] Resulting capability file
+
 ```json
 {
   "deviceName": "emulator-5554",
