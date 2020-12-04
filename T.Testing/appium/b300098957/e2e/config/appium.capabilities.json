@@ -79,13 +79,22 @@
     "android28": {
         "platformName": "Android",
         "platformVersion": "28",
-        "deviceName": "emulator-5554",
+        "avd": "test",
         "lt": 60000,
         "newCommandTimeout": 720,
         "noReset": true,
         "fullReset": false,
-        "app": "",
-        "sdk":"android"
+        "app": ""
+    },
+    "android29": {
+        "platformName": "Android",
+        "platformVersion": "29",
+        "deviceToken": "R52N94D54BK",
+        "lt": 60000,
+        "newCommandTimeout": 720,
+        "noReset": true,
+        "fullReset": false,
+        "app": ""
     },
     "sim.iPhone7": {
         "platformName": "iOS",
