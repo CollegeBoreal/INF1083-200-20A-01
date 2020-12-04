@@ -96,6 +96,30 @@ $ export ANDROID_AVD_HOME="???"
     },
 ```
 
+```
+$ ns devices
+
+Connected devices & emulators
+Searching for devices...
+┌───┬──────────────┬──────────┬───────────────────┬────────┬───────────┬─────────────────┐
+│ # │ Device Name  │ Platform │ Device Identifier │ Type   │ Status    │ Connection Type │
+│ 1 │ nyc4xlwifiyy │ Android  │ R52N94D54BK       │ Device │ Connected │ USB             │
+└───┴──────────────┴──────────┴───────────────────┴────────┴───────────┴─────────────────┘
+```
+
+
+```
+   "android29": {
+        "platformName": "Android",
+        "platformVersion": "29",
+        "deviceToken": "R52N94D54BK",
+        "lt": 60000,
+        "newCommandTimeout": 720,
+        "noReset": true,
+        "fullReset": false,
+        "app": ""
+    },
+```
 
 
 ## :b: Separate Testing of Appium 
