@@ -97,11 +97,10 @@ Searching for devices...
 
 - [ ] appium.capabilities.json
 
-```
+```json
     "android28": {
         "platformName": "Android",
         "platformVersion": "28",
-        "deviceName": "Emulator-Api28-Google",
         "avd": "test",
         "lt": 60000,
         "newCommandTimeout": 720,
@@ -126,7 +125,7 @@ Searching for devices...
 
 - [ ] appium.capabilities.json
 
-```
+```json
    "android29": {
         "platformName": "Android",
         "platformVersion": "29",
