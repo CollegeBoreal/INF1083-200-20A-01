@@ -22,7 +22,6 @@ PS > choco install appium-desktop
 $ npm install appium --global 
 ```
 
-
 #### :one: create a project, replace b`<`your :id:`>`
 
 https://docs.nativescript.org/plugins/ui-tests
@@ -31,7 +30,7 @@ https://docs.nativescript.org/plugins/ui-tests
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --ng                                                    |  Hellow World                     |
+| `$ ns create b`:id:` --ts                                                    |  taps left                        |
 
 * go to your project 
 
@@ -40,7 +39,7 @@ https://docs.nativescript.org/plugins/ui-tests
 :pushpin: Choose `typescript` and `mocha`
 
 ```
-$ echo angular | npm install nativescript-dev-appium --save-dev 
+$ npm install nativescript-dev-appium --save-dev 
 ...
 ? What kind of project do you use? (Use arrow keys)
   javascript 
@@ -56,7 +55,34 @@ $ echo angular | npm install nativescript-dev-appium --save-dev
   none 
 ```
 
-````
+#### :three: Tree Code
+
+```
+b000000000
+├── app
+├── e2e
+    ├── config
+        ├── mocha.opts
+        ├── appium.capabilities.json
+    ├── sample.e2e-test.ts
+    ├── setup.ts
+    ├── tsconfig.json
+├── ...
+├── package.json
+├── tsconfig.json
+```
+
+
+
+```
+$ ns build android
+```
+
+```
+$ export ANDROID_AVD_HOME="???"
+```
+
+```
     "android28": {
         "platformName": "Android",
         "platformVersion": "28",
@@ -70,31 +96,7 @@ $ echo angular | npm install nativescript-dev-appium --save-dev
     },
 ```
 
-```
-$ export ANDROID_AVD_HOME="???"
-```
 
-#### :three: Tree Code
-
-```
-b000000000
-├── app
-├── e2e
-    ├── config
-        ├── jasmine.opts
-        ├── appium.capabilities.json
-    ├── sample.e2e-test.ts
-    ├── setup.ts
-    ├── tsconfig.json
-├── ...
-├── package.json
-├── tsconfig.json
-```
-
-
-```
-$ ns build android
-```
 
 ## :b: Separate Testing of Appium 
 
