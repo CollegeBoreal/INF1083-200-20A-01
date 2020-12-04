@@ -23,7 +23,7 @@ $ npm install appium --global
 :pushpin: Choose `angular` and `jasmine`
 
 ```
-$ npm install --save-dev nativescript-dev-appium
+$ echo angular | npm install nativescript-dev-appium --save-dev 
 ...
 ? What kind of project do you use? (Use arrow keys)
   javascript 
