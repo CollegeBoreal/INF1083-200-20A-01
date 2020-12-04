@@ -37,22 +37,22 @@ https://docs.nativescript.org/plugins/ui-tests
 
 #### :two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
 
-:pushpin: Choose `angular` and `jasmine`
+:pushpin: Choose `typescript` and `mocha`
 
 ```
 $ echo angular | npm install nativescript-dev-appium --save-dev 
 ...
 ? What kind of project do you use? (Use arrow keys)
   javascript 
-  typescript 
-❯ angular 
+❯ typescript 
+  angular 
   vue 
   shared-ng-project 
 ...
-? What kind of project do you use? angular
+? What kind of project do you use? typescript
 ? Which testing framework do you prefer? (Use arrow keys)
-  mocha 
-❯ jasmine 
+❯ mocha 
+  jasmine 
   none 
 ```
 
