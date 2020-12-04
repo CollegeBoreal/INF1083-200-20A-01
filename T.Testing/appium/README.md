@@ -82,11 +82,26 @@ $ ns build android
 $ export ANDROID_AVD_HOME="???"
 ```
 
+:round_pushpin: Emulator set `avd` property in `appium.capabilities` to `Device Name`
+
+```
+$ ns devices
+
+Connected devices & emulators
+Searching for devices...
+┌───┬──────────────┬──────────┬───────────────────┬──────────┬───────────┬─────────────────┐
+│ # │ Device Name  │ Platform │ Device Identifier │ Type     │ Status    │ Connection Type │
+│ 1 │ test         │ Android  │ emulator-5554     │ Emulator │ Connected │ Local           │
+└───┴──────────────┴──────────┴───────────────────┴──────────┴───────────┴─────────────────┘
+```
+
+- [ ] appium.capabilities.json
+
 ```
     "android28": {
         "platformName": "Android",
         "platformVersion": "28",
-        "deviceName": "emulator-5554",
+        "deviceName": "Emulator-Api28-Google",
         "avd": "test",
         "lt": 60000,
         "newCommandTimeout": 720,
@@ -95,6 +110,8 @@ $ export ANDROID_AVD_HOME="???"
         "app": ""
     },
 ```
+
+:round_pushpin: Real Device set `deviceToken` property in `appium.capabilities` to `Device Identifier`
 
 ```
 $ ns devices
@@ -107,6 +124,7 @@ Searching for devices...
 └───┴──────────────┴──────────┴───────────────────┴────────┴───────────┴─────────────────┘
 ```
 
+- [ ] appium.capabilities.json
 
 ```
    "android29": {
