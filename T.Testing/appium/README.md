@@ -129,3 +129,7 @@ https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
 http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ 
 
 https://www.techaheadcorp.com/blog/how-to-install-appium-on-mac/
+
+# :x: Errors
+
+https://github.com/NativeScript/mobile-devices-controller/issues/10
