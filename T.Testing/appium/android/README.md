@@ -1,6 +1,6 @@
 # :iphone: Android
 
-#### :three: Setting up appium
+#### :a: Setting up appium with NativeScript
 
 :bulb: Set `ANDROID_AVD_HOME` due to a [bug](https://github.com/NativeScript/mobile-devices-controller/issues/10)
 
@@ -76,7 +76,7 @@ Searching for devices...
 $ npm run e2e -- --runType android29
 ```
 
-## :b: Separate Testing of Appium 
+## :b: Separate Testing of Appium Desktop
 
 [Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
 
