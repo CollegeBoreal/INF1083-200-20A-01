@@ -89,7 +89,19 @@ b000000000
 ├── tsconfig.json
 ```
 
-x# References
+### :three: Run the test
+
+- [ ] (Android)(android)
+
+- [ ] (ios)(android)
+
+:tada: Final Result in your browser
+
+![image](../images/mocha-fine.png)
+
+
+
+# References
 
 https://github.com/igniteram/appium-webdriverio-typescript :+1:
 
