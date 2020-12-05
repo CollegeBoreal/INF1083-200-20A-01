@@ -41,13 +41,13 @@ $ cd b300098957
 -  [ ]  run you project against an emulator or a device
 
 ```
-$ ns run android
+$ ns run [android/ios]
 ```
 
 -  [ ]  build you project for future tests use
 
 ```
-$ ns build android
+$ ns build [android/ios]
 ```
 
 
@@ -91,9 +91,9 @@ b000000000
 
 ### :three: Run the test
 
-- [ ] (Android)(android)
+- [ ] with [Android](android)
 
-- [ ] (ios)(android)
+- [ ] with [ios](ios)
 
 :tada: Final Result in your browser
 
