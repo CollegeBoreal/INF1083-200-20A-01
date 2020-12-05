@@ -93,6 +93,8 @@ b000000000
 
 :bulb: Set `ANDROID_AVD_HOME` due to a [bug](https://github.com/NativeScript/mobile-devices-controller/issues/10)
 
+![image](images/sdk-undefined.png)
+
 ```
 $ export ANDROID_AVD_HOME="???"
 ```
