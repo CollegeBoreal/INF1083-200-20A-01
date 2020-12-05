@@ -10,7 +10,7 @@
 $ export ANDROID_AVD_HOME="???"
 ```
 
-:round_pushpin: Emulator set `avd` property in `appium.capabilities` to `Device Name`
+:round_pushpin: Emulator: set `avd` property in `appium.capabilities` to `Device Name`
 
 ```
 $ ns devices
@@ -43,7 +43,7 @@ Searching for devices...
 $ npm run e2e -- --runType android28
 ```
 
-:round_pushpin: Real Device set `deviceToken` property in `appium.capabilities` to `Device Identifier`
+:round_pushpin: Real Device: Set `deviceToken` property in `appium.capabilities` to `Device Identifier`
 
 ```
 $ ns devices
