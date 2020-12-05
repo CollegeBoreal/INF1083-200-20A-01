@@ -5,7 +5,7 @@
 :round_pushpin: Emulator: set `avd` property in `appium.capabilities` to `Device Name`
 
 ```
-$ % ns devices
+$ ns devices
 
 Connected devices & emulators
 Searching for devices...
