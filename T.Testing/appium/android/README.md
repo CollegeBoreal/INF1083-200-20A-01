@@ -76,11 +76,6 @@ Searching for devices...
 $ npm run e2e -- --runType android29
 ```
 
-:tada: Final Result in your browser
-
-![image](../images/mocha-fine.png)
-
-
 ## :b: Separate Testing of Appium 
 
 [Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
