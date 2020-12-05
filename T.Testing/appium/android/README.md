@@ -22,7 +22,7 @@ Searching for devices...
 └───┴──────────────┴──────────┴───────────────────┴──────────┴───────────┴─────────────────┘
 ```
 
-- [ ] appium.capabilities.json
+- [ ] Edit `appium.capabilities.json` file
 
 ```json
     "android28": {
@@ -55,7 +55,7 @@ Searching for devices...
 └───┴──────────────┴──────────┴───────────────────┴────────┴───────────┴─────────────────┘
 ```
 
-- [ ] appium.capabilities.json
+- [ ] Edit `appium.capabilities.json` file
 
 ```json
    "android29": {
