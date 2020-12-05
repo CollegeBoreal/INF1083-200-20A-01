@@ -111,6 +111,6 @@ for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS ap
 
 # References
 
-<img src="https://i.stack.imgur.com/f78Go.png width="954" height="442"></img>
+<img src="https://i.stack.imgur.com/f78Go.png" width="954" height="442"></img>
 
 https://stackoverflow.com/questions/46673050/unable-to-boot-device-due-to-insufficient-system-resources-using-xcode-9
