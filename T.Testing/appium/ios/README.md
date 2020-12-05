@@ -108,3 +108,9 @@ for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS ap
 ```
 
 ![image](../images/appium-server.png)
+
+# References
+
+![image](https://i.stack.imgur.com/f78Go.png)
+
+https://stackoverflow.com/questions/46673050/unable-to-boot-device-due-to-insufficient-system-resources-using-xcode-9
