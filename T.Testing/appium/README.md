@@ -97,7 +97,7 @@ b000000000
 
 :tada: Final Result in your browser
 
-![image](../images/mocha-fine.png)
+![image](images/mocha-fine.png)
 
 
 
