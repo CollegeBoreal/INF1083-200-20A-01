@@ -18,13 +18,11 @@ Searching for devices...
 - [ ] Edit `appium.capabilities.json` file
 
 ```json
-    "android28": {
-        "platformName": "Android",
-        "platformVersion": "28",
-        "avd": "test",
-        "lt": 60000,
-        "newCommandTimeout": 720,
-        "noReset": true,
+    "sim.iPhoneXS": {
+        "platformName": "ios",
+        "platformVersion": "/12*/",
+        "deviceName": "iPhone XS",
+        "noReset": false,
         "fullReset": false,
         "app": ""
     },
