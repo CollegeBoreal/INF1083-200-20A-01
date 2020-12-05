@@ -225,6 +225,8 @@ http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/
 
 https://www.techaheadcorp.com/blog/how-to-install-appium-on-mac/
 
+https://medium.com/@sandeepqaops/setting-up-github-actions-for-react-native-mobile-app-for-android-emulator-with-appium-96efa67a359
+
 # :x: Errors
 
 https://github.com/NativeScript/mobile-devices-controller/issues/10
