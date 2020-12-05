@@ -2,14 +2,6 @@
 
 #### :a: Setting up appium with NativeScript
 
-:bulb: Set `ANDROID_AVD_HOME` due to a [bug](https://github.com/NativeScript/mobile-devices-controller/issues/10)
-
-![image](../images/sdk-undefined.png)
-
-```
-$ export ANDROID_AVD_HOME="???"
-```
-
 :round_pushpin: Emulator: set `avd` property in `appium.capabilities` to `Device Name`
 
 ```
