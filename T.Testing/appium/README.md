@@ -167,6 +167,10 @@ Searching for devices...
 $ npm run e2e -- --runType android29
 ```
 
+:tada: Final Result in your browser
+
+![image](images/mocha-fine.png)
+
 
 ## :b: Separate Testing of Appium 
 
