@@ -5,13 +5,14 @@
 :round_pushpin: Emulator: set `avd` property in `appium.capabilities` to `Device Name`
 
 ```
-$ ns devices
+$ % ns devices
+
 Connected devices & emulators
 Searching for devices...
-┌───┬──────────────┬──────────┬───────────────────┬──────────┬───────────┬─────────────────┐
-│ # │ Device Name  │ Platform │ Device Identifier │ Type     │ Status    │ Connection Type │
-│ 1 │ test         │ Android  │ emulator-5554     │ Emulator │ Connected │ Local           │
-└───┴──────────────┴──────────┴───────────────────┴──────────┴───────────┴─────────────────┘
+┌───┬─────────────┬──────────┬──────────────────────────────────────┬──────────┬───────────┬─────────────────┐
+│ # │ Device Name │ Platform │ Device Identifier                    │ Type     │ Status    │ Connection Type │
+│ 1 │ iPhone 11   │ iOS      │ A5D4EBAB-0802-454F-B1C1-95A6C0ED727C │ Emulator │ Connected │ Local           │
+└───┴─────────────┴──────────┴──────────────────────────────────────┴──────────┴───────────┴─────────────────┘
 ```
 
 - [ ] Edit `appium.capabilities.json` file
