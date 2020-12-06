@@ -2,9 +2,9 @@
 
 #### :a: Setting up appium with NativeScript
 
-- [ ] Install `appium` CLI
+- [ ] Install `appium` CLI server
 
-You need to install `appium` CLI first, otherwise you get an [TypeError [ERR_INVALID_ARG_TYPE]: The "pid" argument must be of type number. Received type undefined](https://github.com/NativeScript/nativescript-dev-appium/issues/220)
+You need to install `appium` CLI server first, otherwise you get an [TypeError [ERR_INVALID_ARG_TYPE]: The "pid" argument must be of type number. Received type undefined](https://github.com/NativeScript/nativescript-dev-appium/issues/220)
 
 ```
 $ npm install appium --global
