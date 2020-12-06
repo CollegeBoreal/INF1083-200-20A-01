@@ -4,7 +4,7 @@
 
 - [ ] Install `appium` CLI server
 
-You need to install `appium` CLI server first, otherwise you get an [TypeError [ERR_INVALID_ARG_TYPE]: The "pid" argument must be of type number. Received type undefined](https://github.com/NativeScript/nativescript-dev-appium/issues/220)
+You need to install `appium` CLI server first, see Know Errors below
 
 ```
 $ npm install appium --global
