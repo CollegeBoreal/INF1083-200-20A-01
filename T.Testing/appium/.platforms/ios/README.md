@@ -72,7 +72,7 @@ $ npm run e2e -- --runType dev.iPhone12
 
 [Test on real devices](http://appium.io/docs/en/drivers/ios-xcuitest-real-devices)
 
-There is also a dependency, made necessary by Facebook's WebDriverAgent, for the Carthage dependency manager. If you do not have Carthage on your system, it can also be installed with Homebrew
+There is also a dependency, made necessary by [Facebook's WebDriverAgent](https://github.com/facebook/WebDriverAgent), for the Carthage dependency manager. If you do not have Carthage on your system, it can also be installed with Homebrew
 
 ```
 $ brew install carthage
