@@ -148,6 +148,7 @@ $ ls -l /Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b3000989
 
 <img src="../../images/appium-ios-recording.png" width="773" height="393"></img>
 
+* Note that along with the app `b300098957`, the `WebDriverAgent` is also installed.
 
 <img src="../../images/iPhone12mini.png" width="436" height="791"></img>
 
