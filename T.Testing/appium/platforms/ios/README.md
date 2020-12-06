@@ -70,7 +70,10 @@ $ npm run e2e -- --runType dev.iPhone12
 
 ## :b: Separate Testing of Appium Desktop
 
-[Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
+
+```
+$ brew install carthage
+```
 
 Simple Example of Capabilities:
 
