@@ -88,7 +88,8 @@ Simple Example of Capabilities:
 
 
 ```
-$ xcrun xctrace list devices
+$ xcrun simctl list devices | grep '(Booted)'
+    iPhone 12 (9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F) (Booted) 
 ```
 
 or
