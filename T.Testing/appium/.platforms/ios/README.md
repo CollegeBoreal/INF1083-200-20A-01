@@ -15,12 +15,13 @@ $ npm install appium --global
 
 ```
 $ ns devices
+Error while loading nativescript-cloud is: Default commands should be required before child commands
 
 Connected devices & emulators
 Searching for devices...
 ┌───┬─────────────┬──────────┬──────────────────────────────────────┬──────────┬───────────┬─────────────────┐
 │ # │ Device Name │ Platform │ Device Identifier                    │ Type     │ Status    │ Connection Type │
-│ 1 │ iPhone 11   │ iOS      │ A5D4EBAB-0802-454F-B1C1-95A6C0ED727C │ Emulator │ Connected │ Local           │
+│ 1 │ iPhone 12   │ iOS      │ 9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F │ Emulator │ Connected │ Local           │
 └───┴─────────────┴──────────┴──────────────────────────────────────┴──────────┴───────────┴─────────────────┘
 ```
 
