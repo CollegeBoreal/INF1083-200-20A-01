@@ -11,7 +11,7 @@ $ npm install appium --global
 ```
 
 
-:round_pushpin: Emulator: set `avd` property in `appium.capabilities` to `Device Name`
+:round_pushpin: Emulator: set `bundleId` property in `appium.capabilities` to `org.nativescript.b300098957` and others
 
 ```
 $ ns devices
