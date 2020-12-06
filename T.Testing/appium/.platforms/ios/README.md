@@ -4,7 +4,7 @@
 
 - [ ] Install `appium` CLI server
 
-You need to install `appium` CLI server first, see [:construction: Know Errors](README.md#x-known-errors) below
+You need to install `appium` CLI server first, see [:construction: Know Errors](README.md#construction-known-errors) below
 
 ```
 $ npm install appium --global
@@ -162,7 +162,7 @@ https://github.com/appium/appium-for-mac
 
 https://www.rubydoc.info/github/appium/ruby_lib_core/Appium/Core/Base/Driver:session_capabilities
 
-# :x: Known Errors
+# :construction: Known Errors
 
 | :x: `TypeError` | :bulb: Fix |  
 |------------|------------|
