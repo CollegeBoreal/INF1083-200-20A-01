@@ -37,25 +37,26 @@ $ npm run e2e -- --runType android28
 :round_pushpin: Real Device: Set `deviceToken` property in `appium.capabilities` to `Device Identifier`
 
 ```
-$ ns devices
+$ ns device% ns devices
+Error while loading nativescript-cloud is: Default commands should be required before child commands
+
 Connected devices & emulators
 Searching for devices...
-┌───┬──────────────┬──────────┬───────────────────┬────────┬───────────┬─────────────────┐
-│ # │ Device Name  │ Platform │ Device Identifier │ Type   │ Status    │ Connection Type │
-│ 1 │ nyc4xlwifiyy │ Android  │ R52N94D54BK       │ Device │ Connected │ USB             │
-└───┴──────────────┴──────────┴───────────────────┴────────┴───────────┴─────────────────┘
+┌───┬─────────────┬──────────┬──────────────────────────────────────────┬────────┬───────────┬─────────────────┐
+│ # │ Device Name │ Platform │ Device Identifier                        │ Type   │ Status    │ Connection Type │
+│ 1 │ myIpad      │ iOS      │ c08f504402034771f5044020344404203489a87c │ Device │ Connected │ Wifi            │
+└───┴─────────────┴──────────┴──────────────────────────────────────────┴────────┴───────────┴─────────────────┘
 ```
 
 - [ ] Edit `appium.capabilities.json` file
 
 ```json
-   "android29": {
-        "platformName": "Android",
-        "platformVersion": "29",
-        "deviceToken": "R52N94D54BK",
-        "lt": 60000,
-        "newCommandTimeout": 720,
-        "noReset": true,
+    "dev.iPhone12": {
+        "platformName": "ios",
+        "platformVersion": "14.2",
+        "deviceName": "myIpad",
+        "deviceToken": "c08f504402034771f5044020344404203489a87c",
+        "noReset": false,
         "fullReset": false,
         "app": ""
     },
@@ -64,7 +65,7 @@ Searching for devices...
 - [ ] Run the test
 
 ```
-$ npm run e2e -- --runType android29
+$ npm run e2e -- --runType dev.iPhone12
 ```
 
 ## :b: Separate Testing of Appium Desktop
