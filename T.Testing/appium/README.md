@@ -91,9 +91,9 @@ b000000000
 
 ### :three: Run the test
 
-- [ ] with [Android](platforms/android)
+- [ ] with [Android](.platforms/android)
 
-- [ ] with [ios](platforms/ios)
+- [ ] with [ios](.platforms/ios)
 
 :tada: Final Result in your browser
 
