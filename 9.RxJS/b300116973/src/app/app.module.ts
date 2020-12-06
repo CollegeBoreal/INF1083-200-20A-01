@@ -1,6 +1,6 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
-import { NativeScriptModule } from "@nativescript/angular";
-import { NativeScriptHttpClientModule } from "@nativescript/angular";
+import { NativeScriptModule, NativeScriptHttpClientModule } from "@nativescript/angular";
+
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
@@ -21,3 +21,5 @@ import { AppComponent } from "./app.component";
     ]
 })
 export class AppModule { }
+
+    

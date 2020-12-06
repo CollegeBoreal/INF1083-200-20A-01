@@ -1,5 +1,7 @@
 # Animations
 
+## [Participation](.scripts/Participation.md)
+
 Dans cet exercice, il est questions d'[animations](https://docs.nativescript.org/ui/animation.html). Il existe plusieurs types d'animations et on présentera deux animations:
 
 - [Declarative](https://docs.nativescript.org/ui/animation-css.html) ou encore connue sous le nom de `CSS Animation`
@@ -133,7 +135,7 @@ par
 
 - [ ] Modifier la classe du composant `Browse` 
 
-* :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl P` sous Windows ou `⌘ P` sous MacOS - ouvrir le fichier `brwose  .component.ts`
+* :keyboard: [vsc](https://github.com/CollegeBoreal/Tutoriels/blob/master/W.Web/T.NativeScript/IDE.md), taper: `Ctrl P` sous Windows ou `⌘ P` sous MacOS - ouvrir le fichier `browse.component.ts`
 
 ajouter la méthode `animate(view: View)` qui est une liste d'animations
 
