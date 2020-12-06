@@ -130,7 +130,7 @@ $ ls -l /Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b3000989
 
 ![image](../../images/appium-iOS-sim.png)
 
-<img src="../../images/appium-ios-recording.png" width="665" height="420"></img>
+<img src="../../images/appium-ios-recording.png" width="743" height="434"></img>
 
 # References
 
