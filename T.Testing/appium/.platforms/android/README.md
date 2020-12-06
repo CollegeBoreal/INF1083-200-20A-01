@@ -76,11 +76,13 @@ Searching for devices...
 $ npm run e2e -- --runType android29
 ```
 
-## :b: Separate Testing of Appium Desktop
+## :o: Testing with Appium Desktop
 
 [Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
 
-Simple Example of Capabilities:
+This paragraph shows how to manually test a simple application using Appium Desktop.
+
+* Simple Example of Capabilities:
 
 - [ ] Locate your device name
 
