@@ -27,14 +27,15 @@ Searching for devices...
 - [ ] Edit `appium.capabilities.json` file
 
 ```json
-    "sim.iPhoneXS": {
-        "platformName": "ios",
-        "platformVersion": "/12*/",
-        "deviceName": "iPhone XS",
+    "sim.iPhone12": {
+        "platformName": "iOS",
+        "platformVersion": "/14*/",
+        "deviceName": "iPhone 12",
+        "bundleId": "org.nativescript.b300098957",
         "noReset": false,
         "fullReset": false,
         "app": ""
-    },
+    }
 ```
 
 - [ ] Run the test
