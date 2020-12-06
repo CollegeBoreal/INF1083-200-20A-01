@@ -116,5 +116,5 @@ for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS ap
 }
 ```
 
-![image](../images/appium-server.png)
+![image](../../images/appium-server.png)
 
