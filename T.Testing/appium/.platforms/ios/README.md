@@ -10,8 +10,6 @@ You need to install `appium` CLI first, otherwise you get an [TypeError [ERR_INV
 $ npm install appium --global
 ```
 
-* 
-
 
 :round_pushpin: Emulator: set `avd` property in `appium.capabilities` to `Device Name`
 
