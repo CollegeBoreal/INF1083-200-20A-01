@@ -133,7 +133,7 @@ $ ls -l /Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b3000989
 
 <img src="../../images/appium-desktop-ios.png" width="813" height="378"></img>
 
-* When the session is on, you can now start recording and play with the Appium Desktop to get the testing source code (i.e. WD Promise)
+* When the session is on, you can now start recording and play with the Appium Desktop to get the testing source code (i.e. Javascript WD Promise)
 
 <img src="../../images/appium-ios-recording.png" width="773" height="393"></img>
 
