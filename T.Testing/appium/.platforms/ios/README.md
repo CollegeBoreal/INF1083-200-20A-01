@@ -162,7 +162,7 @@ https://www.rubydoc.info/github/appium/ruby_lib_core/Appium/Core/Base/Driver:ses
 
 # :x: Known Errors
 
-| :x: TypeError | :bulb: Fix |  
+| :x: `TypeError` | :bulb: Fix |  
 |------------|------------|
 | [[ERR_INVALID_ARG_TYPE]: The "pid" argument must be of type number. Received type undefined](https://github.com/NativeScript/nativescript-dev-appium/issues/220) | `$ npm install appium --global` |
-| [Cannot read property 'statBarHeight' of undefined] | |
+| [Cannot read property 'statBarHeight' of undefined]() | |
