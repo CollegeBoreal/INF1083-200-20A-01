@@ -4,11 +4,14 @@
 
 - [ ] Install `appium` CLI
 
-[TypeError [ERR_INVALID_ARG_TYPE]: The "pid" argument must be of type number. Received type undefined](https://github.com/NativeScript/nativescript-dev-appium/issues/220)
+You need to install `appium` CLI first, otherwise you get an [TypeError [ERR_INVALID_ARG_TYPE]: The "pid" argument must be of type number. Received type undefined](https://github.com/NativeScript/nativescript-dev-appium/issues/220)
 
 ```
 $ npm install appium --global
 ```
+
+* 
+
 
 :round_pushpin: Emulator: set `avd` property in `appium.capabilities` to `Device Name`
 
