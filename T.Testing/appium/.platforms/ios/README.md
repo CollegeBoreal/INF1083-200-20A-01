@@ -105,11 +105,11 @@ Searching for devices...
 └───┴─────────────┴──────────┴──────────────────────────────────────┴──────────┴───────────┴─────────────────┘
 ```
 
-- [ ] Locate your App `Package` and `Activity` name
+- [ ] Locate your `App` binary
 
 * run your app on the simulator
 
-locate the `app` file: (for example)
+locate the `app` file: for example, if your project name is `b300098957`, it should be under your project **location** name plus `./platforms/ios/build/Debug-iphonesimulator/b300098957.app`
 
 ```
 $ ls -l /Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app
