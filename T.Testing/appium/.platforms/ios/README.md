@@ -160,4 +160,8 @@ https://www.techaheadcorp.com/blog/how-to-install-appium-on-mac/
 
 https://www.rubydoc.info/github/appium/ruby_lib_core/Appium/Core/Base/Driver:session_capabilities
 
+# :x: Known Errors
 
+| :x: Errors | :bulb: Fix |  
+|------------|------------|
+| [TypeError [ERR_INVALID_ARG_TYPE]: The "pid" argument must be of type number. Received type undefined](https://github.com/NativeScript/nativescript-dev-appium/issues/220) | `$ npm install appium --global` |
