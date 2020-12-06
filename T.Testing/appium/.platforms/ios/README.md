@@ -42,13 +42,13 @@ Searching for devices...
 - [ ] Run the test
 
 ```
-$ npm run e2e -- --runType android28
+$ npm run e2e -- --runType sim.iPhone12
 ```
 
 :round_pushpin: Real Device: Set `deviceToken` property in `appium.capabilities` to `Device Identifier`
 
 ```
-$ ns device% ns devices
+$ ns devices
 Error while loading nativescript-cloud is: Default commands should be required before child commands
 
 Connected devices & emulators
