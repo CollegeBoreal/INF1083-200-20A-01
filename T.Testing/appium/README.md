@@ -107,10 +107,6 @@ https://github.com/igniteram/appium-webdriverio-typescript :+1:
 
 https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
 
-http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ 
-
-https://www.techaheadcorp.com/blog/how-to-install-appium-on-mac/
-
 https://medium.com/@sandeepqaops/setting-up-github-actions-for-react-native-mobile-app-for-android-emulator-with-appium-96efa67a359
 
 # :x: Errors
