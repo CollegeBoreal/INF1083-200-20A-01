@@ -25,7 +25,10 @@ PS > choco install appium-desktop
 :bulb: Vérification
 
 ```
-PS > choco info appium-desktop
+PS > choco list appium-desktop --local-only
+Chocolatey v0.10.15
+appium-desktop 1.18.3
+1 packages installed.
 ```
 
 ## :a: Create a Project
