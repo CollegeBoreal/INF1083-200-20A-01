@@ -44,7 +44,7 @@ for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS ap
 
 ![image](../../images/appium-server.png)
 
-## :a: Automated terting of appium with NativeScript
+## :a: Automated testing of appium using NativeScript
 
 :bulb: Set `ANDROID_AVD_HOME` due to a [bug](https://github.com/NativeScript/mobile-devices-controller/issues/10)
 
