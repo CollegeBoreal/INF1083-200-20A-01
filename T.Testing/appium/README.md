@@ -8,10 +8,24 @@
 $ brew install --cask appium 
 ```
 
+:bulb: Vérification
+
+```
+$ brew list  --cask appium   
+==> App
+/Applications/Appium.app (92,295 files, 481MB)
+```
+
 :computer: On Windows
 
 ```
 PS > choco install appium-desktop
+```
+
+:bulb: Vérification
+
+```
+PS > choco info appium-desktop
 ```
 
 ## :a: Create a Project
