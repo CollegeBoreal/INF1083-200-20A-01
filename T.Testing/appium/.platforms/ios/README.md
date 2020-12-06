@@ -124,9 +124,9 @@ $ ls -l /Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b3000989
 {
   "platformName": "iOS",
   "platformVersion": "14.2",
-  "app": "/Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app",
   "deviceName": "iPhone 12",
-  "uuid": "9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F"
+  "uuid": "9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F",
+  "app": "/Users/valiha/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app"
 }
 ```
 
