@@ -70,6 +70,7 @@ $ npm run e2e -- --runType dev.iPhone12
 
 ## :b: Separate Testing of Appium Desktop
 
+[Test on real devices](http://appium.io/docs/en/drivers/ios-xcuitest-real-devices)
 
 ```
 $ brew install carthage
