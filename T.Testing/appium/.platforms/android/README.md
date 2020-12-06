@@ -1,10 +1,54 @@
 # :iphone: Android
 
-#### :a: Setting up appium with NativeScript
+## :o: Manual Testing with Appium Desktop
+
+[Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
+
+This paragraph shows how to manually test a simple application using Appium Desktop.
+
+* Simple Example of Capabilities:
+
+- [ ] Locate your device name
+
+```
+$ adb devices
+List of devices attached
+emulator-5554	device
+```
+
+- [ ] Locate your App `Package` and `Activity` name
+
+* run your app on the emulator
+
+* Start tracing the log
+
+```
+$ adb logcat > keeplog.txt
+```
+
+* Find the App `Package` and `Activity` name
+
+for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS app name called `b300098957`
+
+- [ ] Resulting capability file
+
+```json
+{
+  "deviceName": "emulator-5554",
+  "platformName": "Android",
+  "appPackage": "org.nativescript.b300098957",
+  "appActivity": "com.tns.NativeScriptActivity",
+  "noReset": true
+}
+```
+
+![image](../../images/appium-server.png)
+
+## :a: Automated testing of appium using NativeScript
 
 :bulb: Set `ANDROID_AVD_HOME` due to a [bug](https://github.com/NativeScript/mobile-devices-controller/issues/10)
 
-![image](../images/sdk-undefined.png)
+![image](../../images/sdk-undefined.png)
 
 ```
 $ export ANDROID_AVD_HOME="???"
@@ -75,46 +119,4 @@ Searching for devices...
 ```
 $ npm run e2e -- --runType android29
 ```
-
-## :b: Separate Testing of Appium Desktop
-
-[Testing Android Applications With Appium | Appium Tutorial For Mobile Testing | Edureka](https://www.youtube.com/watch?v=i1tQ1pjEFWw)
-
-Simple Example of Capabilities:
-
-- [ ] Locate your device name
-
-```
-$ adb devices
-List of devices attached
-emulator-5554	device
-```
-
-- [ ] Locate your App `Package` and `Activity` name
-
-* run your app on the emulator
-
-* Start tracing the log
-
-```
-$ adb logcat > keeplog.txt
-```
-
-* Find the App `Package` and `Activity` name
-
-for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS app name called `b300098957`
-
-- [ ] Resulting capability file
-
-```json
-{
-  "deviceName": "emulator-5554",
-  "platformName": "Android",
-  "appPackage": "org.nativescript.b300098957",
-  "appActivity": "com.tns.NativeScriptActivity",
-  "noReset": true
-}
-```
-
-![image](../images/appium-server.png)
 
