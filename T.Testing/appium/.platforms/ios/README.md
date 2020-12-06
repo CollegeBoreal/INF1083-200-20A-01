@@ -130,7 +130,7 @@ $ ls -l /Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b3000989
 }
 ```
 
-![image](../images/appium-server.png)
+![image](../../images/appium-iOS-sim.png)
 
 # References
 
