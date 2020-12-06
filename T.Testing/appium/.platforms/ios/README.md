@@ -158,6 +158,8 @@ http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/
 
 https://www.techaheadcorp.com/blog/how-to-install-appium-on-mac/
 
+https://github.com/appium/appium-for-mac
+
 https://www.rubydoc.info/github/appium/ruby_lib_core/Appium/Core/Base/Driver:session_capabilities
 
 # :x: Known Errors
