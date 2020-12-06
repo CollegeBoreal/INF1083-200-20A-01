@@ -109,17 +109,14 @@ Searching for devices...
 
 - [ ] Locate your App `Package` and `Activity` name
 
-* run your app on the emulator
+* run your app on the simulator
 
-* Start tracing the log
+locate the `app` file: (for example)
 
 ```
-$ adb logcat > keeplog.txt
+$ ls -l /Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app
 ```
 
-* Find the App `Package` and `Activity` name
-
-for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS app name called `b300098957`
 
 - [ ] Resulting capability file
 
@@ -127,7 +124,7 @@ for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS ap
 {
   "platformName": "iOS",
   "platformVersion": "14.2",
-  "app": "/Users/valiha/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app",
+  "app": "/Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app",
   "deviceName": "iPhone 12",
   "uuid": "9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F"
 }
