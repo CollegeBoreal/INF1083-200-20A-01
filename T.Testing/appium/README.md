@@ -5,7 +5,7 @@
 :apple: On MacOS
 
 ```
-$ brew install appium --cask 
+$ brew install --cask appium 
 ```
 
 :computer: On Windows
