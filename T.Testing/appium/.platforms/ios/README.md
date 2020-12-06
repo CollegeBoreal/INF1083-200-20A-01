@@ -88,10 +88,23 @@ Simple Example of Capabilities:
 
 - [ ] Locate your device name
 
+
 ```
-$ adb devices
-List of devices attached
-emulator-5554	device
+$ xcrun xctrace list devices
+```
+
+or
+
+```
+% ns devices
+Error while loading nativescript-cloud is: Default commands should be required before child commands
+
+Connected devices & emulators
+Searching for devices...
+┌───┬─────────────┬──────────┬──────────────────────────────────────┬──────────┬───────────┬─────────────────┐
+│ # │ Device Name │ Platform │ Device Identifier                    │ Type     │ Status    │ Connection Type │
+│ 1 │ iPhone 12   │ iOS      │ 9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F │ Emulator │ Connected │ Local           │
+└───┴─────────────┴──────────┴──────────────────────────────────────┴──────────┴───────────┴─────────────────┘
 ```
 
 - [ ] Locate your App `Package` and `Activity` name
@@ -112,11 +125,11 @@ for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS ap
 
 ```json
 {
-  "deviceName": "emulator-5554",
-  "platformName": "Android",
-  "appPackage": "org.nativescript.b300098957",
-  "appActivity": "com.tns.NativeScriptActivity",
-  "noReset": true
+  "platformName": "iOS",
+  "platformVersion": "14.2",
+  "app": "/Users/valiha/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app",
+  "deviceName": "iPhone 12",
+  "uuid": "9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F"
 }
 ```
 
