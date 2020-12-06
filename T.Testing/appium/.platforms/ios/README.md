@@ -4,7 +4,7 @@
 
 - [ ] Install `appium` CLI server
 
-You need to install `appium` CLI server first, see Know Errors below
+You need to install `appium` CLI server first, see [Know Errors](README.md#x-known-errors) below
 
 ```
 $ npm install appium --global
