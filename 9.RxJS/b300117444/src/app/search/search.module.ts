@@ -3,11 +3,13 @@ import { NativeScriptCommonModule } from "@nativescript/angular";
 
 import { SearchRoutingModule } from "./search-routing.module";
 import { SearchComponent } from "./search.component";
+import { NativeScriptFormsModule } from "@nativescript/angular";
 
 @NgModule({
     imports: [
         NativeScriptCommonModule,
-        SearchRoutingModule
+        SearchRoutingModule,
+        NativeScriptFormsModule
     ],
     declarations: [
         SearchComponent
