@@ -84,13 +84,13 @@ export class Country {
 % ng generate service shared/apicall --skipTests=true 
 ```
 
-- [ ] Rajouter le constructeur se connectant au Module `HttpModule`
+- [ ] Rajouter le constructeur se connectant au Module `HttpClientModule` dans le fichier `apicall.service.ts` généré par la commande ci-dessus 
 
 ```typescript
 constructor(private httpClient: HttpClient) {}
 ```
 
-- [ ] Rajouter la fonction search se connectant au Module `HttpModule` et fournir votre clé Rapid-API
+- [ ] Rajouter la fonction search se connectant au Module `HttpClientModule` et fournir votre clé Rapid-API
 
 ```typescript
     searchCountryByName(name: string): Observable<Country[]>{

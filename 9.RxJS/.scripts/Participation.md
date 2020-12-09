@@ -1,4 +1,4 @@
-# Participation au 08-12-2020 23:03
+# Participation au 09-12-2020 19:48
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -24,7 +24,7 @@
 | 5 | [b300116973](../b300116973) - <image src='https://avatars0.githubusercontent.com/u/54910252?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300116973) |
 | 6 | [b300117178](../b300117178) - <image src='https://avatars0.githubusercontent.com/u/54910937?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300117178) |
 | 7 | [b300117314](../b300117314) - <image src='https://avatars0.githubusercontent.com/u/54910700?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300117314) |
-| 8 | [b300117444](../b300117444) - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:] |
+| 8 | [b300117444](../b300117444) - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300117444) |
 | 9 | [b300117782](../b300117782) - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300117782) |
 | 10 | [b300117784](../b300117784) - <image src='https://avatars0.githubusercontent.com/u/54910102?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300117784) |
 | 11 | [b300117806](../b300117806) - <image src='https://avatars0.githubusercontent.com/u/54910103?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:] |
