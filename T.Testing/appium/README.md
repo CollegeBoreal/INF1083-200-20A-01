@@ -1,52 +1,102 @@
 # ui-tests with Appium
 
+## :o: Install Appium-Desktop
 
+:apple: On MacOS
 
-https://docs.nativescript.org/plugins/ui-tests
+```
+$ brew install --cask appium 
+```
 
-:one: create a project, replace b`<`your :id:`>`
+:bulb: Vérification
 
-:pushpin: for example the project name will be `b300098957` 
+```
+$ brew list  --cask appium   
+==> App
+/Applications/Appium.app (92,295 files, 481MB)
+```
 
-|  tns v7.0.1                                                                  |  Patrons                          |
-|------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --ng                                                    |  Hellow World                     |
+:computer: On Windows
 
-* go to your project 
+```
+PS > choco install appium-desktop
+```
 
-:two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
+:bulb: Vérification
+
+```
+PS > choco list appium-desktop --local-only
+Chocolatey v0.10.15
+appium-desktop 1.18.3
+1 packages installed.
+```
+
+## :a: Create a Project
+
+#### :zero: Install Appium CLI globally
 
 ```
 $ npm install appium --global 
 ```
 
-:pushpin: Choose `angular` and `jasmine`
+#### :one: create a project, replace b`<`your :id:`>`
+
+https://docs.nativescript.org/plugins/ui-tests
+
+:pushpin: for example the project name will be `b300098957` 
+
+|  tns v7.0.1                                                                  |  Patrons                          |
+|------------------------------------------------------------------------------|-----------------------------------|
+| `$ ns create b`:id:` --ts                                                    |  taps left                        |
+
+-  [ ]  go to your project 
 
 ```
-$ echo angular | npm install nativescript-dev-appium --save-dev 
+$ cd b300098957
+```
+
+-  [ ]  run you project against an emulator or a device
+
+```
+$ ns run [android/ios]
+```
+
+-  [ ]  build you project for future tests use
+
+```
+$ ns build [android/ios]
+```
+
+
+#### :two: Add the [Appium](http://appium.io) Library using [nativescript-dev-appium](https://github.com/NativeScript/nativescript-dev-appium)
+
+:pushpin: Choose `typescript` and `mocha`
+
+```
+$ npm install nativescript-dev-appium --save-dev 
 ...
 ? What kind of project do you use? (Use arrow keys)
   javascript 
-  typescript 
-❯ angular 
+❯ typescript 
+  angular 
   vue 
   shared-ng-project 
 ...
-? What kind of project do you use? angular
+? What kind of project do you use? typescript
 ? Which testing framework do you prefer? (Use arrow keys)
-  mocha 
-❯ jasmine 
+❯ mocha 
+  jasmine 
   none 
 ```
 
-:three: Tree Code
+:pushpin: The tree code should look like this
 
 ```
 b000000000
 ├── app
 ├── e2e
     ├── config
-        ├── jasmine.opts
+        ├── mocha.opts
         ├── appium.capabilities.json
     ├── sample.e2e-test.ts
     ├── setup.ts
@@ -56,59 +106,26 @@ b000000000
 ├── tsconfig.json
 ```
 
+### :three: Run the test
 
-```
-$ ns build android
-```
+- [ ] with [Android](.platforms/android)
 
+- [ ] with [ios](.platforms/ios)
 
-# References
+:tada: Final Result in your browser
 
-:apple: On MacOS
-
-```
-$ brew install appium --cask 
-```
-
-:computer: On Windows
-
-```
-PS > choco install appium-desktop
-```
+![image](images/mocha-fine.png)
 
 
-## Github Actions Examples
-
-https://github.com/nstudio/nativescript-audio/blob/master/.github/workflows/build.yml
-
-Launch Emulator
-
-```
-% emulator -avd test -no-audio -no-window &
-```
-
-Wait for Emulator to start
-
-```
-% adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
-```
-
-Create Test
-
-```
-% ns test init --framework mocha
-```
-
-Launch Test
-
-```
-% ns test android --justlaunch
-```
 
 # References
+
+https://github.com/igniteram/appium-webdriverio-typescript :+1:
 
 https://nativescript.org/blog/start-testing-your-nativescript-apps-properly/
 
-http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ 
+https://medium.com/@sandeepqaops/setting-up-github-actions-for-react-native-mobile-app-for-android-emulator-with-appium-96efa67a359
 
-https://www.techaheadcorp.com/blog/how-to-install-appium-on-mac/
+# :x: Errors
+
+https://github.com/NativeScript/mobile-devices-controller/issues/10
