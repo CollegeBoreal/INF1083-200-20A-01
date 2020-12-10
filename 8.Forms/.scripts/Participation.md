@@ -1,4 +1,4 @@
-# Participation au 10-12-2020 05:58
+# Participation au 10-12-2020 16:47
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id:                | Fait               | Éxécution  |
 |------|----------------------------|--------------------|------------|
-| 0 | [b300111441](../b300111441) - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | [:x:] | [:x:] |
+| 0 | [b300111441](../b300111441) - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300111441) |
 | 1 | [b300115065](../b300115065) - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300115065) |
 | 2 | [b300115140](../b300115140) - <image src='https://avatars0.githubusercontent.com/u/54910329?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300115140) |
 | 3 | [b300116670](../b300116670) - <image src='https://avatars0.githubusercontent.com/u/55238107?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:] | [:octocat: Actions](https://github.com/CollegeBoreal/INF1083-200-20A-01/actions?query=workflow:b300116670) |
