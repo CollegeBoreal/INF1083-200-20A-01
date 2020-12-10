@@ -1,0 +1,33 @@
+<ActionBar>
+    <Label text="AfricaMusic" class="home"></Label>
+</ActionBar>
+<TabView height="100%">
+        <StackLayout *tabItem="{title:'Artists'}">
+            <GridLayout>
+                <ListView [items]="items">
+                    <ng-template let-item="item">
+                        <StackLayout>
+                            
+                            
+                                <Image [nsRouterLink]="['../item', item.id]" [src]="item.image"> </Image>
+                               
+                        
+                           
+               
+                            <Label [nsRouterLink]="['../item', item.id]" [text]="item.name" class="name"></Label>
+                            <StackLayout orientation="horizontal">
+                                <label text="followers:" class="followers"></label>
+                                <Label [nsRouterLink]="['../item', item.id]" [text]="item.followers" class="followers"></Label>
+                            </StackLayout>
+                            <Button text="play" (tap)="onButtonTap()" class="play"></Button>
+                        </StackLayout>
+                    </ng-template>
+                </ListView>
+            </GridLayout>
+        </StackLayout>
+        <StackLayout *tabItem="{title:'Albums'}"></StackLayout>
+        <StackLayout *tabItem="{title:'Popular'}"></StackLayout>
+
+</TabView>
+
+
