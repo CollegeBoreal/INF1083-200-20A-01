@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { RadSideDrawer } from "nativescript-ui-sidedrawer";
-import { Application, View} from "@nativescript/core";
+import { Application, View } from "@nativescript/core";
 
 @Component({
     selector: "Browse",
@@ -20,7 +20,6 @@ export class BrowseComponent implements OnInit {
         const sideDrawer = <RadSideDrawer>Application.getRootView();
         sideDrawer.showDrawer();
     }
-
     animate(view: View) {
         let duration = 300;
         view.animate({ opacity: 0, duration: duration })

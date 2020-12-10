@@ -1,10 +1,10 @@
 import { Component, OnInit } from "@angular/core";
 import { RadSideDrawer } from "nativescript-ui-sidedrawer";
-import { Application } from "@nativescript/core";
+import { Application} from "@nativescript/core";
 
 @Component({
     selector: "Home",
-    templateUrl: "./home.component.html"
+    templateUrl: "./home.component.html",
     styleUrls: ["./home.component.scss"]
 })
 export class HomeComponent implements OnInit {
@@ -21,4 +21,5 @@ export class HomeComponent implements OnInit {
         const sideDrawer = <RadSideDrawer>Application.getRootView();
         sideDrawer.showDrawer();
     }
+
 }
