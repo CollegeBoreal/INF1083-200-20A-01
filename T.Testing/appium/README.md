@@ -5,13 +5,30 @@
 :apple: On MacOS
 
 ```
-$ brew install appium --cask 
+$ brew install --cask appium 
+```
+
+:bulb: Vérification
+
+```
+$ brew list  --cask appium   
+==> App
+/Applications/Appium.app (92,295 files, 481MB)
 ```
 
 :computer: On Windows
 
 ```
 PS > choco install appium-desktop
+```
+
+:bulb: Vérification
+
+```
+PS > choco list appium-desktop --local-only
+Chocolatey v0.10.15
+appium-desktop 1.18.3
+1 packages installed.
 ```
 
 ## :a: Create a Project

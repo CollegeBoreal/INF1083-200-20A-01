@@ -1,0 +1,9 @@
+@keyframes bgAnimation {
+    from { background-color: red; }
+    to { background-color: green; }
+}
+.background {
+    animation-name: bgAnimation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}

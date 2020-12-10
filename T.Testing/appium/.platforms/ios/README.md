@@ -2,42 +2,53 @@
 
 #### :a: Setting up appium with NativeScript
 
-:round_pushpin: Emulator: set `avd` property in `appium.capabilities` to `Device Name`
+- [ ] Install `appium` CLI server
+
+You need to install `appium` CLI server first, see [:construction: Know Errors](README.md#construction-known-errors) below
+
+```
+$ npm install appium --global
+```
+
+
+:round_pushpin: Emulator: set `bundleId` property in `appium.capabilities` to `org.nativescript.b300098957` and others
 
 ```
 $ ns devices
+Error while loading nativescript-cloud is: Default commands should be required before child commands
 
 Connected devices & emulators
 Searching for devices...
 ┌───┬─────────────┬──────────┬──────────────────────────────────────┬──────────┬───────────┬─────────────────┐
 │ # │ Device Name │ Platform │ Device Identifier                    │ Type     │ Status    │ Connection Type │
-│ 1 │ iPhone 11   │ iOS      │ A5D4EBAB-0802-454F-B1C1-95A6C0ED727C │ Emulator │ Connected │ Local           │
+│ 1 │ iPhone 12   │ iOS      │ 9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F │ Emulator │ Connected │ Local           │
 └───┴─────────────┴──────────┴──────────────────────────────────────┴──────────┴───────────┴─────────────────┘
 ```
 
 - [ ] Edit `appium.capabilities.json` file
 
 ```json
-    "sim.iPhoneXS": {
-        "platformName": "ios",
-        "platformVersion": "/12*/",
-        "deviceName": "iPhone XS",
+    "sim.iPhone12": {
+        "platformName": "iOS",
+        "platformVersion": "/14*/",
+        "deviceName": "iPhone 12",
+        "bundleId": "org.nativescript.b300098957",
         "noReset": false,
         "fullReset": false,
         "app": ""
-    },
+    }
 ```
 
 - [ ] Run the test
 
 ```
-$ npm run e2e -- --runType android28
+$ npm run e2e -- --runType sim.iPhone12
 ```
 
 :round_pushpin: Real Device: Set `deviceToken` property in `appium.capabilities` to `Device Identifier`
 
 ```
-$ ns device% ns devices
+$ ns devices
 Error while loading nativescript-cloud is: Default commands should be required before child commands
 
 Connected devices & emulators
@@ -70,15 +81,13 @@ $ npm run e2e -- --runType dev.iPhone12
 
 ## :b: Separate Testing of Appium Desktop
 
-[Test on real devices](http://appium.io/docs/en/drivers/ios-xcuitest-real-devices)
-
 There is also a dependency, made necessary by [Facebook's WebDriverAgent](https://github.com/facebook/WebDriverAgent), for the Carthage dependency manager. If you do not have Carthage on your system, it can also be installed with Homebrew
 
 ```
 $ brew install carthage
 ```
 
-For real devices we can use xcpretty to make Xcode output more reasonable. This can be installed by
+For [real devices](http://appium.io/docs/en/drivers/ios-xcuitest-real-devices) we can use xcpretty to make Xcode output more reasonable. This can be installed by
 
 ```
 $ sudo gem install xcpretty
@@ -88,39 +97,61 @@ Simple Example of Capabilities:
 
 - [ ] Locate your device name
 
-```
-$ adb devices
-List of devices attached
-emulator-5554	device
-```
-
-- [ ] Locate your App `Package` and `Activity` name
-
-* run your app on the emulator
-
-* Start tracing the log
 
 ```
-$ adb logcat > keeplog.txt
+$ xcrun simctl list devices | grep '(Booted)'
+    iPhone 12 (9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F) (Booted) 
 ```
 
-* Find the App `Package` and `Activity` name
+or
 
-for example `org.nativescript.b300098957/com.tns.NativeScriptActivity` for NS app name called `b300098957`
+```
+% ns devices
+Error while loading nativescript-cloud is: Default commands should be required before child commands
+
+Connected devices & emulators
+Searching for devices...
+┌───┬─────────────┬──────────┬──────────────────────────────────────┬──────────┬───────────┬─────────────────┐
+│ # │ Device Name │ Platform │ Device Identifier                    │ Type     │ Status    │ Connection Type │
+│ 1 │ iPhone 12   │ iOS      │ 9BDC9951-6D3F-4F1E-9D9E-FF598AFEB09F │ Emulator │ Connected │ Local           │
+└───┴─────────────┴──────────┴──────────────────────────────────────┴──────────┴───────────┴─────────────────┘
+```
+
+- [ ] Locate your `App` binary
+
+* run your app on the simulator
+
+locate the `app` file: for example, if your project name is `b300098957`, it should be under your project **location** name plus `./platforms/ios/build/Debug-iphonesimulator/b300098957.app`
+
+```
+$ ls -l /Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app
+```
+
 
 - [ ] Resulting capability file
 
 ```json
 {
-  "deviceName": "emulator-5554",
-  "platformName": "Android",
-  "appPackage": "org.nativescript.b300098957",
-  "appActivity": "com.tns.NativeScriptActivity",
-  "noReset": true
+  "platformName": "iOS",
+  "platformVersion": "14.2",
+  "deviceName": "iPhone 12",
+  "noReset": true,
+  "app": "/Users/b300098957/Developer/INF1083-200-20A-01/T.Testing/appium/b300098957/platforms/ios/build/Debug-iphonesimulator/b300098957.app"
 }
 ```
 
-![image](../images/appium-server.png)
+* Update the `JSON Representation` Text Box and Click the **Start Session** Button
+
+<img src="../../images/appium-desktop-ios.png" width="813" height="378"></img>
+
+* When the session is on, you can now start recording and play with the Appium Desktop to get the testing source code (i.e. Javascript WD Promise)
+
+<img src="../../images/appium-ios-recording.png" width="773" height="393"></img>
+
+* Note that along with the app `b300098957`, the `WebDriverAgent` is also installed.
+
+<img src="../../images/iPhone12mini.png" width="436" height="791"></img>
+
 
 # References
 
@@ -132,4 +163,13 @@ http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/
 
 https://www.techaheadcorp.com/blog/how-to-install-appium-on-mac/
 
+https://github.com/appium/appium-for-mac
 
+https://www.rubydoc.info/github/appium/ruby_lib_core/Appium/Core/Base/Driver:session_capabilities
+
+# :construction: Known Errors
+
+| :x: `TypeError` | :bulb: Fix |  
+|------------|------------|
+| [[ERR_INVALID_ARG_TYPE]: The "pid" argument must be of type number. Received type undefined](https://github.com/NativeScript/nativescript-dev-appium/issues/220) | `$ npm install appium --global` |
+| [Cannot read property 'statBarHeight' of undefined]() | |
