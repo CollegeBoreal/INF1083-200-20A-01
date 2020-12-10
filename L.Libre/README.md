@@ -8,6 +8,7 @@ https://plugins.nativescript.rocks/samples
 |-------------------|------------------------------------------------|----------|
 | MusicStreamingApp | https://github.com/CraveFM/nsMusicStreamingApp | NS 7.0.1 |
 | MusicPlayerUI     | https://github.com/CraveFM/nsMusicPlayerUI     | NS 7.0.1 |
+| MusicPlayerUI     | https://github.com/CraveFM/nsCameraApp         | NS 7.0.1 |
 
 `$ ns create b`:id:` --template <lien>`
 
