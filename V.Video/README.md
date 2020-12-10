@@ -8,7 +8,7 @@
 
 |  tns v7.0.1                                                                  |  Patrons                          |
 |------------------------------------------------------------------------------|-----------------------------------|
-| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hellow World                     |
+| `$ ns create b`:id:` --template @nativescript/template-blank-ng`             |  Hello World                      |
 
 * go to your project 
 
@@ -62,11 +62,11 @@ $ ns platform add <android|ios>
 % ns preview
 ```
 
-## :x: Custom
+## :o: Customization
 
-:mobile: Android
+:iphone: Android
 
-Open up the manifest file `AndroidManifest.xml` (in `App_Resource/Android/src/main`) and add by the following in `<application>` parameter tag:
+Open up the manifest file `AndroidManifest.xml` (in `App_Resource/Android/src/main`) and add the following to the `<application>` parameter tag:
 
 :keyboard: Dans [VSC](https://code.visualstudio.com/) Ouvrir un fichier -> `Ctrl p` :computer: Windows -> `⌘ p` :apple: MacOS
 
@@ -79,5 +79,5 @@ Open up the manifest file `AndroidManifest.xml` (in `App_Resource/Android/src/ma
 
 # References:
 
-https://developer.android.com/training/articles/security-config
+https://stackoverflow.com/questions/37819550/java-io-filenotfoundexception-storage-emulated-0-new-file-txt-open-failed-ea
 
