@@ -6,8 +6,10 @@ Following my SQL project in another course with Boreal College in Toronto, I hav
 ***
 <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/gen.jpg" width="250">
 
-##Table of contents
-1. [General Info] (#general-info)  
-2. [Screenshot] (#screenshot)
-3. [Method used] (#method-used)
+## **Table of contents**
+1. General Info
+2. Screenshots
+3. Method used
+
+<img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/iphone.jpg" width="250">
 
