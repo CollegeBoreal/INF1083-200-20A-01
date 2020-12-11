@@ -13,3 +13,14 @@ Following my SQL project in another course with Boreal College in Toronto, I hav
 
 <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/iphone.jpg" width="250">
 
+### **1. General Info**
+
+Those are the 3 main pages with Home, Browse and Search.
+Home will have a brief description of items and services sold by Zack Wellness
+
+
+| Home | Browse | Search
+| ------------ | ------------- | -------------
+| <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/home.jpg" width="150"> | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/browse.jpg" width="150">| <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/search.jpg" width="150">
+
+
