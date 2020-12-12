@@ -16,25 +16,25 @@ export class DataService {
         {
             id: 1,
             name: "Sport Car",
-            description: "Aston Martin DBS"
+            description: "Aston Martin DBS",
             avatar: "https://www.cars.com/research/aston_martin-dbs-2021/"
         },
         {
             id: 2,
             name: "Luxury Car",
-            description: "Acura RDX"
+            description: "Acura RDX",
             avatar: "https://www.cars.com/research/acura-rdx-2021/"
         },
         {
             id: 3,
             name: "Pickup Truck",
-            description: "Nissan NV Passenger"
+            description: "Nissan NV Passenger",
             avatar: "https://www.cars.com/research/nissan-nv_passenger_nv3500_hd-2021/"
         },
         {
             id: 4,
             name: "Mini Van",
-            description: "RAM ProMaster 2500"
+            description: "RAM ProMaster 2500",
             avatar: "https://www.cars.com/research/ram-promaster_2500_window_van-2021/"
         }
         
