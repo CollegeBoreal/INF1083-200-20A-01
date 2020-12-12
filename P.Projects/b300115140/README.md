@@ -52,4 +52,14 @@ It was embedded into the browse.component.html module with WebView.
 | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/browse.jpg" width="150"> | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/search.jpg" width="150">
 
 
+### **Method used**  
+
+I created a blank tab-navigation template with 3 basic pages to fullfill. I created images and a YouTube video broadcasting this fictionnal online shop. I used Angular and made al l the changes on Visual Studio Code without touching the routing modules.
+Most of the changes were under .componenent.html or .component.ts or .module.ts  
+
+
+<img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/VSC.PNG" width="150">
+
+
+
 
