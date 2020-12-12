@@ -34,6 +34,6 @@ Here are a serie of screenshots taken from my mobile where the app was installed
 
 | Principal Home page | Face Cream product | Body Cream | Massage Therapy services | Bikram Yoga
 | ------------ | ------------- | ------------- | ------------ | -------------
-| <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/home.jpg" width="150"> | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/face.jpg" width="150">| <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/body.jpg"> | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/RMT.jpg" width="150"> | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/yoga.jpg" width="150">
+| <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/home.jpg" width="150"> | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/face.jpg" width="150">| <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/body.jpg" width="150> | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/RMT.jpg" width="150"> | <img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/yoga.jpg" width="150">
 
 
