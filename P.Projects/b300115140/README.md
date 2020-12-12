@@ -58,7 +58,7 @@ I created a blank tab-navigation template with 3 basic pages to fullfill. I crea
 Most of the changes were under .componenent.html or .component.ts or .module.ts  
 
 
-<img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/VSC.PNG" width="150">
+<img src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300115140/IMAGES/VSC.PNG" width="350">
 
 
 
