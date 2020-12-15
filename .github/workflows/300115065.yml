@@ -53,9 +53,11 @@ jobs:
       - name: Emulator for Android development.
         run: |
            # Create the Android device
-           echo no | avdmanager create avd --name test --package "system-images;android-29;google_apis;x86_64"
+           echo no | sdkmanager --install "system-images;android-28;google_apis;x86_64"
+           # Create the Android device
+           echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
            # Launch the Android device
-           # emulator -avd test -no-audio -no-window &
+           emulator -avd test -no-audio -no-window &
            # Wait for the device to start
            adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
            # Show the Android device           
