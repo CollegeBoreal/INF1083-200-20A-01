@@ -23,7 +23,6 @@ jobs:
       - name: Student ID
         run: |
          echo "STUDENT_ID=b300115065" >> $GITHUB_ENV
-         echo "ANDROID_HOME=\/usr\/local\/share\/android-sdk" >> $GITHUB_ENV
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
