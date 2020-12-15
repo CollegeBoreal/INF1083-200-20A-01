@@ -48,7 +48,20 @@ jobs:
           npm install
           ns build ios
           cd ..
-      
+
+      # Create a device
+      - name: Emulator for Android development.
+        run: |
+           # Create the Android device
+           echo no | avdmanager create avd --name test --package "system-images;android-29;google_apis;x86_64"
+           # Launch the Android device
+           # emulator -avd test -no-audio -no-window &
+           # Wait for the device to start
+           adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
+           # Show the Android device           
+           avdmanager list avd
+           adb devices
+
       # 2nd Assignment
       - name: Check 8.Forms
         run: |
