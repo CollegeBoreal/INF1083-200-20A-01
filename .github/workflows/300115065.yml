@@ -53,7 +53,7 @@ jobs:
       - name: Emulator for Android development.
         run: |
            # Create the Android device
-           echo no | sdkmanager --install "system-images;android-28;google_apis;x86_64"
+           echo y | sdkmanager --install "system-images;android-28;google_apis;x86_64"
            # Create the Android device
            echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
            # Launch the Android device
