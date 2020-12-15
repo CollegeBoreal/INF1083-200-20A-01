@@ -36,7 +36,28 @@ jobs:
       - uses: hrueger/setup-nativescript@v1.1.0
         with:
           nativescript-version: '7.0.10'
+          
+      # Create env variable
+      - name: Emulator for Android development.
+        run: |
+           ## Android Specific
+           echo "ANDROID_HOME=/usr/local/share/android-sdk" >> $GITHUB_ENV
     
+      # Create a device
+      - name: Emulator for Android development.
+        run: |
+           # Create the Android device
+           echo y | sdkmanager --install "system-images;android-28;google_apis;x86_64"
+           # Create the Android device
+           echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
+           # Launch the Android device
+           ${ANDROID_HOME}/emulator -avd test -no-audio -no-window &
+           # Wait for the device to start
+           adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
+           # Show the Android device           
+           avdmanager list avd
+           adb devices
+
       # Not sure about the pods
       - name: Update pods
         run: pod repo update
@@ -48,21 +69,6 @@ jobs:
           npm install
           ns build ios
           cd ..
-
-      # Create a device
-      - name: Emulator for Android development.
-        run: |
-           # Create the Android device
-           echo y | sdkmanager --install "system-images;android-28;google_apis;x86_64"
-           # Create the Android device
-           echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
-           # Launch the Android device
-           /opt/android/sdk/emulator -avd test -no-audio -no-window &
-           # Wait for the device to start
-           adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
-           # Show the Android device           
-           avdmanager list avd
-           adb devices
 
       # 2nd Assignment
       - name: Check 8.Forms
