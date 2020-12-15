@@ -1,0 +1,16 @@
+<ActionBar>
+    <Label text="Home"></Label>
+</ActionBar>
+
+<Image src="src\app\shared\image\logo.png"
+verticalAlignment="bottom"></Image>
+
+<GridLayout>
+    <ListView [items]="items">
+        <ng-template let-item="item">
+            <StackLayout>
+                <Label [nsRouterLink]="['../item', item.id]" [text]="item.name"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+</GridLayout>
