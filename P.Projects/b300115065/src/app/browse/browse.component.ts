@@ -1,4 +1,6 @@
 import { Component, OnInit } from "@angular/core";
+import {registerElement} from "nativescript-angular/element-registry";
+registerElement("exoplayer", () => require("nativescript-exoplayer").Video);
 
 @Component({
     selector: "Browse",
