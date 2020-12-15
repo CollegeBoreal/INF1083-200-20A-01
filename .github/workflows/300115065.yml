@@ -38,9 +38,8 @@ jobs:
           nativescript-version: '7.0.10'
           
       # Create env variable
-      - name: Emulator for Android development.
+      - name: Prepare for Android development.
         run: |
-           ## Android Specific
            echo "ANDROID_HOME=/usr/local/share/android-sdk" >> $GITHUB_ENV
     
       # Create a device
