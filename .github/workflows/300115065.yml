@@ -64,6 +64,7 @@ jobs:
           cd  4.NativeScript/$STUDENT_ID
           npm install
           ns build ios
+          ns run android --justlaunch
           cd ..
 
       # 2nd Assignment
@@ -72,6 +73,7 @@ jobs:
           cd 8.Forms/$STUDENT_ID
           npm install
           ns build ios
+          ns run android --justlaunch
           cd ..
 
       # 3rd Assignment
