@@ -40,6 +40,8 @@ jobs:
       # Create a device
       - name: Emulator for Android development.
         run: |
+           # Install the accelerator
+           brew install intel-haxm --cask
            # Create the Android device
            echo y | sdkmanager --install "system-images;android-28;google_apis;x86_64"
            # Create the Android device
@@ -78,6 +80,7 @@ jobs:
           cd 9.RxJS/$STUDENT_ID
           npm install
           ns build ios
+          ns run android --justlaunch
           cd ..
 
       # 4th Assignment
