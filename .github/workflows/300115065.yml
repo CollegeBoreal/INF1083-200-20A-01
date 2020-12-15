@@ -45,7 +45,7 @@ jobs:
            # Create the Android device
            echo no | avdmanager create avd --name test --package "system-images;android-28;google_apis;x86_64"
            # Launch the Android device
-           ${ANDROID_HOME}/emulator -avd test -no-audio -no-window &
+           ${ANDROID_HOME}/emulator/emulator -avd test -no-audio -no-window &
            # Wait for the device to start
            adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done; input keyevent 82'
            # Show the Android device           
