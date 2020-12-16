@@ -10,8 +10,8 @@
 
 ## :zap: les différentes parties :zap:
 
-![image width="200" height="400](images/image1.png)( width="200" height="400" )
-
+![image](images/image1.png)( width="200" height="400" )
+<img src=images/image1.png alt="alt text" width="whatever" height="whatever">
 ## :ok_hand:
 
 ![image](images/image2.png)
