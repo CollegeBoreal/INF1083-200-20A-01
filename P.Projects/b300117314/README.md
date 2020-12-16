@@ -30,7 +30,7 @@
 
 ## :ok_hand:
 
-![image](images/image6.png)
+
 
 
 
