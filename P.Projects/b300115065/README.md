@@ -4,7 +4,7 @@
 
 ## 1.Sketch
 
-![image](sketch.png)
+![image](sketch.jpeg)
 
 ## 2.Final result
 
