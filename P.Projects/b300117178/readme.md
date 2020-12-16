@@ -21,7 +21,8 @@
 ![app2](img/app2.JPG)
 
 ## 2. Browse Component
-![app3](img/app1.JPG)
-**the web page** [africamusic web page](https://africamusic.herokuapp.com/)
+![app3](img/app3.JPG)
+
+## :bell: the web page [africamusic web page](https://africamusic.herokuapp.com/)
 
 
