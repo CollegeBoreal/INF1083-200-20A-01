@@ -39,15 +39,15 @@
 
 
 #  :pushpin: 
-<img src=images/image12.png  alt="alt text" width="450" height="800">
+<img src=images/12.png  alt="alt text" width="450" height="800">
 
 ## :ok_hand:     
 
-<img src=images/image13.png  alt="alt text" width="450" height="800">
+<img src=images/13.png  alt="alt text" width="450" height="800">
 
 ## :ok_hand:
 
-<img src=images/image14.png  alt="alt text" width="450" height="800">
+<img src=images/14.png  alt="alt text" width="450" height="800">
 
 
 
