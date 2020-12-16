@@ -4,5 +4,4 @@
 
 ## maket
 
-![](/img/front.JPG)
-![](/img/back.JPG)
+![](/img/front.jpg) ![](/img/back.jpg)
