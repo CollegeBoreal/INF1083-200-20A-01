@@ -10,7 +10,7 @@
 ## :five: faire votre commande en ligne
 
 
-## :zap: les différentes parties :zap:
+## :zap: Départements:zap:
 
 
 <img src=images/image1.png  alt="alt text" width="450" height="800">
