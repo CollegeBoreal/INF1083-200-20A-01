@@ -2,14 +2,15 @@
     <Label text="Home"></Label>
 </ActionBar>
 
-<Image src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300116973/images/logo.png"
-verticalAlignment="middle"></Image>
+
 
 <GridLayout>
     <ListView [items]="items">
         <ng-template let-item="item">
             <StackLayout>
                 <Label [nsRouterLink]="['../item', item.id]" [text]="item.name"></Label>
+                <Image src="https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300116973/images/logo.png"
+                verticalAlignment="middle"></Image>
             </StackLayout>
         </ng-template>
     </ListView>

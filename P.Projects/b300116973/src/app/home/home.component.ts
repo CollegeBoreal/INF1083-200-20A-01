@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
-import { DataService, DataItem } from "../shared/data.service";
+import { DataService, IDataItem } from "../shared/data.service";
 import { registerElement } from "@nativescript/angular";
 
 
@@ -13,7 +13,7 @@ import { registerElement } from "@nativescript/angular";
     templateUrl: "./home.component.html"
 })
 export class HomeComponent implements OnInit {
-    items: Array<DataItem>;
+    items: Array<IDataItem>;
 
     constructor(private _itemService: DataService) { }
 
