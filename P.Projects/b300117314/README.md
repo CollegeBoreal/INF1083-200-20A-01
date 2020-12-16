@@ -29,7 +29,7 @@
 
 ## :ok_hand:
 
-<img src=images/image5.jpg  alt="alt text" width="450" height="800">
+<img src=images/image5.png  alt="alt text" width="450" height="800">
 
 ## :ok_hand:
 
