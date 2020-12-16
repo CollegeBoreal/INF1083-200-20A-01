@@ -4,5 +4,5 @@
 
 ## maket
 
-![Front](/img/front.jpg)
-![Back](/img/back.jpg)
+![Front](img/front.jpg)
+![Back](img/back.jpg)
