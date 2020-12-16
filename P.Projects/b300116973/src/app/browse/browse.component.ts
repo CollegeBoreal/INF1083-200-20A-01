@@ -1,4 +1,10 @@
+import { registerElement } from "@nativescript/angular";
+
 import { Component, OnInit } from "@angular/core";
+
+
+
+
 
 @Component({
     selector: "Browse",

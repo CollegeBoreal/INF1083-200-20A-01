@@ -1,6 +1,12 @@
 import { Component, OnInit } from "@angular/core";
 
 import { DataService, DataItem } from "../shared/data.service";
+import { registerElement } from "@nativescript/angular";
+
+
+
+
+
 
 @Component({
     selector: "Home",
