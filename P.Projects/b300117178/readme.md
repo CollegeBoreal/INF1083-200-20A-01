@@ -16,8 +16,12 @@
 
 
 ## Rendu
+## 1. Home Component
 ![app1](img/app1.JPG)
-![app2](img/app1.JPG)
+![app2](img/app2.JPG)
+
+## 2. Browse Component
 ![app3](img/app1.JPG)
+**the web page** [africamusic web page](https://africamusic.herokuapp.com/)
 
 
