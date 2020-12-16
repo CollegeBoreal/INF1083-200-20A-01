@@ -61,6 +61,6 @@ jobs:
       # P.Projects
       - name: Check P.Projects
         run: |
-          cd P.Projectsx/$STUDENT_ID
+          cd P.Projects/$STUDENT_ID
           ns install
           ns run android --justlaunch
