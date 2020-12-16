@@ -11,7 +11,7 @@
 ## :zap: les différentes parties :zap:
 
 ![image](images/image1.png)( width="200" height="400" )
-<img src=images/image1.png alt="alt text" width="whatever" height="whatever">
+<img src=images/image1.png  width="200" height="400">
 ## :ok_hand:
 
 ![image](images/image2.png)
