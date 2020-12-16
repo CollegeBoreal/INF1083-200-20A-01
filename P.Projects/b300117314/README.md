@@ -1,12 +1,12 @@
 
-# :zap: MortIMAINTENANCE:zap:
+# :zap: Mortimaintenance:zap:
 
 :star: Application de la compagnie de Mortimaintenance.  
 
 
 ## :zap: les différentes parties :zap:
 
-![image](image/1.PNG)
+![image](image/image1.PNG)
 
 #  :pushpin: 
 
