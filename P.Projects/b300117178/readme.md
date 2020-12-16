@@ -1,4 +1,4 @@
-# :rocket: AfricsMusic App
+# :rocket: AfricaMusic App
 
 -----------------------------
 
