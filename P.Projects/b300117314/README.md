@@ -47,7 +47,7 @@
 
 ## :ok_hand:
 
-<img src=images/14.png  alt="alt text" width="450" height="800">
+<img src=images/14.jpg  alt="alt text" width="450" height="800">
 
 
 
