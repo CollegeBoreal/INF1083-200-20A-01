@@ -58,30 +58,11 @@ jobs:
       - name: Update pods
         run: pod repo update
       
-      # First Assignment
-      - name: Check 4.NativeScript
-        run: |
-          cd  4.NativeScript/$STUDENT_ID
-          npm install
-          ns build ios
-          ns run android --justlaunch
-          cd ..
-
-      # 2nd Assignment
-      - name: Check 8.Forms
-        run: |
-          cd 8.Forms/$STUDENT_ID
-          npm install
-          ns build ios
-          ns run android --justlaunch
-          cd ..
-
       # 3rd Assignment
       - name: Check 9.RxJS
         run: |
           cd 9.RxJS/$STUDENT_ID
-          npm install
-          ns build ios
+          ns install
           ns run android --justlaunch
           cd ..
 
@@ -89,6 +70,13 @@ jobs:
       - name: Check A.Animations
         run: |
           cd A.Animations/$STUDENT_ID
-          npm install
-          ns build ios
+          ns install
+          ns run android --justlaunch
           cd ..
+
+      # 5th Assignment
+      - name: Check V.Video
+        run: |
+          cd  V.Video/$STUDENT_ID
+          ns install
+          ns run android --justlaunch
