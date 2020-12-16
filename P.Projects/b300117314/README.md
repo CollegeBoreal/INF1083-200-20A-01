@@ -6,7 +6,7 @@
 
 ## :zap: les différentes parties :zap:
 
-![image](images/image1.PNG)
+![image](images/image1.png)
 
 #  :pushpin: 
 
