@@ -10,7 +10,7 @@
 
 ## :zap: les différentes parties :zap:
 
-![image](images/image1.png)
+![image](images/image1.png width="200" )
 
 ## :ok_hand:
 
