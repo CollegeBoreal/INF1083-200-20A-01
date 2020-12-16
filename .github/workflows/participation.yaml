@@ -54,6 +54,13 @@ jobs:
           cd ../A.Animations
           bash .scripts/run.sh
 
+          ##
+          ## Evaluating chapter V.Video Student Participation
+          ## 
+          echo "Evaluating chapter V.Video Student Participation"
+          cd ../V.Video
+          bash .scripts/run.sh
+
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
