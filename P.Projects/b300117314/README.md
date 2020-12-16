@@ -5,8 +5,10 @@
 
 ## :one: nous mieux connaître
 ## :two: mieux connaître nos départements
-## :two: mieux connaître nos services
-## :two: profiter des ressources techniques partagées
+## :three: mieux connaître nos services
+## :four: profiter des ressources techniques partagées
+## :five: faire votre commande en ligne
+
 
 ## :zap: les différentes parties :zap:
 
