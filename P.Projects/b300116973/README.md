@@ -9,7 +9,7 @@ le browser qui comportera soit le site web de l'entreprise, soit une video de l'
 
 ## :hankey: Illustration: :hankey:
 
-<img src="images/home.JPG" width="451" heigth="300"></img>   <img src="images/browse.JPG" width="451" heigth="300"></img>   <img src="images/search.JPG" width="451" heigth="300"></img>
+<img src="images/home.JPG" width="351" heigth="200"></img>   <img src="images/browse.JPG" width="351" heigth="200"></img>   <img src="images/search.JPG" width="351" heigth="200"></img>
 
 
 ##  :white_check_mark: Home
