@@ -16,8 +16,8 @@
 
 
 ## Rendu
-![app1](img/app1.jpg)
-![app2](img/app1.jpg)
-![app3](img/app1.jpg)
+![app1](img/app1.JPG)
+![app2](img/app1.JPG)
+![app3](img/app1.JPG)
 
 
