@@ -11,23 +11,23 @@
 ## :zap: les différentes parties :zap:
 
 
-<img src=images/image1.png  alt="alt text" width="300" height="500">
+<img src=images/image1.png  alt="alt text" width="450" height="800">
 
 ## :ok_hand:
 
-![image](images/image2.png)
+<img src=images/image2.png  alt="alt text" width="450" height="800">
 
 ## :ok_hand:
 
-![image](images/image3.png)
+<img src=images/image3.png  alt="alt text" width="450" height="800">
 
 ## :ok_hand:
 
-![image](images/image4.png)
+<img src=images/image4.png  alt="alt text" width="450" height="800">
 
 ## :ok_hand:
 
-![image](images/image5.png)
+<img src=images/image5.png  alt="alt text" width="450" height="800">
 
 ## :ok_hand:
 
