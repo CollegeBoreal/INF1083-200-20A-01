@@ -18,25 +18,42 @@ jobs:
           echo "Evaluating chapter 2.Web Student Participation"
           cd 2.Web
           bash .scripts/run.sh
+
+          ##
+          ## Evaluating chapter 4.NativeScript Student Participation
+          ## 
+          echo "Evaluating chapter 4.NativeScript Student Participation"
+          cd ../4.NativeScript
+          bash .scripts/run.sh
+
           ##
           ## Evaluating chapter 7.Layouts Student Participation
           ## 
           echo "Evaluating chapter 7.Layouts Student Participation"
           cd ../7.Layouts
           bash .scripts/run.sh
+          
           ##
           ## Evaluating chapter 8.Forms Student Participation
           ## 
           echo "Evaluating chapter 8.Forms Student Participation"
           cd ../8.Forms
           bash .scripts/run.sh
+          
           ##
           ## Evaluating chapter 9.RxJS Student Participation
           ## 
           echo "Evaluating chapter 9.RxJS Student Participation"
           cd ../9.RxJS
           bash .scripts/run.sh
-          
+
+          ##
+          ## Evaluating chapter A.Animations Student Participation
+          ## 
+          echo "Evaluating chapter A.Animations Student Participation"
+          cd ../A.Animations
+          bash .scripts/run.sh
+
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
