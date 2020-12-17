@@ -24,7 +24,7 @@
 
 ## Search
 
- ![image](images/baa.png)  :lion:
+![image](images/baa.png)  :lion:
 
 
 
