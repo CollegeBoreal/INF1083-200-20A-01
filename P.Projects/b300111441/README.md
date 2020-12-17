@@ -22,7 +22,7 @@
 :apple:  ![image](images/baa.PNG) :apple:
 
 
-## :apple: Browser :apple:
+## :apple: Browse :apple:
 
 
 
