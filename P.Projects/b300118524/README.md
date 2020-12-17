@@ -5,3 +5,19 @@
 ## SKETCH
 
 ![image](images/sketch.png)
+
+## APERÇU DU HOME 
+
+![image](images/home.png)
+
+## APERÇU DES DÉTAILS DE HOME
+
+![image](images/messi.png)
+
+![image](images/lenglet.png)
+
+![image](images/koeman.png)
+
+![image](images/marc.png)
+
+![image](images/home.png)
