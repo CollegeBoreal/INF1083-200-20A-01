@@ -1,1 +1,1 @@
-# :samsung: mon projet du developpement :sun:
+# :samsung: Mon projet :sun:
