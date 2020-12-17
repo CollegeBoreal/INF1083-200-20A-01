@@ -19,7 +19,7 @@
                                 <label text="followers:" class="followers"></label>
                                 <Label [nsRouterLink]="['../item', item.id]" [text]="item.followers" class="followers"></Label>
                             </StackLayout>
-                            <Button text="play" (tap)="onButtonTap()" class="play"></Button>
+                            <Button [text]="state" (tap)="onTap()" class="play"></Button>
                         </StackLayout>
                     </ng-template>
                 </ListView>

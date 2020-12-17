@@ -44,6 +44,7 @@
     "@nativescript/theme": "~2.3.0",
     "@nota/nativescript-webview-ext": "^7.0.1",
     "nativescript-advanced-webview": "^6.0.0",
+    "nativescript-audio-player": "^1.0.3",
     "nativescript-webview-interface": "^1.4.4",
     "nativescript-webview-utils": "^4.0.0",
     "reflect-metadata": "~0.1.12",
