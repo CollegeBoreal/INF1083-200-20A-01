@@ -5,12 +5,12 @@
 ## SKETCH
 
 ![image width="200" height="400"](images/sketch.png)
-<img src="images/sketch.png" width="400" height="600" />
+
 
 ## APERÇU DU HOME 
 
 ![image](images/home1.png)
-<img src="images/home.png" width="400" height="300" />
+<img src="images/home1.png" width="400" height="300" />
 
 ![image](images/home2.png)
 
