@@ -1,1 +1,1 @@
-#  :samsung a50: Mon projet :sun:
+# :phone: Mon projet ::
