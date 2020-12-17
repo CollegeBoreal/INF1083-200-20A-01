@@ -18,7 +18,7 @@
 
 ## :snake: Browser :snake:
 
-`` Comporte le lien de mon blog``
+ Comporte le lien de mon blog
 
 :lion: ![image](images/b.png) :lion:
 
