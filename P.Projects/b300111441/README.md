@@ -10,24 +10,27 @@
 
 ``Contient contient des images, il suffit d'un clic sur un nom de pour voir l'image en question.``
 
-![image](images/bi.png)
+  ![image](images/bi.png)
 
 
 
 
-![image](images/ns.png)
-
-
-
-
-![image](images/baa.png)
+  ![image](images/ns.png)
 
 
 
 
 
+  ![image](images/baa.png)
 
-![image](images/b.png)
+
+
+
+
+
+
+
+  ![image](images/b.png)
 
 
 
