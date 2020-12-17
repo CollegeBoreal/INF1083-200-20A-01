@@ -9,7 +9,7 @@
 ## :home: Home
 
 
-:lion: <img src="image/bi.png" width="" height=""></img> 
+:lion:   <img src="image/bi.png" width="" height=""></img>   :lion:
 
 
 
