@@ -8,13 +8,25 @@
 ## :two: :lion: Demostration :lion:
 ## :apple: Home :orange:
 
+``Contient contient des images, il suffit d'un clic sur un nom de pour voir l'image en question.``
+
 
 :lion: ![image](images/bi.png)  :lion:
 
 
- ![image](images/bi.png) 
+ ![image](images/b.png) 
 
 
+
+
+
+
+## :snake: Browser :snake:
+
+`` Comporte le lien de mon bloge``
+
+
+:lion: ![image](images/.png)  :lion:
 
 
 
