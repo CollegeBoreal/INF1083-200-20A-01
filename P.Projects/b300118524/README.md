@@ -10,7 +10,7 @@
 ## APERÇU DU HOME 
 
 ![image](images/home1.png)
-<img src="images/sketch.png" width="400" height="300" />
+<img src="images/home.png" width="400" height="300" />
 
 ![image](images/home2.png)
 
