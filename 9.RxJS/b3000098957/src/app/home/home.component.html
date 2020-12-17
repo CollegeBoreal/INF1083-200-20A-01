@@ -7,6 +7,7 @@
         <ng-template let-item="item">
             <StackLayout>
                 <Label [nsRouterLink]="['../item', item.id]" [text]="item.name"></Label>
+                <Image [src]="item.image"></Image>
             </StackLayout>
         </ng-template>
     </ListView>

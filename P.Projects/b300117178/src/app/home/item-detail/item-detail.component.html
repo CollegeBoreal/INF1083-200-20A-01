@@ -1,0 +1,10 @@
+<ActionBar>
+    <NavigationButton (tap)="onBackTap()" android.systemIcon="ic_menu_back"></NavigationButton>
+    <Label [text]="item.name"></Label>
+</ActionBar>
+
+<StackLayout>
+    <Label  [text]="item.song[0]" class="song"></Label>
+    <Label  [text]="item.song[1]" class="song"></Label>
+    <Label  [text]="item.song[2]" class="song"></Label>
+</StackLayout>
