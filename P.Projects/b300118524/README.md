@@ -38,7 +38,7 @@
 ##       :eyes: :mag_right:   APERÇU DU SEARCH    :eyes:  :mag_right:   :togo:   :canada:
 
 - **vidéo recherche de capital ottawa et lomé**   :bangbang: télécharger et regarder la vidéo :bangbang:
-  - https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300118524/images/videos/capital
+  - https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300118524/images/videos/capital.mov
 
 ![image](images/lome.png)
 
