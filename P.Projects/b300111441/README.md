@@ -12,11 +12,11 @@
 
   ![image](images/bi.png)
 
-  ![image](images/ns.png)
+  ![image](images/ns.PNG)
 
-  ![image](images/baa.png)
+  ![image](images/baa.PNG)
 
-  ![image](images/b.png)
+  ![image](images/b.PNG)
 
 
 
