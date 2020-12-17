@@ -5,10 +5,20 @@
 ---
 ## :ONE: ECRAN D'Acceuil
 
-```
 ### Chaque bouton de l'ecran d'acceuil conduit a une page qui presente les differents article.Il suiffit d'appuyer pour y aller
 
-```
-![Acceuil](Appli1,Appli2,Appli3.PNG)
-
 ---
+![Acceuil](Appli1.PNG)
+
+![Acceuil](Appli2.PNG)
+
+![Acceuil](Appli3.PNG)
+---
+
+## :two: ECRAN SECONDAIRE Articles 
+
+![Articles](Appli4.PNG)
+
+## :three:
+---
+![Acceuil](Appli5.PNG)
