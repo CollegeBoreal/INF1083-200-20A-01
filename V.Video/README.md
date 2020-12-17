@@ -79,5 +79,5 @@ Open up the manifest file `AndroidManifest.xml` (in `App_Resource/Android/src/ma
 
 # References:
 
-https://developer.android.com/training/articles/security-config
+https://stackoverflow.com/questions/37819550/java-io-filenotfoundexception-storage-emulated-0-new-file-txt-open-failed-ea
 
