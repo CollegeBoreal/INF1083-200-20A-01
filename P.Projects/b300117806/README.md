@@ -16,20 +16,20 @@ Android Emulator test: 5554
 
 ```Home```
 
-![image](Capture 777.PNG)
+![image](Capture 777.png)
 
 
-![image](Capture 32.PNG)
+![image](Capture 32.png)
 
 
-![image](Capture 23.PNG)
+![image](Capture 23.png)
 
 
 
 ```Browse```
 
 
-![image](Capture 30.PNG)
+![image](Capture 30.png)
 
 
 
