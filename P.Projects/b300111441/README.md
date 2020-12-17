@@ -12,11 +12,21 @@
 
   ![image](images/bi.png)
 
-  ![image](images/ns.PNG)
 
-  ![image](images/baa.PNG)
 
-  ![image](images/b.PNG)
+:apple:  ![image](images/ns.PNG) :apple:
+
+
+## :apple: Search
+
+:apple:  ![image](images/baa.PNG) :apple:
+
+
+## :apple: Browser :apple:
+
+
+
+:apple:  ![image](images/b.PNG) :apple:
 
 
 
