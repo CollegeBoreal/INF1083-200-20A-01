@@ -11,7 +11,7 @@
 ``Contient contient des images, il suffit d'un clic sur un nom de pour voir l'image en question.``
 
 
-:lion: ![image](images/bi.png)  :lion:
+  :lion: ![image](images/bi.png)  :lion:
 
    ![image](images/ns.png) 
 
