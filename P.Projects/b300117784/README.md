@@ -19,6 +19,8 @@
 
 ![Articles](Appli4.PNG)
 
-## :three:
+## :three: BROWSE
+
+### Le Bouton Browse nous redirige sur le site web 
 ---
 ![Acceuil](Appli5.PNG)
