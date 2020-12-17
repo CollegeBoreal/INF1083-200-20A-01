@@ -1,8 +1,8 @@
-# PROJET DEVELOPPEMENT D'APPLICATION
+# :iphone: PROJET DEVELOPPEMENT D'APPLICATION :iphone::v:
 
-## :soccer::soccer:    APPLICATION SUR LES JOUEURS DU FC BARCELONE DE LA SAISON 2020-2021     :soccer::soccer:
+### :hotsprings::soccer::soccer:    APPLICATION SUR LES JOUEURS DU FC BARCELONE DE LA SAISON 2020-2021     :soccer::soccer::hotsprings:
 
-##                SKETCH
+##              :flashlight:  SKETCH    :flashlight:
 
 ![image](images/sketch.png)
 
