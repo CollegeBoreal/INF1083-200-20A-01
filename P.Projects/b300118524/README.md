@@ -6,10 +6,12 @@
 
 ![image](images/sketch.png)
 
-## [https://github.com/CollegeBoreal/INF1083-200-20A-01/tree/master/P.Projects/b300118524/images/videos]
-
 
 ##          :eyes::tent:  APERÇU DU HOME   :eyes::tent:
+
+- **Animation HOME** :bangbang: télécharger et regarder l'animation :bangbang:
+
+  - https://github.com/CollegeBoreal/INF1083-200-20A-01/tree/master/P.Projects/b300118524/images/videos
 
 ![image](images/home1.png)
 
@@ -17,6 +19,9 @@
 ![image](images/home2.png)
 
 ##      :eyes:  :u5408:    APERÇU DES DÉTAILS DE HOME    :eyes: :u5408:
+
+- **Animation photo**   :bangbang: télécharger et regarder l'animation :bangbang:
+  - https://github.com/CollegeBoreal/INF1083-200-20A-01/tree/master/P.Projects/b300118524/images/videos
 
 ![image](images/messi.png)
 
