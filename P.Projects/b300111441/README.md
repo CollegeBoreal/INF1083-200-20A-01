@@ -20,7 +20,7 @@
 
  Comporte le lien de mon blog
 
-![image](images/bi.png)
+![image](images/b.png)
 
 
 
