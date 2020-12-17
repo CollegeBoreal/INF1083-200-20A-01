@@ -23,10 +23,10 @@
 
 ## :snake: Browser :snake:
 
-`` Comporte le lien de mon bloge``
+`` Comporte le lien de mon blog``
 
 
-:lion:![image](images/.png)  :lion:
+:lion:![image](images/b.png)  :lion:
 
 
 
