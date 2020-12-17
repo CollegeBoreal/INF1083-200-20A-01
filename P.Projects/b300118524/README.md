@@ -6,7 +6,12 @@
 
 ![image](images/sketch.png)
 
+
 ##          :eyes::tent:  APERÇU DU HOME   :eyes::tent:
+
+- **Animation HOME** :bangbang: télécharger et regarder l'animation :bangbang:
+
+  - https://github.com/CollegeBoreal/INF1083-200-20A-01/tree/master/P.Projects/b300118524/images/videos/animation_scss.mov
 
 ![image](images/home1.png)
 
@@ -14,6 +19,9 @@
 ![image](images/home2.png)
 
 ##      :eyes:  :u5408:    APERÇU DES DÉTAILS DE HOME    :eyes: :u5408:
+
+- **Animation photo**   :bangbang: télécharger et regarder l'animation :bangbang:
+  - https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300118524/images/videos/agrandir.mov
 
 ![image](images/messi.png)
 
@@ -28,6 +36,9 @@
 ![image](images/article .png)
 
 ##       :eyes: :mag_right:   APERÇU DU SEARCH    :eyes:  :mag_right:   :togo:   :canada:
+
+- **vidéo recherche de capital ottawa et lomé**   :bangbang: télécharger et regarder la vidéo :bangbang:
+  - https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300118524/images/videos/capital
 
 ![image](images/lome.png)
 
