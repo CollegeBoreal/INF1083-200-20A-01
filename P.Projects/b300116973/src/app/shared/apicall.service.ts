@@ -9,7 +9,9 @@ import {catchError, map} from "rxjs/Operators";
 })
 export class ApicallService {
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) { 
+    // Use the component constructor to inject providers.
+  }
 
 
   searchCountryByName(name: string): Observable<Country[]>{
