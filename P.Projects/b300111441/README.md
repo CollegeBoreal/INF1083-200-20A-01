@@ -14,7 +14,7 @@
 :lion: ![image](images/bi.png)  :lion:
 
 
-  ![image](images/b.png) 
+        ![image](images/b.png) 
 
 
 
@@ -26,7 +26,7 @@
 `` Comporte le lien de mon blog``
 
 
-:lion:![image](images/b.png)  :lion:
+      :lion:![image](images/b.png)  :lion:
 
 
 
