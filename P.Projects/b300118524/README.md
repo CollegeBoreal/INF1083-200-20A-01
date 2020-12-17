@@ -27,9 +27,10 @@
 
 ![image](images/article.png)
 
-## :eyes::mag_right:APERÇU DU SEARCH:eyes::mag_right: :togo:
+## :eyes::mag_right:APERÇU DU SEARCH:eyes::mag_right: :togo: :canada:
 
-![image](images/search.png)
+![image](images/lome.png)
+
+![image](images/ottawa.png)
 
 
-<img src="images/home1.png" width="400" height="300" />
