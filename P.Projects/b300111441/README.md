@@ -20,7 +20,7 @@
 
 `` Comporte le lien de mon blog``
 
-  :lion: ![image](images/b.png)  :lion:
+   :lion: ![image](images/b.png) :lion:
 
 
 
