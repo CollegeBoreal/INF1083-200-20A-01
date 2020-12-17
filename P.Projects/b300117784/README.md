@@ -1,2 +1,2 @@
 # :airplane: BMOnlineGaming
-![Schema Appli Mobile](Appli6.PNG)
+![Schema Appli Mobile](Appli6.jpg)
