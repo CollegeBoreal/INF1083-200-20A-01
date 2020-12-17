@@ -4,7 +4,7 @@
 
 ## SKETCH
 
-![image](images/sketch.png)
+![image width="200" height="400"](images/sketch.png)
 
 ## APERÇU DU HOME 
 
