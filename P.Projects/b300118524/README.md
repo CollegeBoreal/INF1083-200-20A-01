@@ -8,7 +8,9 @@
 
 ## APERÇU DU HOME 
 
-![image](images/home.png)
+![image](images/home1.png)
+
+![image](images/home2.png)
 
 ## APERÇU DES DÉTAILS DE HOME
 
