@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.b300116973',
+  id: 'org.nativescript.b300118524',
   appResourcesPath: 'App_Resources',
   android: {
     v8Flags: '--expose_gc',
