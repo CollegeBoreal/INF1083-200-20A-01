@@ -10,21 +10,13 @@
 
 ``Contient contient des images, il suffit d'un clic sur un nom de pour voir l'image en question.``
 
+![image](images/bi.png)
 
-:lion:![image](images/bi.png)  :lion:
+![image](images/ns.png)
 
-   ![image](images/ns.png) 
+![image](images/baa.png)
 
-
-## Browser 
-
- Comporte le lien de mon blog
-
-  ![image](images/b.png)
-
-## Search
-
-   ![image](images/baa.png)  :lion:
+![image](images/b.png)
 
 
 
