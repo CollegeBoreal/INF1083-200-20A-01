@@ -4,7 +4,7 @@ Suivant ma base de données, nous allons réalisé une application pour l'entrep
 
 Dans notre application on retrouvera principalement les pages suivantes: HOME,BROWSE et SEARCH.
 
-### :thunder: SKETCH DE NOTRE APPLICATION :thunder:
+### :exclamation::bell: SKETCH DE NOTRE APPLICATION :bell::exclamation:
 
 Pour commencer voici le sketch de notre application. Voici comment se presentera notre application
 
