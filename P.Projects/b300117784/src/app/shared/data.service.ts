@@ -6,6 +6,7 @@ export interface DataItem {
     Services: string;
     description: string;
     Articles:string[];
+    image:string;
     ImageArticles:string[];
 }
 
@@ -21,7 +22,10 @@ export class DataService {
             Services: "Locations,Ventes,Depannage",
             description: "Description for Item 1",
             Articles:["PS4","XBOX","PS5","NITENDOSWITCH"],
-            ImageArticles:["./img/Xbox.jpg","https://www.extremetech.com/wp-content/uploads/2011/11/XBox360-Feature.jpg"]
+            image:"https://gamespot1.cbsistatic.com/uploads/original/43/434805/3126156-ps4_7000_01_withnotice.jpg",
+            ImageArticles:["https://cdn.arstechnica.net/wp-content/uploads/2019/06/61V2zE6sA8L._AC_.jpg","https://technical-tips.com/assets/images/photos/1559448866.png","https://cdn.mos.cms.futurecdn.net/QjWZevdvUemHUVYNmwmZRA.jpg"]
+    
+    
         },
         
             {
@@ -30,6 +34,7 @@ export class DataService {
                 Services: "Locations,Ventes,",
                 description: "Description for Item 1",
                 Articles:["Fifa 2020","Wand Wars","Star Wars 2","Mario"],
+                image:"https://images.pushsquare.com/fc31113169077/best-new-ps4-games-at-gamescom-2018-playstation-4-1.original.jpg",
                 ImageArticles:[""]
             },
             {
@@ -38,6 +43,7 @@ export class DataService {
                 Services: "Locations,Ventes,Depannage",
                 description: "Description for Item 1",
                 Articles:[""],
+                image:"https://img.generation-nt.com/best-of-jeux-video-2014-top_041A02BC01617483.jpg",
                 ImageArticles:[""]
             },
     );

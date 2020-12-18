@@ -1,0 +1,31 @@
+<ActionBar>
+    <NavigationButton (tap)="onBackTap()" android.systemIcon="ic_menu_back"></NavigationButton>
+    <Label [text]="item.name"></Label>
+</ActionBar>
+
+<GridLayout  class="page">
+    <StackLayout Grid.Row="1" Grid.Column="0" horizontalAlignment="center">
+        <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-x-auto " class="h2"   TextColor="Red" height="10%"   verticalAlignment="top" horizontalAlignment="center"[text]="item.description"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-4 h3" class="text-center" [text]="item.nationalite"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-4 h3" class="text-center" [text]="item.age"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-4 h3" class="text-center" [text]="item.taille"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-4 h3" class="text-center" [text]="item.poste"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-4 h3" class="text-center" [text]="item.shirtnumber"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-4 h3" class="text-center" [text]="item.but"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-4 h3" class="text-center" [text]="item.assist"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Label  class=" m-4 h3" class="text-center" [text]="item.salaire"></Label>
+    <StackLayout class="hr m-10"></StackLayout>
+    <Button class="bg-primary" text="AGRANDIR LA PHOTO" (tap)="animate(cible)" ></Button>
+    </StackLayout>
+    
+    <Image #cible class="-rounded-lg"[src]=" item.photo" verticalAlignment="bottom" height="30%"></Image>
+</GridLayout>

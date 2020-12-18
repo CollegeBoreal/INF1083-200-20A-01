@@ -1,6 +1,6 @@
 # nativescript-exoplayer
 
-# [Participation](Participation.md)
+# [Participation](.scripts/Participation.md)
 
 :one: create a project, replace b`<`your :id:`>`
 
