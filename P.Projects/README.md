@@ -51,7 +51,7 @@ La page comprendra du texte et une ou des images
 
 * Utiliser les commandes `git` pour envoyer votre projet sous github
 
-# [Participation](Participation.md)
+# [Participation](.scripts/Participation.md)
 
 # [:construction: Liste de Vérification](ListeDeVerification.md)
 
