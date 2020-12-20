@@ -16,26 +16,26 @@ export class DataService {
         {
             id: 1,
             name: "Beignet, haricot, boullir",
-            description: "Beignet fait a base de farine ble de l'eau et du sucre, haricot rouge sautee, boullir de mais"
-            avatar: "https://assets.ikwen.com/tchopetyamo/blog/blog_img/fiances-21_pSKnDcc.small_4NQJTr3.png"
+            description: "Beignet fait a base de farine ble de l'eau et du sucre, haricot rouge sautee, boullir de mais",
+            avatar: "https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300117782/images/cc1.jpg?raw=true",
         },
         {
             id: 2,
             name: "poulet okk",
-            description: "poulet fait au four"
-            avatar:"https://assets.ikwen.com/tchopetyamo/blog/blog_img/morceau-de-poulet-okk.small_GNxBfsb.png"
+            description: "poulet fait au four",
+            avatar: "https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300117782/images/cc2.png?raw=true",
         },
         {
             id: 3,
             name: "jus de jara",
-            description: "jus fait abase de jara"
-            avatar: "https://assets.ikwen.com/tchopetyamo/blog/blog_img/jus-de-jara1.small_3yQsHAc.png"
+            description: "jus fait abase de jara",
+            avatar: "https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300117782/images/cc3.png?raw=true",
         },
         {
             id: 4,
             name: "jus de fruit",
-            description: "jus fait abase de fruits bio"
-            avatar: "https://assets.ikwen.com/tchopetyamo/blog/blog_img/temple-anniversaire-oups1.small_cMtwTxy.png"
+            description: "jus fait abase de fruits bio",
+            avatar: "https://github.com/CollegeBoreal/INF1083-200-20A-01/blob/master/P.Projects/b300117782/images/cc4.png?raw=true",
         }
         
             
