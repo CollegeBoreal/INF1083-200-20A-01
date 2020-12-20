@@ -1,0 +1,17 @@
+<ActionBar>
+    <NavigationButton (tap)="onBackTap()" android.systemIcon="ic_menu_back"></NavigationButton>
+    <Label [text]="item.Produits"></Label>
+</ActionBar>
+
+<StackLayout>
+    <Label  [text]="item.description"></Label>
+    
+
+    <Label  [text]="item.Articles[0]" class="articles"></Label>
+    <Image [src]="item.ImageArticles[0]"> </Image>
+    <Label  [text]="item.Articles[1]" class="articles"></Label>
+    <Image [src]="item.ImageArticles[1]" > </Image>
+    <Label  [text]="item.Articles[2]" class="articles"></Label>
+    <Image [src]="item.ImageArticles[2]"> </Image>
+
+</StackLayout>
