@@ -4,10 +4,12 @@
 </ActionBar>
 
 <GridLayout>
-    <Label class="m-10 h3" height="10%" verticalAlignment="top" [text]="item.description"></Label>
-    <StackLayout class="hr m-10"></StackLayout>
-    <label m-4 h3 class="text-center" [text]="item.Prix" ></label>
-    <StackLayout class="hr m-10"></StackLayout>
-    <Image [src]="item.Image" height="50%" verticalAlignment="bottom"></Image>
+    <StackLayout Grid.Row="1" Grid.Column="0" horizontalAlignment="center"> 
+       <Label class="m-10 h3" height="10%" verticalAlignment="top" [text]="item.description"></Label>
+       <StackLayout class="hr m-10"></StackLayout>
+       <label m-4 h3 class="text-center" [text]="item.Prix" ></label>
+       <StackLayout class="hr m-10"></StackLayout>
+    </StackLayout>
+    <Image [src]="item.Image" height="50%" verticalAlignment="center"></Image>
     
 </GridLayout>

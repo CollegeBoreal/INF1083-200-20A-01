@@ -1,0 +1,9 @@
+@keyframes bgAnimation{
+from {background-color: yellow;}
+to {background-color: whitesmoke;}
+}
+.background{
+    animation-name:bgAnimation;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+}
